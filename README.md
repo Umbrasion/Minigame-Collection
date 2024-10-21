@@ -1,0 +1,2 @@
+# The Monkey Brains Podcast Game Collection
+Welcome to TMBP Game Collection, a place where I make minigames on a website for the purpose of messing with them on my podcast. The games themselves aren't really relevant to the podcast itself though so they can be enjoyed quite generally.

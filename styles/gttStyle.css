@@ -1,0 +1,53 @@
+body {
+	margin: 0px;
+	font-family: Arial;
+	color: white;
+	background-color: #689A9A;
+}
+
+.title {
+	text-align: center;
+	width: 100vw;
+	height: 80px;
+	background-color: black;
+	position: absolute;
+}
+
+.grid {
+	display: grid;
+	gap: 0%;
+	grid-template-columns: 80% 20%;
+}
+
+main {
+	
+}
+
+#introHidden {
+	display: none;
+}
+
+#resultsSection {
+	display: none;
+}
+
+.inputBoxes {
+	font-size: 16px;
+	vertical-align: 15px;
+	margin-left: 10px;
+	color: white;
+	background-color: black;
+	border-color: #FFFFFF;
+}
+
+table {
+	gap: 5px;
+	margin: auto;
+	line-height: 1.4;
+}
+
+aside {
+	background-color: rgba(0, 0, 60, 0.5);
+	overflow: auto;
+	height: calc(100vh - 80px);
+}

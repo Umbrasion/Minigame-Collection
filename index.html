@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Game List | TMBP Game Collection</title>
+		<link rel="stylesheet" href="styles/mainStyle.css">
+		<link rel="stylesheet" href="styles/themeStyles.css">
+		<style>
+			.gamelist {
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+				flex-direction: row;
+				max-width: 1050px;
+				margin: auto;
+			}
+			.gamebox {
+				text-align: center;
+				font-weight: bold;
+				font-size: 1.5em;
+				background-color: #1C2337;
+				width: 300px;
+				padding: 10px;
+				border: 2px solid white;
+				border-radius: 8px;
+				margin: 8px;
+			}
+			figcaption {
+				font-size: 0.6em;
+				font-weight: normal;
+			}
+			a {
+				color: white;
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			footer {
+				position: absolute;
+				bottom: 0px;
+				text-align: center;
+				background-color: #35353D;
+				width: 100%;
+				padding: 20px;
+			}
+		</style>
+	</head>
+	<body class="theme-element">
+		<header class="theme-element">
+			<div>
+				<span id="titlebar">Game List</span>
+			</div>
+		</header>
+		<div class="gamelist">
+			<a href="games/Kiss_Marry_Kill.html">
+				<div class="gamebox">
+					<div>Kiss, Marry, Kill</div>
+					<figcaption><i>Featuring 2,200+ fictional characters!</i></figcaption>
+				</div>
+			</a>
+			<a href="games/Smash_or_Pass.html">
+				<div class="gamebox">
+					<div>Smash or Pass</div>
+					<figcaption><i>Like KMK, but not</i></figcaption>
+				</div>
+			</a>
+		</div>
+		<header class="theme-element" style="margin-top: 10px">
+			<div>
+				<span id="titlebar">Upcoming</span>
+			</div>
+		</header>
+		<div class="gamelist">
+			<div class="gamebox">
+				<div>Guess the Tune</div>
+				<figcaption><i>How familiar are you with game OSTs?</i></figcaption>
+			</div>
+			<div class="gamebox">
+				<div>Slideshow Sillies</div>
+				<figcaption><i>Present your best!</i></figcaption>
+			</div>
+		</div>
+		<footer>
+			<p>Site made by <a href="" style="text-decoration: underline">Umbrasion</a></p>
+			<p><a href="https://www.youtube.com/@TheMonkeyBrainsPodcast" target="_blank" style="text-decoration: underline">Check out the Monkey Brains Podcast!</a></p>
+		</footer>
+	</body>
+</html>

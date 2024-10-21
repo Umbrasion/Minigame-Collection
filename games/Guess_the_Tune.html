@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Monkey Brains | Guess the Tune</title>
+		<link rel="stylesheet" href="../styles/gttStyle.css">
+		<script src="../scripts/tuneGenerator.js"></script>
+		<style>
+			
+		</style>
+	</head>
+	<body>
+		<div class="title">
+			<span style="font-size: 20px; font-family: monospace">The Monkey Brains Podcast:</span><br>
+			<span style="font-size: 46px; font-family: monospace">GUESS THE TUNE</span>
+		</div>
+		<a href="https://www.youtube.com/@TheMonkeyBrainsPodcast" target="_blank"><img src="monkeybrain.png" style="height: 80px; position: absolute; right: 0"></a>
+		<div style="height: 80px"></div>
+		<div class="grid">
+			<main style="text-align: center">
+				<h1>♫ Music to Your Ears ♫</h1>
+				<p>You'll be given five random songs, and you have to guess what series they each come from. Good luck!</p>
+				<p style="font-style: italic; font-size: 14px">Remember to disable series before starting. You cannot disable them after.<br>Song audio is <b>not</b> normalized. It should be mostly fine, however still be cautious about volume.</p>
+				<div id="introHidden">
+					<h2 id="resultsTitle">Results</h2>
+					<table>
+						<tbody>
+							<tr>
+								<td><audio controls id="song1" src=""></audio></td>
+								<td id="guessSpace1"><input type="text" name="guess1" class="inputBoxes" id="guess1" autocomplete="off"></td>
+								<td id="guessResult1"></td>
+								<td id="correctResult1"></td>
+							</tr>
+							<tr>
+								<td><audio controls id="song2" src=""></audio></td>
+								<td id="guessSpace2"><input type="text" name="guess2" class="inputBoxes" id="guess2" autocomplete="off"></td>
+								<td id="guessResult2"></td>
+								<td id="correctResult2"></td>
+							</tr>
+							<tr>
+								<td><audio controls id="song3" src=""></audio></td>
+								<td id="guessSpace3"><input type="text" name="guess3" class="inputBoxes" id="guess3" autocomplete="off"></td>
+								<td id="guessResult3"></td>
+								<td id="correctResult3"></td>
+							</tr>
+							<tr>
+								<td><audio controls id="song4" src=""></audio></td>
+								<td id="guessSpace4"><input type="text" name="guess4" class="inputBoxes" id="guess4" autocomplete="off"></td>
+								<td id="guessResult4"></td>
+								<td id="correctResult4"></td>
+							</tr>
+							<tr>
+								<td><audio controls id="song5" src=""></audio></td>
+								<td id="guessSpace5"><input type="text" name="guess5" class="inputBoxes" id="guess5" autocomplete="off"></td>
+								<td id="guessResult5"></td>
+								<td id="correctResult5"></td>
+							</tr>
+						</tbody>
+					</table>
+					<button id="submitButton" onclick="answerCheck()">Submit answers</button>
+				</div>
+				<button id="genButton" onclick="getNewSongs()" style="font-size: 18px; font-weight: bold">Begin</button>
+				<div id="resultsSection">
+					<h2>RESULTS:</h2>
+					<h3 id="finalScoreboard">Your final score:<br></h3>
+					<button id="retryButton" onclick="reload()" style="font-size: 18px; font-weight: bold">Retry?</button>
+				</div>
+				<div>
+					<h2 id="scoreBoard" style="position: relative; bottom: 0px"></h2>
+				</div>
+			</main>
+			<aside>
+				<div style="margin: 15px">
+					<h2 style="text-align: center">GAME WORD BANK</h2>
+					<span id="disableMessage" style="font-size: 14px; font-style: italic;">Click on any series to <b>disable it</b> from appearing</span>
+					<ul>
+						<li><a id="ace" onclick="toggle('ace')">Ace Attorney</a></li>
+						<li><a id="ani" onclick="toggle('ani')">Animal Crossing</a></li>
+						<li><a id="ban" onclick="toggle('ban')">Banjo-Kazooie</a></li>
+						<li><a id="bay" onclick="toggle('bay')">Bayonetta</a></li>
+						<li><a id="bla" onclick="toggle('bla')">BlazBlue</a></li>
+						<li><a id="blo" onclick="toggle('blo')">Bloons</a></li>
+						<li><a id="bor" onclick="toggle('bor')">Borderlands</a></li>
+						<li><a id="cas" onclick="toggle('cas')">Castlevania</a></li>
+						<li><a id="cel" onclick="toggle('cel')">Celeste</a></li>
+						<li><a id="cra" onclick="toggle('cra')">Crash Bandicoot</a></li>
+						<li><a id="cup" onclick="toggle('cup')">Cuphead</a></li>
+						<li><a id="dan" onclick="toggle('dan')">Danganronpa</a></li>
+						<li><a id="dar" onclick="toggle('dar')">Dark Deception</a></li>
+						<li><a id="del" onclick="toggle('del')">Deltarune</a></li>
+						<li><a id="dev" onclick="toggle('dev')">Devil May Cry</a></li>
+						<li><a id="dok" onclick="toggle('dok')">Doki Doki Literature Club</a></li>
+						<li><a id="don" onclick="toggle('don')">Donkey Kong</a></li>
+						<li><a id="dont" onclick="toggle('dont')">Don't Starve</a></li>
+						<li><a id="doo" onclick="toggle('doo')">DOOM</a></li>
+						<li><a id="dra" onclick="toggle('dra')">Dragon Quest</a></li>
+						<li><a id="eve" onclick="toggle('eve')">Everhood</a></li>
+						<li><a id="fin" onclick="toggle('fin')">Final Fantasy</a></li>
+						<li><a id="fir" onclick="toggle('fir')">Fire Emblem</a></li>
+						<li><a id="fri" onclick="toggle('fri')">Friday Night Funkin'</a></li>
+						<li><a id="fze" onclick="toggle('fze')">F-Zero</a></li>
+						<li><a id="gen" onclick="toggle('gen')">Genshin Impact</a></li>
+						<li><a id="gra" onclick="toggle('gra')">Granblue Fantasy</a></li>
+						<li><a id="gui" onclick="toggle('gui')">Guilty Gear</a></li>
+						<li><a id="had" onclick="toggle('had')">Hades</a></li>
+						<li><a id="hel" onclick="toggle('hel')">Helltaker</a></li>
+						<li><a id="hen" onclick="toggle('hen')">Henry Stickmin</a></li>
+						<li><a id="hol" onclick="toggle('hol')">Hollow Knight</a></li>
+						<li><a id="holo" onclick="toggle('holo')">HoloCure</a></li>
+						<li><a id="hon" onclick="toggle('hon')">Honkai: Star Rail</a></li>
+						<li><a id="ins" onclick="toggle('ins')">Inscryption</a></li>
+						<li><a id="kid" onclick="toggle('kid')">Kid Icarus</a></li>
+						<li><a id="kin" onclick="toggle('kin')">Kindergarten</a></li>
+						<li><a id="king" onclick="toggle('king')">King of Fighters</a></li>
+						<li><a id="kir" onclick="toggle('kir')">Kirby</a></li>
+						<li><a id="leg" onclick="toggle('leg')">The Legend of Zelda</a></li>
+						<li><a id="mar" onclick="toggle('mar')">Mario & Luigi</a></li>
+						<li><a id="meg" onclick="toggle('meg')">Mega Man</a></li>
+						<li><a id="mel" onclick="toggle('mel')">Melty Blood</a></li>
+						<li><a id="met" onclick="toggle('met')">Metal Gear</a></li>
+						<li><a id="metr" onclick="toggle('metr')">Metroid</a></li>
+						<li><a id="min" onclick="toggle('min')">Minecraft</a></li>
+						<li><a id="mor" onclick="toggle('mor')">Mortal Kombat</a></li>
+						<li><a id="mot" onclick="toggle('mot')">Mother</a></li>
+						<li><a id="mys" onclick="toggle('mys')">Mystia's Izakaya</a></li>
+						<!--li><a id="nee" onclick="toggle('nee')">NEEDY STREAMER OVERLOAD</a></li-->
+						<li><a id="nie" onclick="toggle('nie')">NieR</a></li>
+						<li><a id="nig" onclick="toggle('nig')">Night in the Woods</a></li>
+						<li><a id="oct" onclick="toggle('oct')">Octodad</a></li>
+						<li><a id="off" onclick="toggle('off')">OFF</a></li>
+						<li><a id="ome" onclick="toggle('ome')">Omega Strikers</a></li>
+						<li><a id="omo" onclick="toggle('omo')">OMORI</a></li>
+						<li><a id="one" onclick="toggle('one')">OneShot</a></li>
+						<li><a id="ori" onclick="toggle('ori')">Ori</a></li>
+						<li><a id="out" onclick="toggle('out')">Outcore</a></li>
+						<li><a id="oute" onclick="toggle('oute')">Outer Wilds</a></li>
+						<li><a id="ove" onclick="toggle('ove')">Overwatch</a></li>
+						<li><a id="per" onclick="toggle('per')">Persona</a></li>
+						<li><a id="pik" onclick="toggle('pik')">Pikmin</a></li>
+						<li><a id="piz" onclick="toggle('piz')">Pizza Tower</a></li>
+						<li><a id="pok" onclick="toggle('pok')">Pokemon</a></li>
+						<li><a id="poke" onclick="toggle('poke')">Pokemon Mystery Dungeon</a></li>
+						<li><a id="por" onclick="toggle('por')">Portal</a></li>
+						<li><a id="pun" onclick="toggle('pun')">Punch-Out</a></li>
+						<li><a id="ray" onclick="toggle('ray')">Rayman</a></li>
+						<li><a id="res" onclick="toggle('res')">Resident Evil</a></li>
+						<li><a id="rhy" onclick="toggle('rhy')">Rhythm Doctor</a></li>
+						<li><a id="ris" onclick="toggle('ris')">Risk of Rain</a></li>
+						<li><a id="riv" onclick="toggle('riv')">Rivals of Aether</a></li>
+						<li><a id="sam" onclick="toggle('sam')">Sam & Max</a></li>
+						<li><a id="sha" onclick="toggle('sha')">Shantae</a></li>
+						<li><a id="sho" onclick="toggle('sho')">Shovel Knight</a></li>
+						<li><a id="sku" onclick="toggle('sku')">Skullgirls</a></li>
+						<li><a id="sli" onclick="toggle('sli')">Slime Rancher</a></li>
+						<li><a id="son" onclick="toggle('son')">Sonic the Hedgehog</a></li>
+						<li><a id="spi" onclick="toggle('spi')">Spiritfarer</a></li>
+						<li><a id="spl" onclick="toggle('spl')">Splatoon</a></li>
+						<li><a id="sta" onclick="toggle('sta')">Stardew Valley</a></li>
+						<li><a id="star" onclick="toggle('star')">Star Fox</a></li>
+						<li><a id="str" onclick="toggle('str')">Street Fighter</a></li>
+						<li><a id="stre" onclick="toggle('stre')">Streets of Rage</a></li>
+						<li><a id="sub" onclick="toggle('sub')">Subnautica</a></li>
+						<li><a id="sup" onclick="toggle('sup')">Super Mario</a></li>
+						<li><a id="supe" onclick="toggle('supe')">Super Smash Bros.</a></li>
+						<li><a id="tek" onclick="toggle('tek')">Tekken</a></li>
+						<li><a id="ter" onclick="toggle('ter')">Terraria</a></li>
+						<li><a id="cal" onclick="toggle('cal')">Terraria Calamity</a></li>
+						<li><a id="the" onclick="toggle('the')">There is No Game</a></li>
+						<li><a id="tou" onclick="toggle('tou')">Touhou</a></li>
+						<li><a id="ult" onclick="toggle('ult')">ULTRAKILL</a></li>
+						<li><a id="und" onclick="toggle('und')">Undertale</a></li>
+						<li><a id="vam" onclick="toggle('vam')">Vampire Survivors</a></li>
+						<li><a id="war" onclick="toggle('war')">WarioWare</a></li>
+						<li><a id="wes" onclick="toggle('wes')">West of Loathing</a></li>
+						<li><a id="xen" onclick="toggle('xen')">Xenoblade</a></li>
+						<li><a id="yak" onclick="toggle('yak')">Yakuza</a></li>
+						<li><a id="yok" onclick="toggle('yok')">Yo-kai Watch</a></li>
+					</ul>
+				</div>
+			</aside>
+		</div>
+	</body>
+</html>

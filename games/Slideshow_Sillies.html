@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Slideshow Sillies | TMBP Game Collection</title>
+		<link rel="stylesheet" href="../styles/mainStyle.css">
+		<link rel="stylesheet" href="../styles/themeStyles.css">
+		<script src="../scripts/slideshow.js"></script>
+		<script src="../scripts/options.js"></script>
+		<style>
+			.presentation-container {
+				display: flex;
+				width: fit-content;
+				margin: auto;
+			}
+
+			.presentation-area {
+				position: relative;
+				aspect-ratio: 16 / 9;
+				height: 84vh;
+				max-height: 900px;
+				border: 3px solid white;
+				border-radius: 6px;
+				font-size: 100%;
+			}
+
+			.presentation-slide {
+				width: 100%;
+				height: 100%;
+			}
+
+			.presentation-slidebutton-container {
+				position: relative;
+				width: 53px;
+				padding: 20px;
+			}
+
+			.presentation-slidebutton {
+				position: absolute;
+				top: 0px;
+				bottom: 0px;
+				left: 0px;
+				right: 0px;
+				width: 53px;
+				height: 122px;
+				margin: auto;
+			}
+
+			.presentation-slidebutton:hover {
+				background-color: transparent;
+			}
+
+			#presentation-slidebutton-left {
+				
+			}
+
+			#presentation-slidebutton-right {
+				
+			}
+			
+			.slideasset-title {
+				font-size: 4em;
+				height: fit-content;
+				margin: auto;
+			}
+			
+			.slideasset-maintitle {
+				position: absolute;
+				top: 0px;
+				bottom: 0px;
+				left: 0px;
+				right: 0px;
+				text-align: center;
+				font-size: 4.5em;
+			}
+		</style>
+	</head>
+	<body class="theme-element">
+		<header class="theme-element">
+			<div>
+				<span id="titlebar">SLIDESHOW SILLIES</span>
+			</div>
+			<div class="header-info">
+				<span>Info</span>
+				<div class="header-infobox">Slideshow Sillies is a game where you're given a randomly generated presentation and have to present what you get. Best enjoyed with friends.</div>
+			</div>
+		</header>
+		<main style="text-align: center">
+			<button onclick="generatePresentation()" style="margin-bottom: 10px; font-size: 1em">New Presentation</button>
+			<div class="presentation-container">
+				<div class="presentation-slidebutton-container">
+					<button id="presentation-slidebutton-left" class="presentation-slidebutton" onclick="scrollSlideshow(false)">
+						<img id="slidebutton-left" src="../images/Arrow.webp" style="filter: brightness(0.6)">
+					</button>
+				</div>
+				<div class="slideasset presentation-area">
+					<!-- Title slide -->
+					<div id="presentation-slide1" class="slideasset presentation-slide" style="display: block">
+						<h1 id="slide1-title" class="slideasset slideasset-title slideasset-maintitle">Title</h1>
+					</div>
+					<!--  slide -->
+					<div id="presentation-slide2" class="slideasset presentation-slide" style="display: none">
+						<h2 id="slide2-title" class="slideasset slideasset-title">Visual Example</h2>
+					</div>
+					<!--  slide -->
+					<div id="presentation-slide3" class="slideasset presentation-slide" style="display: none">
+						<h2 id="slide2-title" class="slideasset slideasset-title">Some More Information</h2>
+					</div>
+					<!--  slide -->
+					<div id="presentation-slide4" class="slideasset presentation-slide" style="display: none">
+						<h2 id="slide2-title" class="slideasset slideasset-title">What Does This Mean?</h2>
+					</div>
+					<!--  slide -->
+					<div id="presentation-slide5" class="slideasset presentation-slide" style="display: none">
+						<h2 id="slide2-title" class="slideasset slideasset-title"></h2>
+					</div>
+					<!--  slide -->
+					<div id="presentation-slide6" class="slideasset presentation-slide" style="display: none">
+						<h2 id="slide2-title" class="slideasset slideasset-title"></h2>
+					</div>
+					<!--  slide -->
+					<div id="presentation-slide7" class="slideasset presentation-slide" style="display: none">
+						<h2 id="slide2-title" class="slideasset slideasset-title">The Takeaway From This:</h2>
+					</div>
+					<!-- Conclusion slide -->
+					<div id="presentation-slide8" class="slideasset presentation-slide" style="display: none">
+						
+					</div>
+				</div>
+				<div class="presentation-slidebutton-container">
+					<button id="presentation-slidebutton-right" class="presentation-slidebutton" onclick="scrollSlideshow(true)">
+						<img id="slidebutton-right" src="../images/Arrow.webp" style="transform: rotate(0.5turn); filter: brightness(0.6)">
+					</button>
+				</div>
+			</div>
+		</main>
+		<div id="options">
+			<button id="options-button" onclick="optionsWindow()">
+				<img id="options-image" class="theme-element" src="../images/OptionsGear.webp">
+			</button>
+		</div>
+		<div id="options-window" class="theme-element" style="display: none">
+			<h5 class="options-title">Slideshow Sillies</h5>
+			<table>
+				<tr>
+					<th>Soundboard:</th>
+					<td>
+						<button id="options-button-" class="theme-element" onclick="">Show</button>
+					</td>
+				</tr>
+			</table>
+			<h5 class="options-title">General</h5>
+			<table>
+				<tr>
+					<th>
+						<label for="theme-select">Theme:</label>
+					</th>
+					<td>
+						<select name="theme" id="theme-select" class="theme-element">
+							<option value="default" onclick="toggleOptions('theme', 'default')" selected="selected">Default</option>
+							<option value="classic" onclick="toggleOptions('theme', 'classic')">Classic</option>
+							<option value="lightMode" onclick="toggleOptions('theme', 'lightMode')">Light Mode</option>
+							<option value="darkMode" onclick="toggleOptions('theme', 'darkMode')">Dark Mode</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="othergames-container">
+			<a href="../index.html" class="othergames theme-element">Back to game list</a>
+		</div>
+	</body>
+</html>

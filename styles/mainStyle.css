@@ -1,0 +1,432 @@
+@media (min-width: 1815px) {
+	#mbpImg {
+		height: 80px;
+	}
+	
+	.spacerThing {
+		height: 90px;
+	}
+	
+	#descriptionBox {
+		width: 550px;
+	}
+	
+	.grid {
+		gap: 5%;
+		grid-template-columns: 30% 30% 30%;
+	}
+	
+	#smmButton, #clearButton {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 1815px) {
+	#mbpImg {
+		height: 80px;
+	}
+	
+	.spacerThing {
+		height: 90px;
+	}
+	
+	#descriptionBox {
+		width: 550px;
+	}
+	
+	.grid {
+		gap: 5%;
+		grid-template-columns: 30% 30% 30%;
+	}
+	
+	#smmButton, #clearButton {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 1480px) {
+	#mbpImg {
+		height: 80px;
+	}
+	
+	.spacerThing {
+		height: 90px;
+	}
+	
+	#descriptionBox {
+		width: 550px;
+	}
+	
+	.grid {
+		gap: 5%;
+		grid-template-columns: 30% 30% 30%;
+	}
+	
+	#smmButton, #clearButton {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 1200px) {
+	#mbpImg {
+		height: 120px;
+	}
+	
+	.spacerThing {
+		height: 130px;
+	}
+	
+	main {
+		grid-column: span 3;
+	}
+	
+	#descriptionBox {
+		width: 550px;
+	}
+	
+	.grid {
+		gap: 0%;
+		grid-template-columns: auto;
+	}
+	
+	/* Size changes! Yaaaaaaaaaaaaaaaaaaaay... */
+	
+	#smmButton, #clearButton, #_descBody, .seriesButton, .smmSeries {
+		font-size: 20px;
+	}
+	
+	#bioInfo {
+		font-size: 24px;
+	}
+	
+	#descriptionBox {
+		width: 700px;
+	}
+	
+	#_descHead {
+		font-size: 48px;
+	}
+	
+	#_descNotice {
+		font-size: 24px;
+	}
+}
+@font-face {
+	font-family: "Open MSP";
+	src: url("../fonts/OpenMSP.otf");
+}
+
+html {
+	height: 100%;
+	position: relative;
+}
+
+body {
+	height: 100%;
+	margin: 0px;
+	font-family: Arial;
+	color: white;
+	background-color: #6D6D7F;
+	font-size: 18px;
+	overflow: hidden;
+}
+
+button, select {
+	font-family: Arial;
+	cursor: pointer;
+	background-color: #1C2337;
+	color: white;
+	padding: 3px;
+	border: solid white 2px;
+	border-radius: 6px;
+}
+
+button:hover {
+	background-color: #36456B;
+}
+
+header {
+	text-align: center;
+	font-family: "Open MSP";
+	width: 100%;
+	background-image: linear-gradient(to bottom, #0D233D, #1A3554);
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#titlebar {
+	font-size: 3em;
+}
+
+.maincontrols {
+	text-align: center;
+}
+
+.character-container {
+	display: flex;
+	justify-content: center;
+}
+
+.character-space {
+	text-align: center;
+	width: 30%;
+	margin: 0px 20px 35px;
+}
+
+#generateButton {
+	font-size: 0.9em;
+}
+
+.character-name {
+	font-size: 1.75em;
+	margin: 20px 0px;
+}
+
+.character-series {
+	font-size: 1.3em;
+	margin: 20px 0px;
+}
+
+.character-image {
+	max-width: 100%;
+	max-height: 55vh;
+}
+
+#spoilerModeMenu, #chrDescription {
+	display: none;
+	position: absolute;
+	background-color: rgba(50, 50, 50, 0.7);
+	top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+	z-index: 500;
+}
+
+#spoilerModeMenuBox {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: #30363F;
+	text-align: left;
+	width: fit-content;
+	padding: 10px 20px;
+	border: 2px solid #D4D4D4;
+	border-radius: 8px;
+	margin: 50px auto;
+	/* margin: 50px calc(100vw / 2 - 197px); */
+	z-index: 501;
+}
+
+#descriptionBox {
+	background-color: #372D46;
+	padding: 10px 20px;
+	border: 2px solid #D4D4D4;
+	border-radius: 8px;
+	margin: 50px auto;
+	text-align: left;
+	z-index: 501;
+}
+
+h2 {
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+h3 {
+	margin: 0px;
+	border-bottom: 1px solid white;
+}
+
+.spoiler {
+	background-color: white;
+	color: white;
+}
+
+.spoiler:hover {
+	background-color: rgba(0, 0, 0, 0);
+	text-decoration: underline;
+}
+	
+#rrButton, #smButton, #paButton {
+	font-size: 1.3em;
+}
+
+#sopValueContainer {
+	font-size: 20px;
+	margin-top: 6px;
+	font-weight: bold;
+}
+
+#sopButtons {
+	position: absolute;
+	top: 30vh;
+	right: 10px;
+}
+
+#sopValueContainer span {
+	margin: 0px 4px;
+}
+
+#smashNum, #passNum, #skipNum {
+	font-size: 20px;
+	margin-top: 6px;
+	font-weight: bold;
+}
+
+#smashNum {
+	color: lightgreen;
+}
+
+#passNum {
+	color: tomato;
+}
+
+#skipNum {
+	color: lightgray;
+}
+
+.othergames-container {
+	display: flex;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	padding-top: 10px;
+}
+
+.othergames {
+	display: block;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: inherit;
+	text-decoration: none;
+	background-color: #1C2337;
+	height: fit-content;
+	padding: 5px;
+	border: 2px solid white;
+	border-radius: 8px;
+}
+
+.othergames:hover {
+	background-color: #36456B;
+}
+
+#options {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	margin: 10px;
+}
+
+#options-button, .presentation-slidebutton {
+	background-color: transparent;
+	padding: 0px;
+	border: none;
+	margin: 0px;
+	cursor: pointer;
+}
+
+#options, #options-button, #options-image {
+	width: 35px;
+	height: 35px;
+	transition: transform 0.2s;
+}
+
+#options-image:hover {
+	transform: rotate(0.0625turn);
+	transition: transform 0.2s;
+}
+
+#options-window {
+	position: absolute;
+	bottom: 55px;
+	left: 10px;
+	background-color: #0C141F;
+	padding: 5px;
+	border: 2px solid white;
+	border-radius: 6px;
+	font-size: 1em;
+}
+
+.options-title {
+	font-size: 1.2em;
+	text-align: center;
+	border-bottom: solid 2px;
+	margin: 8px 0px;
+}
+
+#options-window table {
+	border-collapse: collapse;
+}
+
+#options-window th, #options-window td {
+	width: 50%;
+	padding: 5px 10px;
+}
+
+#options-window tr {
+	border-bottom: 1px solid grey;
+}
+
+#options-window tr:last-child {
+	border-bottom: none;
+}
+
+#options-window th {
+	text-align: right;
+}
+
+#options-window td {
+	text-align: left;
+}
+
+#options-window button, #options-window select {
+	font-size: 1em;
+}
+
+#musicplayer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: #0C141F;
+	text-align: center;
+	width: fit-content;
+	padding: 6px;
+	border: 2px solid white;
+	border-radius: 6px;
+	margin: 5px auto;
+}
+
+#musicplayer-audio {
+	
+}
+
+.header-info {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	height: fit-content;
+	margin: auto 1.1em;
+}
+
+.header-infobox {
+	display: none;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-color: #0C141F;
+	text-align: left;
+	width: 220px;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 6px;
+}
+
+.header-info:hover .header-infobox {
+	display: block;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Smash or Pass | TMBP Game Collection</title>
+		<link rel="stylesheet" href="../styles/mainStyle.css">
+		<link rel="stylesheet" href="../styles/themeStyles.css">
+		<script src="../scripts/randomGenerator.js" defer></script>
+		<script src="../scripts/options.js"></script>
+		<style>
+			.seriesButton {
+				margin-right: 4px;
+				font-weight: bold;
+			}
+			.character-image {
+				max-height: 57vh;
+			}
+			#sopButtons {
+				text-align: center;
+				width: fit-content;
+				margin: auto;
+			}
+			#stButton {
+				font-size: 24px;
+			}
+		</style>
+	</head>
+	<body class="theme-element">
+		<header class="theme-element">
+			<div>
+				<span id="titlebar">SMASH OR PASS</span>
+			</div>
+			<div class="header-info">
+				<span>Info</span>
+				<div class="header-infobox">Smash or Pass, everyone knows it. You'll be given a random character and you decide if you'd want to smash them, or pass. Also has a cuddle mode for those who desire it.</div>
+			</div>
+		</header>
+		<div id="upperSpace" style="text-align: center">
+			<!-- <div id="bioInfo" style="font-style: italic">Click on a character's image to get their bio!</div> -->
+			<div id="bioInfo" style="font-style: italic">Bios currently disabled until more are filled out.</div>
+			<button id="stButton" class="theme-element" style="font-weight: bold; margin: 0px 6px; display: inline-block" onclick="generate(1, false, 0, 'start')">Start</button>
+			<div id="sopButtons" style="display: none">
+				<button id="smButton" class="theme-element" style="font-weight: bold; margin: 0px 6px" onclick="generate(1, false, 0, 'smash')">SMASH</button><br>
+				<div id="smashNum" class="theme-element"></div><br>
+				<button id="paButton" class="theme-element" style="font-weight: bold; margin: 0px 6px" onclick="generate(1, false, 0, 'pass')">PASS</button><br>
+				<div id="passNum" class="theme-element"></div><br>
+				<button id="rrButton" class="theme-element" style="font-weight: bold; margin: 0px 6px" onclick="generate(1, false, 0, 'skip')">SKIP</button><br>
+				<div id="skipNum" class="theme-element"></div>
+				<div style="display: none">
+					<button class="theme-element" onclick="splicer()">Splicer</button>
+				</div>
+			</div>
+			<div id="spoilerModeMenu" onclick="display('none')"></div>
+			<div id="spoilerModeMenuBox" class="theme-element" onclick="">
+				<h1 style="text-align: center; margin-top: 0px; margin-bottom: 10px">Spoiler Mode Settings</h1>
+				<div style="width: fit-content; margin: auto">
+					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
+						<button id="seriesAceAttorney" class="seriesButton" onclick="selectSpoilerMode('Ace Attorney')">TOGGLE</button>
+						<b>Ace Attorney:</b> Currently <span id="spoilerAA"><span style='color: red'>OFF</span></span>
+					</p>
+					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
+						<button id="seriesDanganronpa" class="seriesButton" onclick="selectSpoilerMode('Danganronpa')">TOGGLE</button>
+						<b>Danganronpa:</b> Currently <span id="spoilerDR"><span style='color: red'>OFF</span></span>
+					</p>
+					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
+						<button id="seriesEverhood" class="seriesButton" onclick="selectSpoilerMode('Everhood')">TOGGLE</button>
+						<b>Everhood:</b> Currently <span id="spoilerEH"><span style='color: red'>OFF</span></span>
+					</p>
+					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
+						<button id="seriesHollowKnight" class="seriesButton" onclick="selectSpoilerMode('Hollow Knight')">TOGGLE</button>
+						<b>Hollow Knight:</b> Currently <span id="spoilerHK"><span style='color: red'>OFF</span></span>
+					</p>
+					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
+						<button id="seriesInscryption" class="seriesButton" onclick="selectSpoilerMode('Inscryption')">TOGGLE</button>
+						<b>Inscryption:</b> Currently <span id="spoilerI"><span style='color: red'>OFF</span></span>
+					</p>
+					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
+						<button id="seriesOneShot" class="seriesButton" onclick="selectSpoilerMode('OneShot')">TOGGLE</button>
+						<b>OneShot:</b> Currently <span id="spoilerOS"><span style='color: red'>OFF</span></span>
+					</p>
+					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
+						<button id="seriesOuterWilds" class="seriesButton" onclick="selectSpoilerMode('Outer Wilds')">TOGGLE</button>
+						<b>Outer Wilds:</b> Currently <span id="spoilerOW"><span style='color: red'>OFF</span></span>
+					</p>
+					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
+						<button id="seriesStevenUniverse" class="seriesButton" onclick="selectSpoilerMode('Steven Universe')">TOGGLE</button>
+						<b>Steven Universe:</b> Currently <span id="spoilerSU"><span style='color: red'>OFF</span></span>
+					</p>
+					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
+						<button id="seriesUndertale2" class="seriesButton" onclick="selectSpoilerMode('Undertale 2')">TOGGLE</button>
+						<b>Undertale 2:</b> Currently <span id="spoilerU2"><span style='color: red'>OFF</span></span>
+					</p>
+				</div>
+				<div style="text-align: center">
+					<p style="color: white; font-size: 16px"><i>Click outside the box to return...</i></p>
+				</div>
+			</div>
+		</div>
+		<div id="chrSpace" class="character-container">
+			<div class="character-space">
+				<div class="character-info">
+					<h1 id="characterName1" class="character-name"></h1>
+					<p id="series1" class="character-series"></p>
+				</div>
+				<img id="daImage1" class="character-image">
+			</div>
+		</div>
+		<!--Character description boxes-->
+		<div id="chrDescription" class="theme-element" onclick="display('none')">
+			<div id="descriptionBox" onclick="">
+				<h1 id="_descHead" style="text-align: center; margin-top: 0px; margin-bottom: 10px; border-bottom: 1px solid white"></h1>
+				<h2 id="_descNotice" style="font-weight: bold; color: red; text-align: center">NOTICE: Descriptions are far from finished. Most characters do not have one.</h2>
+				<p id="_descBody"></p>
+				<div style="text-align: center">
+					<p style="color: white; font-size: 16px"><i>Click anywhere to return...</i></p>
+				</div>
+			</div>
+		</div>
+		<div id="options">
+			<button id="options-button" onclick="optionsWindow()">
+				<img id="options-image" class="theme-element" src="../images/OptionsGear.webp">
+			</button>
+		</div>
+		<div id="options-window" class="theme-element" style="display: none">
+			<h5 class="options-title">Smash or Pass</h5>
+			<table>
+				<tr>
+					<th>Spoiler mode settings:</th>
+					<td>
+						<button id="options-button-spoilermode" class="theme-element" onclick="display('spoilerModeMenu'); optionsWindow()">Open</button>
+					</td>
+				</tr>
+				<tr>
+					<th>Cuddle mode:</th>
+					<td>
+						<button id="options-button-cuddlemode" class="theme-element" onclick="cuddleMode()">Off</button>
+					</td>
+				</tr>
+			</table>
+			<h5 class="options-title">General</h5>
+			<table>
+				<tr>
+					<th>
+						<label for="theme-select">Theme:</label>
+					</th>
+					<td>
+						<select name="theme" id="theme-select" class="theme-element">
+							<option value="default" onclick="toggleOptions('theme', 'default')" selected="selected">Default</option>
+							<option value="classic" onclick="toggleOptions('theme', 'classic')">Classic</option>
+							<option value="lightMode" onclick="toggleOptions('theme', 'lightMode')">Light Mode</option>
+							<option value="darkMode" onclick="toggleOptions('theme', 'darkMode')">Dark Mode</option>
+							<option value="smash" onclick="toggleOptions('theme', 'smash')">Smash</option>
+							<option value="pass" onclick="toggleOptions('theme', 'pass')">Pass</option>
+						</select>
+					</td>
+				</tr>
+				<!--tr>
+					<th>Music:</th>
+					<td>
+						<button id="options-button-music" class="theme-element" onclick="toggleOptions('music')"><span style="color: red">TBA</span></button>
+					</td>
+				</tr-->
+			</table>
+		</div>
+		<div class="othergames-container">
+			<a href="../index.html" class="othergames theme-element">Back to game list</a>
+		</div>
+	</body>
+</html>

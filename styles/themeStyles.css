@@ -1,0 +1,207 @@
+/* Theme: Classic */
+
+body.theme-classic {
+	font-family: Arial;
+	color: white;
+	background-color: #737373;
+}
+
+button.theme-classic, select.theme-classic {
+	all: revert;
+	cursor: pointer;
+}
+
+header.theme-classic {
+	font-family: monospace;
+	background-color: black;
+	background-image: none;
+}
+
+#spoilerModeMenuBox.theme-classic, #descriptionBox.theme-classic {
+	background-color: #372D46;
+	border-color: #D4D4D4;
+}
+
+/* Theme: Light Mode */
+
+body.theme-lightmode {
+	font-family: Arial;
+	color: black;
+	background-color: white;
+}
+
+button.theme-lightmode, select.theme-lightmode, .othergames.theme-lightmode {
+	color: black;
+	background-color: white;
+	border-color: black;
+}
+
+button.theme-lightmode:hover, .othergames.theme-lightmode:hover {
+	background-color: #DEDEDE;
+}
+
+header.theme-lightmode {
+	font-family: inherit;
+	color: white;
+	background-color: black;
+	background-image: none;
+}
+
+#skipNum.theme-lightmode {
+	color: #9C9C9C;
+}
+
+#spoilerModeMenuBox.theme-lightmode, #descriptionBox.theme-lightmode {
+	color: black;
+	background-color: white;
+	border-color: black;
+}
+
+#options-window.theme-lightmode {
+	color: black;
+	background-color: white;
+	border-color: black;
+}
+
+/* Theme: Dark Mode */
+
+body.theme-darkmode {
+	font-family: Arial;
+	color: white;
+	background-color: #191919;
+}
+
+button.theme-darkmode, select.theme-darkmode, .othergames.theme-darkmode {
+	color: white;
+	background-color: black;
+	border-color: white;
+}
+
+button.theme-darkmode:hover, .othergames.theme-darkmode:hover {
+	background-color: #6A6A6A;
+}
+
+header.theme-darkmode {
+	font-family: inherit;
+	color: white;
+	background-color: black;
+	background-image: none;
+}
+
+#spoilerModeMenuBox.theme-darkmode, #descriptionBox.theme-darkmode {
+	background-color: black;
+	border-color: white;
+}
+
+#options-image.theme-darkmode {
+	filter: invert(100%);
+}
+
+#options-window.theme-darkmode {
+	background-color: black;
+}
+
+/* Theme: Kiss */
+
+@font-face {
+	font-family: "Rainbow Bitch";
+	src: url("../fonts/Rainbowbitch2.ttf");
+}
+
+@font-face {
+	font-family: "A Butterfly On a Daffodil";
+	src: url("../fonts/AButterflyOnaDaffodil.ttf");
+}
+
+body.theme-kiss {
+	font-family: "A Butterfly On a Daffodil", Arial;
+	background-color: #FFCCE1;
+	color: #6B0B25;
+}
+
+button.theme-kiss, select.theme-kiss, .othergames.theme-kiss {
+	font-family: "A Butterfly On a Daffodil", Arial;
+	color: inherit;
+	background-color: #E09FBA;
+	border-color: #C45A88;
+}
+
+button.theme-kiss:hover, .othergames.theme-kiss:hover {
+	background-color: #E0B8C8;
+}
+
+header.theme-kiss {
+	font-family: "Rainbow Bitch";
+	font-weight: bold;
+	background-image: linear-gradient(to bottom, #D8709D, #C45A88);
+}
+
+.othergames.theme-kiss {
+	border-color: #6B0B25;
+}
+
+#spoilerModeMenuBox.theme-kiss, #descriptionBox.theme-kiss {
+	background-color: #E09FBA;
+	border-color: #C45A88;
+}
+
+#options-window.theme-kiss {
+	background-color: #E09FBA;
+	border-color: #C45A88;
+}
+
+#options-window.theme-kiss tr {
+	border-bottom-color: #AF133F;
+}
+
+/* Theme: Kill */
+
+@font-face {
+	font-family: "Help Me";
+	src: url("../fonts/HelpMe.ttf");
+}
+
+body.theme-kill {
+	font-family: "Help Me", Arial;
+	background-image: linear-gradient(to bottom, #540916, #230000);
+	color: #D91710;
+}
+
+button.theme-kill, select.theme-kill, .othergames.theme-kill {
+	font-family: "Help Me";
+	color: inherit;
+	background-color: #230000;
+	border-color: #BC170F;
+}
+
+button.theme-kill:hover, .othergames.theme-kill:hover {
+	background-color: #441111;
+}
+
+header.theme-kill {
+	font-family: "Help Me";
+	background-color: black;
+	background-image: none;
+}
+
+.othergames.theme-kill {
+	border-color: #BC170F;
+}
+
+#spoilerModeMenuBox.theme-kill, #descriptionBox.theme-kill {
+	background-color: #230000;
+	border-color: #BC170F;
+}
+
+#options-image.theme-kill {
+	filter: invert(100%);
+}
+
+#options-window.theme-kill {
+	background-color: #230000;
+	border-color: #BC170F;
+}
+
+#options-window.theme-kill tr {
+	border-bottom-color: #6B0B08;
+}
