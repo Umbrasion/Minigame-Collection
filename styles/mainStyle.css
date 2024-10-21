@@ -355,4 +355,8 @@ h3 {
 	#options-window {
 		bottom: 75px;
 	}
+
+	#options-image:hover {
+		transform: rotate(0.0turn);
+	}
 }
