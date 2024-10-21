@@ -228,7 +228,7 @@ h3 {
 }
 
 #options-window {
-	position: absolute;
+	position: fixed;
 	bottom: 55px;
 	left: 10px;
 	background-color: #0C141F;
@@ -350,5 +350,9 @@ h3 {
 	
 	.othergames-container {
 		width: fit-content;
+	}
+
+	#options-window {
+		bottom: 75px;
 	}
 }
