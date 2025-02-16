@@ -2,73 +2,28 @@
 <html>
 	<head>
 		<title>The Monkey Brains | Guess the Tune</title>
+		<link rel="stylesheet" href="../styles/mainStyle.css">
+		<link rel="stylesheet" href="../styles/themeStyles.css">
 		<link rel="stylesheet" href="../styles/gttStyle.css">
 		<script src="../scripts/tuneGenerator.js"></script>
 		<style>
-			
+			header {
+				margin-bottom: 0px;
+			}
 		</style>
 	</head>
 	<body>
-		<div class="title">
-			<span style="font-size: 20px; font-family: monospace">The Monkey Brains Podcast:</span><br>
-			<span style="font-size: 46px; font-family: monospace">GUESS THE TUNE</span>
-		</div>
-		<a href="https://www.youtube.com/@TheMonkeyBrainsPodcast" target="_blank"><img src="monkeybrain.png" style="height: 80px; position: absolute; right: 0"></a>
-		<div style="height: 80px"></div>
-		<div class="grid">
-			<main style="text-align: center">
-				<h1>♫ Music to Your Ears ♫</h1>
-				<p>You'll be given five random songs, and you have to guess what series they each come from. Good luck!</p>
-				<p style="font-style: italic; font-size: 14px">Remember to disable series before starting. You cannot disable them after.<br>Song audio is <b>not</b> normalized. It should be mostly fine, however still be cautious about volume.</p>
-				<div id="introHidden">
-					<h2 id="resultsTitle">Results</h2>
-					<table>
-						<tbody>
-							<tr>
-								<td><audio controls id="song1" src=""></audio></td>
-								<td id="guessSpace1"><input type="text" name="guess1" class="inputBoxes" id="guess1" autocomplete="off"></td>
-								<td id="guessResult1"></td>
-								<td id="correctResult1"></td>
-							</tr>
-							<tr>
-								<td><audio controls id="song2" src=""></audio></td>
-								<td id="guessSpace2"><input type="text" name="guess2" class="inputBoxes" id="guess2" autocomplete="off"></td>
-								<td id="guessResult2"></td>
-								<td id="correctResult2"></td>
-							</tr>
-							<tr>
-								<td><audio controls id="song3" src=""></audio></td>
-								<td id="guessSpace3"><input type="text" name="guess3" class="inputBoxes" id="guess3" autocomplete="off"></td>
-								<td id="guessResult3"></td>
-								<td id="correctResult3"></td>
-							</tr>
-							<tr>
-								<td><audio controls id="song4" src=""></audio></td>
-								<td id="guessSpace4"><input type="text" name="guess4" class="inputBoxes" id="guess4" autocomplete="off"></td>
-								<td id="guessResult4"></td>
-								<td id="correctResult4"></td>
-							</tr>
-							<tr>
-								<td><audio controls id="song5" src=""></audio></td>
-								<td id="guessSpace5"><input type="text" name="guess5" class="inputBoxes" id="guess5" autocomplete="off"></td>
-								<td id="guessResult5"></td>
-								<td id="correctResult5"></td>
-							</tr>
-						</tbody>
-					</table>
-					<button id="submitButton" onclick="answerCheck()">Submit answers</button>
-				</div>
-				<button id="genButton" onclick="getNewSongs()" style="font-size: 18px; font-weight: bold">Begin</button>
-				<div id="resultsSection">
-					<h2>RESULTS:</h2>
-					<h3 id="finalScoreboard">Your final score:<br></h3>
-					<button id="retryButton" onclick="reload()" style="font-size: 18px; font-weight: bold">Retry?</button>
-				</div>
-				<div>
-					<h2 id="scoreBoard" style="position: relative; bottom: 0px"></h2>
-				</div>
-			</main>
-			<aside>
+		<header class="theme-element">
+			<div>
+				<span id="titlebar">GUESS THE TUNE</span>
+			</div>
+			<div class="header-info">
+				<span>Info</span>
+				<div class="header-infobox">Kiss Marry Kill, the classic party game where you're given three people (or in this case, fictional chracters) and have to decide which one you'd kiss, which one you'd marry, and which one you'd kill out of the selection provided.</div>
+			</div>
+		</header>
+		<div class="content-container">
+			<aside class="sidebar">
 				<div style="margin: 15px">
 					<h2 style="text-align: center">GAME WORD BANK</h2>
 					<span id="disableMessage" style="font-size: 14px; font-style: italic;">Click on any series to <b>disable it</b> from appearing</span>
@@ -177,6 +132,108 @@
 					</ul>
 				</div>
 			</aside>
+			<main class="main-content">
+				<h1>♫ Music to Your Ears ♫</h1>
+				<p>You'll be given five random songs, and you have to guess what series they each come from. Good luck!</p>
+				<p style="font-style: italic; font-size: 14px">Remember to disable series before starting. You cannot disable them after.<br>Song audio is <b>not</b> normalized. It should be mostly fine, however still be cautious about volume.</p>
+				<div id="introHidden">
+					<h2 id="resultsTitle">Results</h2>
+					<table>
+						<tbody>
+							<tr>
+								<td><audio controls id="song1" src=""></audio></td>
+								<td id="guessSpace1"><input type="text" name="guess1" class="inputBoxes" id="guess1" autocomplete="off"></td>
+								<td id="guessResult1"></td>
+								<td id="correctResult1"></td>
+							</tr>
+							<tr>
+								<td><audio controls id="song2" src=""></audio></td>
+								<td id="guessSpace2"><input type="text" name="guess2" class="inputBoxes" id="guess2" autocomplete="off"></td>
+								<td id="guessResult2"></td>
+								<td id="correctResult2"></td>
+							</tr>
+							<tr>
+								<td><audio controls id="song3" src=""></audio></td>
+								<td id="guessSpace3"><input type="text" name="guess3" class="inputBoxes" id="guess3" autocomplete="off"></td>
+								<td id="guessResult3"></td>
+								<td id="correctResult3"></td>
+							</tr>
+							<tr>
+								<td><audio controls id="song4" src=""></audio></td>
+								<td id="guessSpace4"><input type="text" name="guess4" class="inputBoxes" id="guess4" autocomplete="off"></td>
+								<td id="guessResult4"></td>
+								<td id="correctResult4"></td>
+							</tr>
+							<tr>
+								<td><audio controls id="song5" src=""></audio></td>
+								<td id="guessSpace5"><input type="text" name="guess5" class="inputBoxes" id="guess5" autocomplete="off"></td>
+								<td id="guessResult5"></td>
+								<td id="correctResult5"></td>
+							</tr>
+						</tbody>
+					</table>
+					<button id="submitButton" onclick="answerCheck()">Submit answers</button>
+				</div>
+				<button id="genButton" onclick="getNewSongs()" style="font-size: 18px; font-weight: bold">Begin</button>
+				<div id="resultsSection">
+					<h2>RESULTS:</h2>
+					<h3 id="finalScoreboard">Your final score:<br></h3>
+					<button id="retryButton" onclick="reload()" style="font-size: 18px; font-weight: bold">Retry?</button>
+				</div>
+				<div>
+					<h2 id="scoreBoard" style="position: relative; bottom: 0px"></h2>
+				</div>
+				<div id="options">
+					<button id="options-button" onclick="optionsWindow()">
+						<img id="options-image" class="theme-element" src="../images/OptionsGear.webp">
+					</button>
+				</div>
+				<div id="options-window" class="theme-element" style="display: none">
+					<h5 class="options-title">Kiss, Marry, Kill</h5>
+					<table>
+						<tr>
+							<th>Spoiler mode settings:</th>
+							<td>
+								<button id="options-button-spoilermode" class="theme-element" onclick="display('spoilerModeMenu'); optionsWindow()">Open</button>
+							</td>
+						</tr>
+						<tr>
+							<th>Clear characters:</th>
+							<td>
+								<button id="options-button-clearcharacters" class="theme-element" onclick="clearPicks()">Clear</button>
+							</td>
+						</tr>
+					</table>
+					<h5 class="options-title">General</h5>
+					<table>
+						<tr>
+							<th>
+								<label for="theme-select">Theme:</label>
+							</th>
+							<td>
+								<select name="theme" id="theme-select" class="theme-element">
+									<option value="default" onclick="toggleOptions('theme', 'default')" selected="selected">Default</option>
+									<option value="classic" onclick="toggleOptions('theme', 'classic')">Classic</option>
+									<option value="lightMode" onclick="toggleOptions('theme', 'lightMode')">Light Mode</option>
+									<option value="darkMode" onclick="toggleOptions('theme', 'darkMode')">Dark Mode</option>
+									<option value="kiss" onclick="toggleOptions('theme', 'kiss')">Kiss</option>
+									<option value="marry" onclick="toggleOptions('theme', 'marry')">Marry</option>
+									<option value="kill" onclick="toggleOptions('theme', 'kill')">Kill</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>Music:</th>
+							<td>
+								<button id="options-button-music" class="theme-element" onclick="toggleOptions('music')">Off</button>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="othergames-container">
+					<a href="../index.html" class="othergames theme-element">Back to game list</a>
+				</div>
+			</main>
 		</div>
 	</body>
 </html>

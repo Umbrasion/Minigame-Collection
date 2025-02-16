@@ -1,26 +1,10 @@
-body {
-	margin: 0px;
-	font-family: Arial;
-	color: white;
-	background-color: #689A9A;
+.content-container {
+	display: flex;
 }
 
-.title {
-	text-align: center;
-	width: 100vw;
-	height: 80px;
-	background-color: black;
-	position: absolute;
-}
-
-.grid {
-	display: grid;
-	gap: 0%;
-	grid-template-columns: 80% 20%;
-}
-
-main {
-	
+.main-content {
+	flex: 1 0;
+	position: relative;
 }
 
 #introHidden {
@@ -46,8 +30,9 @@ table {
 	line-height: 1.4;
 }
 
-aside {
+.sidebar {
 	background-color: rgba(0, 0, 60, 0.5);
 	overflow: auto;
-	height: calc(100vh - 80px);
+	height: 100%;
+	width: 380px;
 }

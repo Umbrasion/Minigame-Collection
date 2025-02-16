@@ -120,6 +120,7 @@ var tracksPlayed = [
 	"Kiss, Marry, or Kill 3",
 	"Kiss, Marry, or Kill 4",
 	"Kiss, Marry, or Kill 6",
+	"Kiss, Marry, or Kill 12",
 ];
 var totalSongs = tracksPlayed.length;
 
@@ -165,6 +166,11 @@ function musicRunner() {
 			audio.src = "../music/Kiss, Marry, Or Kill 6.ogg";
 			audio.play();
 			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 6";
+			break;
+		case 6:
+			audio.src = "../music/Kiss, Marry, Or Kill 12.ogg";
+			audio.play();
+			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 12";
 			break;
 	}
 }
