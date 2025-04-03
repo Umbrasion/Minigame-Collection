@@ -354,10 +354,6 @@ var chrNames = [
 	// Clash Royale
 	"King", // heheheha
 	"S.P.A.R.K.Y.",
-	// The Coffin of Andy and Leyley
-	"Andrew Graves",
-	"Ashley Graves",
-	"Renee Graves",
 	// Crash Bandicoot
 	"Crash Bandicoot",
 	"Dr. Nitrus Brio",
@@ -917,7 +913,6 @@ var chrNames = [
 	"Lunalu",
 	"Makura",
 	"Malluel",
-	"Manamel",
 	"Metera",
 	"Michael",
 	"Monika",
