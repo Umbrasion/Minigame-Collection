@@ -54,6 +54,10 @@
 						<b>Inscryption:</b> Currently <span id="spoilerI"><span style='color: red'>OFF</span></span>
 					</p>
 					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
+						<button id="seriesMiSide" class="seriesButton theme-element" onclick="selectSpoilerMode('MiSide')">TOGGLE</button>
+						<b>MiSide:</b> Currently <span id="spoilerMS"><span style='color: red'>OFF</span></span>
+					</p>
+					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
 						<button id="seriesOneShot" class="seriesButton theme-element" onclick="selectSpoilerMode('OneShot')">TOGGLE</button>
 						<b>OneShot:</b> Currently <span id="spoilerOS"><span style='color: red'>OFF</span></span>
 					</p>
@@ -79,6 +83,15 @@
 			<div class="character-space">
 				<div class="character-info">
 					<br><button id="generateButton" class="theme-element" onclick="generate(1)">Reroll character</button>
+					<div class="debugmenu" style="display: none">
+						<button onclick="generate(1, true, -100)">-100</button>
+						<button onclick="generate(1, true, -10)">-10</button>
+						<button onclick="generate(1, true, -1)">-1</button>
+						<input type="text" id="identer-1" name="identer-1" minlength="1" maxlength="4" style="width: 32px; text-align: center">
+						<button onclick="generate(1, true, 1)">+1</button>
+						<button onclick="generate(1, true, 10)">+10</button>
+						<button onclick="generate(1, true, 100)">+100</button>
+					</div>
 					<h1 id="characterName1" class="character-name">Character 1</h1>
 					<p id="series1" class="character-series"></p>
 				</div>
@@ -87,6 +100,15 @@
 			<div class="character-space">
 				<div class="character-info">
 					<br><button id="generateButton" class="theme-element" onclick="generate(2)">Reroll character</button>
+					<div class="debugmenu" style="display: none">
+						<button onclick="generate(2, true, -100)">-100</button>
+						<button onclick="generate(2, true, -10)">-10</button>
+						<button onclick="generate(2, true, -1)">-1</button>
+						<input type="text" id="identer-2" name="identer-2" minlength="1" maxlength="4" style="width: 32px; text-align: center">
+						<button onclick="generate(2, true, 1)">+1</button>
+						<button onclick="generate(2, true, 10)">+10</button>
+						<button onclick="generate(2, true, 100)">+100</button>
+					</div>
 					<h1 id="characterName2" class="character-name">Character 2</h1>
 					<p id="series2" class="character-series"></p>
 				</div>
@@ -95,6 +117,15 @@
 			<div class="character-space">
 				<div class="character-info">
 					<br><button id="generateButton" class="theme-element" onclick="generate(3)">Reroll character</button>
+					<div class="debugmenu" style="display: none">
+						<button onclick="generate(3, true, -100)">-100</button>
+						<button onclick="generate(3, true, -10)">-10</button>
+						<button onclick="generate(3, true, -1)">-1</button>
+						<input type="text" id="identer-3" name="identer-3" minlength="1" maxlength="4" style="width: 32px; text-align: center">
+						<button onclick="generate(3, true, 1)">+1</button>
+						<button onclick="generate(3, true, 10)">+10</button>
+						<button onclick="generate(3, true, 100)">+100</button>
+					</div>
 					<h1 id="characterName3" class="character-name">Character 3</h1>
 					<p id="series3" class="character-series"></p>
 				</div>
@@ -130,6 +161,12 @@
 					<th>Clear characters:</th>
 					<td>
 						<button id="options-button-clearcharacters" class="theme-element" onclick="clearPicks()">Clear</button>
+					</td>
+				</tr>
+				<tr>
+					<th>Enable debug settings:</th>
+					<td>
+						<button id="options-button-debug" class="theme-element" onclick="debugToggle()">Off</button>
 					</td>
 				</tr>
 			</table>

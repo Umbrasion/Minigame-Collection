@@ -174,3 +174,20 @@ function musicRunner() {
 			break;
 	}
 }
+
+function debugToggle() {
+	var debugMenu = document.getElementsByClassName("debugmenu");
+	var debugButton = document.getElementById("options-button-debug");
+	
+	var debugDisplayState = "none";
+	
+	if (debugMenu[0].style.display == "none") {
+		debugDisplayState = "block";
+		debugButton.innerHTML = "On";
+	} else {
+		debugButton.innerHTML = "Off";
+	}
+	for (i = 0; i < debugMenu.length; i++) {
+		debugMenu[i].style.display = debugDisplayState;
+	}
+}
