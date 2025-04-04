@@ -206,6 +206,14 @@ var chrNames = [
 	"Tressa \"Catalyst\" Smith",
 	"Walter Fitzroy Jr.",
 	"Xiomara \"Vantage\" Contreras",
+	// Awaria
+	"Cutwire 1",
+	"Cutwire 2",
+	"Doctor Sylvia Strzyga",
+	"Jagoda Jęczyduch",
+	"Nikita Naprava",
+	"Ula Usterka",
+	"Zofia Zmora",
 	// Baldi's Basics
 	"Baldi",
 	"Cloudy Copter",
@@ -604,9 +612,17 @@ var chrNames = [
 	"Yamcha",
 	"Zamasu",
 	// ENA
+	"Coral Glasses",
+	"Dratula",
 	"ƎNA",
+	"Froggy",
+	"Hoarder Alex",
+	"Kane",
 	"Moony",
+	"The Shaman",
 	"The Shepherd",
+	"Taski Maiden",
+	"Theodora",
 	// Everhood
 	"Barbot",
 	"Blue Thief",
@@ -873,7 +889,9 @@ var chrNames = [
 	"Yelan",
 	"Yoimiya",
 	"Zhongli",
-	// Getting Over it
+	// Gensokyo Odyssey
+	"Kakkoi",
+	// Getting Over It
 	"Diogenes",
 	// God of War
 	"Kratos",
@@ -901,6 +919,7 @@ var chrNames = [
 	"Grimnir",
 	"Haaselia",
 	"Halluel",
+	"Indala",
 	"Katalina",
 	"Katzelia",
 	"Kumbhira",
@@ -934,6 +953,7 @@ var chrNames = [
 	"Societte",
 	"Soriz",
 	"Sturm",
+	"Tau'luk",
 	"Threo",
 	"Tweyen",
 	"Uriel",
@@ -1164,6 +1184,9 @@ var chrNames = [
 	"Welt Yang",
 	"Xueyi",
 	"Yukong",
+	// Ib
+	"Ib's Father",
+	"Ib's Mother",
 	// Inscryption
 	"The Angler",
 	"The Archivist",
@@ -1188,6 +1211,16 @@ var chrNames = [
 	"Medusa",
 	"Palutena",
 	"Pandora",
+	// Kill la Kill
+	"Aikurō Mikisugi",
+	"Hōka Inumuta",
+	"Ira Gamagōri",
+	"Nonon Jakuzure",
+	"Nui Harime",
+	"Ragyō Kiryūin",
+	"Satsuki Kiryūin",
+	"Tsumugu Kinagase",
+	"Uzu Sanageyama",
 	// Kindergarten
 	"Agnes",
 	"Bob",
@@ -1234,6 +1267,8 @@ var chrNames = [
 	"Revali",
 	"Urbosa",
 	"Zelda",
+	// Lethal Company
+	"Employee",
 	// Ludosity
 	"Asha",
 	"Business Casual Man",
@@ -1256,6 +1291,15 @@ var chrNames = [
 	"Sanford",
 	"The Sheriff",
 	"Tricky",
+	// Maiden & Spell
+	"Depth's Secret",
+	"Dreadwyrm Heir",
+	"Hero of Frost",
+	"Lich of Flowers",
+	"Royal Arcanist",
+	"Silent Redhood",
+	"Stormbeast",
+	"Sun Priestess",
 	// Mega Man
 	"Bass",
 	"Dr. Albert W. Wily",
@@ -1332,6 +1376,17 @@ var chrNames = [
 	"Soren",
 	"TorqueDawg",
 	"Wither Storm",
+	// MiSide
+	"2D Mita",
+	"Cap-Wearing Mita",
+	"Core Mita",
+	"Crazy Mita",
+	"Ghostly Mita",
+	"Kind Mita",
+	"Mila",
+	"Short-Haired Mita",
+	"Sleepy Mita",
+	"Ugly Mita",
 	// Mobile Suit Gundam: The Witch From Mercury
 	"Miorine Rembran",
 	"Suletta Mercury",
@@ -1368,10 +1423,30 @@ var chrNames = [
 	"Master Belch",
 	"Porky Minch",
 	"Teddy",
+	// Mouthwashing
+	"Anya",
+	"Curly",
+	"Daisuke",
+	"Jimmy",
+	"Swansea",
 	// Muse Dash
 	"Buro",
 	"Marija",
 	"Rin",
+	// My Hero Acadamia
+	"All For One",
+	"Enji Todoroki/Endeavor",
+	"Inko Midoriya",
+	"Jin Bubaigawara/Twice",
+	"Keigo Takami/Hawks",
+	"Mirio Togata/Lemillion",
+	"Rumi Usagiyama/Mirko",
+	"Shota Aizawa/Eraser Head",
+	"Sorahiko Torino/Gran Torino",
+	"Tomura Shigaraki",
+	"Toshinori Yagi/All Might",
+	"Toya Todoroki/Dabi",
+	"Yu Takeyama/Mt. Lady",
 	// NEEDY STREAMER OVERLOAD
 	"Ame",
 	"OMGkawaiiAngel-chan",
@@ -1626,6 +1701,17 @@ var chrNames = [
 	"Soda Popinski",
 	"Super Macho Man",
 	"Von Kaiser",
+	// Rabbit & Steel
+	"Ancient",
+	"Assassin",
+	"Bruiser",
+	"Dancer",
+	"Defender",
+	"Druid",
+	"Heavyblade",
+	"Sniper",
+	"Spellsword",
+	"Wizard",
 	// Rayman
 	"Annetta Fish",
 	"Art Rytus",
@@ -1642,6 +1728,12 @@ var chrNames = [
 	"Rayman",
 	"Roméo Patti",
 	"Voodoo Mamma",
+	// Re:Zero
+	"Felix \"Ferris\" Argyle",
+	"Natsuki Subaru",
+	"Priscilla Barielle",
+	"Ram",
+	"Rem",
 	// Resident Evil
 	"Ada Wong",
 	"Albert Wesker",
@@ -1683,6 +1775,12 @@ var chrNames = [
 	"Salvatore Moreau",
 	"Sherry Birkin",
 	"William Birkin",
+	// Reverse: 1999
+	"APPLe",
+	"Regulus",
+	"Schneider",
+	"Sonetto",
+	"Vertin",
 	// Risk of Rain
 	"Artificer",
 	"Bandit",
@@ -1699,9 +1797,11 @@ var chrNames = [
 	"Clairen",
 	"Elliana",
 	"Etalus",
+	"Fleet",
 	"Forsburn",
 	"Hodan",
 	"Kragg",
+	"Loxodont",
 	"Maypul",
 	"Mollo",
 	"Olympia",
@@ -1713,6 +1813,11 @@ var chrNames = [
 	"Zetterburn",
 	// Robot Series
 	"R.O.B.",
+	// RWBY
+	"Blake Belladonna",
+	"Neopolitan",
+	"Weiss Schnee",
+	"Yang Xiao Long",
 	// Sam & Max
 	"Max",
 	"Sam",
@@ -1894,6 +1999,10 @@ var chrNames = [
 	"Unknown Specimen 4",
 	"Unknown Specimen 5",
 	"Woormy Charles",
+	// The Stanley Parable
+	"The Bucket",
+	"The Narrator",
+	"Stanley",
 	// Star Fox
 	"Andross",
 	"Falco Lombardi",
@@ -2011,6 +2120,7 @@ var chrNames = [
 	"Kamek",
 	"Kammy Koopa",
 	"King Bob-omb",
+	"Koopa Troopa",
 	"Kooper",
 	"Koops",
 	"Lady Bow",
@@ -2316,12 +2426,58 @@ var chrNames = [
 	"Sion Eltnam Atlasia",
 	"Ushiwakamaru",
 	"Vlov Arkhangel",
+	// Ultra Fight Da! Kyanta 2
+	"Anna",
+	"Blues",
+	"Buttobi",
+	"Chihiro",
+	"Cocorn",
+	"Dr. K",
+	"Garasha",
+	"Gyanta",
+	"Hatoyan",
+	"Hisomi",
+	"Investigator Azuma",
+	"Jakor",
+	"Katana Kyanta",
+	"kinoko",
+	"Michelle",
+	"Myusha",
+	"Nanatsu",
+	"Natanee",
+	"Rare",
+	"Robo-Azuma",
+	"Rogue",
+	"Sendou",
+	"Spike",
+	"Tsukinami",
+	"Well-Done",
 	// ULTRAKILL
 	"Gabriel",
 	"Minos Prime",
 	"Sisyphus Prime",
 	"V1",
 	"V2",
+	// Under Night In-Birth
+	"Byakuya",
+	"Carmine",
+	"Chaos",
+	"Enkidu",
+	"Gordeau",
+	"Hilda",
+	"Kaguya",
+	"Kuon",
+	"Linne",
+	"Londrekia",
+	"Merkava",
+	"Mika",
+	"Ogre",
+	"Orie",
+	"Uzuki",
+	"Vatista",
+	"Wagner",
+	"Waldstein",
+	"Yuzuriha",
 	// Undertale
 	"Alphys",
 	"Asgore Dreemurr",
@@ -2379,6 +2535,17 @@ var chrNames = [
 	// Wii Fit
 	"Wii Fit Trainer (Female)",
 	"Wii Fit Trainer (Male)",
+	// Wuthering Waves
+	"Baizhi",
+	"Chixia",
+	"Jianxin",
+	"Jinhsi",
+	"Lumi",
+	"Mortefi",
+	"Rover (Female)",
+	"Rover (Male)",
+	"Sanhua",
+	"Yangyang",
 	// Xenoblade
 	"Dunban",
 	"Eunie",
@@ -2429,17 +2596,28 @@ var chrNames = [
 	"Toadal Dude",
 	"Venoct",
 	// Zenless Zone Zero
-	"Agent Soldier 11",
 	"Alexandrina Sebastiane",
 	"Anby Demara",
 	"Anton Ivanov",
+	"Asaba Harumasa",
+	"Astra Yao",
 	"Belle",
 	"Ben Bigger",
 	"Billy Kid",
+	"Burnice White",
+	"Caesar King",
 	"Ellen Joe",
+	"Evelyn Chevalier",
 	"Grace Howard",
+	"Hoshimi Miyabi",
+	"Jane Doe",
+	"Lighter",
 	"Nicole Demara",
+	"Pulchra Fellini",
 	"Qingyi",
+	"Soldier 11",
+	"Trigger",
+	"Tsukishiro Yanagi",
 	"Von Lycaon",
 	"Wise",
 	"Zhu Yuan",
@@ -2653,6 +2831,14 @@ var chrImages = [
 	"ApexLegends/TressaSmith.webp",
 	"ApexLegends/WalterFitzroyJr.webp",
 	"ApexLegends/XiomaraContreras.webp",
+	// Awaria
+	"Awaria/Cutwire1.png",
+	"Awaria/Cutwire2.png",
+	"Awaria/DoctorSylvia Strzyga.png",
+	"Awaria/JagodaJeczyduch.png",
+	"Awaria/NikitaNaprava.png",
+	"Awaria/UlaUsterka.png",
+	"Awaria/ZofiaZmora.png",
 	// Baldi's Basics
 	"BaldisBasics/Baldi.webp",
 	"BaldisBasics/CloudyCopter.webp",
@@ -2801,10 +2987,6 @@ var chrImages = [
 	// Clash Royale
 	"ClashRoyale/King.webp",
 	"ClashRoyale/SPARKY.webp",
-	// The Coffin of Andy and Leyley
-	"TheCoffinOfAndyAndLeyley/AndrewGraves.png",
-	"TheCoffinOfAndyAndLeyley/AshleyGraves.png",
-	"TheCoffinOfAndyAndLeyley/ReneeGraves.png",
 	// Crash Bandicoot
 	"CrashBandicoot/CrashBandicoot.webp",
 	"CrashBandicoot/DrNitrusBrio.webp",
@@ -3055,9 +3237,17 @@ var chrImages = [
 	"DragonBall/Yamcha.png",
 	"DragonBall/Zamasu.webp",
 	// ENA
+	"ENA/CoralGlasses.webp",
+	"ENA/Dratula.webp",
 	"ENA/ENA.webp",
+	"ENA/Froggy.webp",
+	"ENA/HoarderAlex.webp",
+	"ENA/Kane.webp",
 	"ENA/Moony.webp",
+	"ENA/TheShaman.webp",
 	"ENA/TheShepherd.webp",
+	"ENA/TaskiMaiden.webp",
+	"ENA/Theodora.webp",
 	// Everhood
 	"Everhood/Barbot.webp",
 	"Everhood/BlueThief.webp",
@@ -3324,7 +3514,9 @@ var chrImages = [
 	"GenshinImpact/Yelan.webp",
 	"GenshinImpact/Yoimiya.webp",
 	"GenshinImpact/Zhongli.webp",
-	// Getting Over it
+	// Gensokyo Odyssey
+	"GensokyoOdyssey/Kakkoi.png",
+	// Getting Over It
 	"GettingOverIt/Diogenes.png",
 	// God of War
 	"GodOfWar/Kratos.webp",
@@ -3352,6 +3544,7 @@ var chrImages = [
 	"GranblueFantasy/Grimnir.png",
 	"GranblueFantasy/Haaselia.png",
 	"GranblueFantasy/Halluel.png",
+	"GranblueFantasy/Indala.webp",
 	"GranblueFantasy/Katalina.png",
 	"GranblueFantasy/Katzelia.png",
 	"GranblueFantasy/Kumbhira.png",
@@ -3364,7 +3557,6 @@ var chrImages = [
 	"GranblueFantasy/Lunalu.png",
 	"GranblueFantasy/Makura.png",
 	"GranblueFantasy/Malluel.png",
-	"GranblueFantasy/Manamel.png",
 	"GranblueFantasy/Metera.png",
 	"GranblueFantasy/Michael.png",
 	"GranblueFantasy/Monika.png",
@@ -3386,6 +3578,7 @@ var chrImages = [
 	"GranblueFantasy/Societte.png",
 	"GranblueFantasy/Soriz.png",
 	"GranblueFantasy/Sturm.png",
+	"GranblueFantasy/Tauluk.png",
 	"GranblueFantasy/Threo.png",
 	"GranblueFantasy/Tweyen.png",
 	"GranblueFantasy/Uriel.png",
@@ -3616,6 +3809,9 @@ var chrImages = [
 	"HonkaiStarRail/WeltYang.webp",
 	"HonkaiStarRail/Xueyi.webp",
 	"HonkaiStarRail/Yukong.webp",
+	// Ib
+	"Ib/IbsFather.png",
+	"Ib/IbsMother.png",
 	// Inscryption
 	"Inscryption/TheAngler.webp",
 	"Inscryption/TheArchivist.webp",
@@ -3640,6 +3836,16 @@ var chrImages = [
 	"KidIcarus/Medusa.png",
 	"KidIcarus/Palutena.png",
 	"KidIcarus/Pandora.png",
+	// Kill la Kill
+	"KillLaKill/AikuroMikisugi.webp",
+	"KillLaKill/HokaInumuta.webp",
+	"KillLaKill/IraGamagori.webp",
+	"KillLaKill/NononJakuzure.webp",
+	"KillLaKill/NuiHarime.webp",
+	"KillLaKill/RagyoKiryuin.webp",
+	"KillLaKill/SatsukiKiryuin.webp",
+	"KillLaKill/TsumuguKinagase.webp",
+	"KillLaKill/UzuSanageyama.webp",
 	// Kindergarten
 	"Kindergarten/Agnes.webp",
 	"Kindergarten/Bob.webp",
@@ -3686,6 +3892,8 @@ var chrImages = [
 	"TheLegendOfZelda/Revali.png",
 	"TheLegendOfZelda/Urbosa.png",
 	"TheLegendOfZelda/Zelda.png",
+	// Lethal Company
+	"LethalCompany/Employee.webp",
 	// Ludosity
 	"Ludosity/Asha.webp",
 	"Ludosity/BusinessCasualMan.webp",
@@ -3708,6 +3916,15 @@ var chrImages = [
 	"MadnessCombat/Sanford.webp",
 	"MadnessCombat/TheSheriff.webp",
 	"MadnessCombat/Tricky.webp",
+	// Maiden & Spell
+	"MaidenAndSpell/DepthsSecret.webp",
+	"MaidenAndSpell/DreadwyrmHeir.webp",
+	"MaidenAndSpell/HeroOfFrost.webp",
+	"MaidenAndSpell/LichOfFlowers.webp",
+	"MaidenAndSpell/RoyalArcanist.webp",
+	"MaidenAndSpell/SilentRedhood.webp",
+	"MaidenAndSpell/Stormbeast.webp",
+	"MaidenAndSpell/SunPriestess.webp",
 	// Mega Man
 	"MegaMan/Bass.webp",
 	"MegaMan/DrAlbertWWily.webp",
@@ -3784,6 +4001,17 @@ var chrImages = [
 	"MinecraftStoryMode/Soren.webp",
 	"MinecraftStoryMode/TorqueDawg.webp",
 	"MinecraftStoryMode/WitherStorm.webp",
+	// MiSide
+	"MiSide/2DMita.webp",
+	"MiSide/CapWearingMita.webp",
+	"MiSide/CoreMita.webp",
+	"MiSide/CrazyMita.webp",
+	"MiSide/GhostlyMita.webp",
+	"MiSide/KindMita.webp",
+	"MiSide/Mila.webp",
+	"MiSide/ShortHairedMita.webp",
+	"MiSide/SleepyMita.webp",
+	"MiSide/UglyMita.webp",
 	// Mobile Suit Gundam: The Witch From Mercury
 	"TheWitchFromMercury/MiorineRembran.webp",
 	"TheWitchFromMercury/SulettaMercury.webp",
@@ -3820,10 +4048,30 @@ var chrImages = [
 	"MotherEarthbound/MasterBelch.webp",
 	"MotherEarthbound/PorkyMinch.png",
 	"MotherEarthbound/Teddy.webp",
+	// Mouthwashing
+	"Mouthwashing/Anya.webp",
+	"Mouthwashing/Curly.webp",
+	"Mouthwashing/Daisuke.webp",
+	"Mouthwashing/Jimmy.webp",
+	"Mouthwashing/Swansea.webp",
 	// Muse Dash
 	"MuseDash/Buro.webp",
 	"MuseDash/Marija.webp",
 	"MuseDash/Rin.webp",
+	// My Hero Acadamia
+	"MyHeroAcadamia/AllForOne.webp",
+	"MyHeroAcadamia/EnjiTodoroki.webp",
+	"MyHeroAcadamia/InkoMidoriya.webp",
+	"MyHeroAcadamia/JinBubaigawara.webp",
+	"MyHeroAcadamia/KeigoTakami.webp",
+	"MyHeroAcadamia/MirioTogata.webp",
+	"MyHeroAcadamia/RumiUsagiyama.webp",
+	"MyHeroAcadamia/ShotaAizawa.webp",
+	"MyHeroAcadamia/SorahikoTorino.webp",
+	"MyHeroAcadamia/TomuraShigaraki.webp",
+	"MyHeroAcadamia/ToshinoriYagi.webp",
+	"MyHeroAcadamia/ToyaTodoroki.webp",
+	"MyHeroAcadamia/YuTakeyama.webp",
 	// NEEDY STREAMER OVERLOAD
 	"NEEDYSTREAMEROVERLOAD/Ame.webp",
 	"NEEDYSTREAMEROVERLOAD/KAngel.webp",
@@ -4078,6 +4326,17 @@ var chrImages = [
 	"PunchOut/SodaPopinski.webp",
 	"PunchOut/SuperMachoMan.webp",
 	"PunchOut/VonKaiser.webp",
+	// Rabbit & Steel
+	"RabbitAndSteel/Ancient.webp",
+	"RabbitAndSteel/Assassin.webp",
+	"RabbitAndSteel/Bruiser.webp",
+	"RabbitAndSteel/Dancer.webp",
+	"RabbitAndSteel/Defender.webp",
+	"RabbitAndSteel/Druid.webp",
+	"RabbitAndSteel/Heavyblade.webp",
+	"RabbitAndSteel/Sniper.webp",
+	"RabbitAndSteel/Spellsword.webp",
+	"RabbitAndSteel/Wizard.webp",
 	// Rayman
 	"Rayman/AnnettaFish.png",
 	"Rayman/ArtRytus.png",
@@ -4094,6 +4353,12 @@ var chrImages = [
 	"Rayman/Rayman.png",
 	"Rayman/RomeoPatti.png",
 	"Rayman/VoodooMamma.png",
+	// Re:Zero
+	"ReZero/FelixArgyle.webp",
+	"ReZero/NatsukiSubaru.webp",
+	"ReZero/PriscillaBarielle.webp",
+	"ReZero/Ram.webp",
+	"ReZero/Rem.webp",
 	// Resident Evil
 	"ResidentEvil/AdaWong.webp",
 	"ResidentEvil/AlbertWesker.webp",
@@ -4135,6 +4400,12 @@ var chrImages = [
 	"ResidentEvil/SalvatoreMoreau.webp",
 	"ResidentEvil/SherryBirkin.webp",
 	"ResidentEvil/WilliamBirkin.webp",
+	// Reverse: 1999
+	"Reverse1999/APPLe.webp",
+	"Reverse1999/Regulus.webp",
+	"Reverse1999/Schneider.webp",
+	"Reverse1999/Sonetto.webp",
+	"Reverse1999/Vertin.webp",
 	// Risk of Rain
 	"RiskOfRain/Artificer.png",
 	"RiskOfRain/Bandit.png",
@@ -4151,9 +4422,11 @@ var chrImages = [
 	"RivalsOfAether/Clairen.webp",
 	"RivalsOfAether/Elliana.webp",
 	"RivalsOfAether/Etalus.webp",
+	"RivalsOfAether/Fleet.webp",
 	"RivalsOfAether/Forsburn.webp",
 	"RivalsOfAether/Hodan.webp",
 	"RivalsOfAether/Kragg.webp",
+	"RivalsOfAether/Loxodont.webp",
 	"RivalsOfAether/Maypul.webp",
 	"RivalsOfAether/Mollo.webp",
 	"RivalsOfAether/Olympia.webp",
@@ -4165,6 +4438,11 @@ var chrImages = [
 	"RivalsOfAether/Zetterburn.webp",
 	// Robot Series
 	"RobotSeries/ROB.webp",
+	// RWBY
+	"RWBY/BlakeBelladonna.png",
+	"RWBY/Neopolitan.png",
+	"RWBY/WeissSchnee.png",
+	"RWBY/YangXiaoLong.png",
 	// Sam & Max
 	"SamAndMax/Max.webp",
 	"SamAndMax/Sam.webp",
@@ -4346,6 +4624,10 @@ var chrImages = [
 	"SpookysJumpscareMansion/UnknownSpecimen4.webp",
 	"SpookysJumpscareMansion/UnknownSpecimen5.webp",
 	"SpookysJumpscareMansion/WoormyCharles.webp",
+	// The Stanley Parable
+	"TheStanleyParable/TheBucket.webp",
+	"TheStanleyParable/TheNarrator.webp",
+	"TheStanleyParable/Stanley.webp",
 	// Star Fox
 	"StarFox/Andross.webp",
 	"StarFox/FalcoLombardi.webp",
@@ -4463,6 +4745,7 @@ var chrImages = [
 	"SuperMario/Kamek.webp",
 	"SuperMario/KammyKoopa.webp",
 	"SuperMario/KingBobomb.webp",
+	"SuperMario/KoopaTroopa.png",
 	"SuperMario/Kooper.webp",
 	"SuperMario/Koops.webp",
 	"SuperMario/LadyBow.webp",
@@ -4768,12 +5051,58 @@ var chrImages = [
 	"TYPEMOON/SionEltnamAtlasia.webp",
 	"TYPEMOON/Ushiwakamaru.png",
 	"TYPEMOON/VlovArkhangel.png",
+	// Ultra Fight Da! Kyanta 2
+	"UltraFightDaKyanta2/Anna.png",
+	"UltraFightDaKyanta2/Blues.png",
+	"UltraFightDaKyanta2/Buttobi.png",
+	"UltraFightDaKyanta2/Chihiro.png",
+	"UltraFightDaKyanta2/Cocorn.png",
+	"UltraFightDaKyanta2/DrK.png",
+	"UltraFightDaKyanta2/Garasha.png",
+	"UltraFightDaKyanta2/Gyanta.png",
+	"UltraFightDaKyanta2/Hatoyan.png",
+	"UltraFightDaKyanta2/Hisomi.png",
+	"UltraFightDaKyanta2/InvestigatorAzuma.png",
+	"UltraFightDaKyanta2/Jakor.png",
+	"UltraFightDaKyanta2/KatanaKyanta.png",
+	"UltraFightDaKyanta2/Kinoko.png",
+	"UltraFightDaKyanta2/Michelle.png",
+	"UltraFightDaKyanta2/Myusha.png",
+	"UltraFightDaKyanta2/Nanatsu.png",
+	"UltraFightDaKyanta2/Natanee.png",
+	"UltraFightDaKyanta2/Rare.png",
+	"UltraFightDaKyanta2/RoboAzuma.png",
+	"UltraFightDaKyanta2/Rogue.png",
+	"UltraFightDaKyanta2/Sendou.png",
+	"UltraFightDaKyanta2/Spike.png",
+	"UltraFightDaKyanta2/Tsukinami.png",
+	"UltraFightDaKyanta2/WellDone.png",
 	// ULTRAKILL
 	"ULTRAKILL/Gabriel.webp",
 	"ULTRAKILL/MinosPrime.webp",
 	"ULTRAKILL/SisyphusPrime.webp",
 	"ULTRAKILL/V1.webp",
 	"ULTRAKILL/V2.webp",
+	// Under Night In-Birth
+	"UnderNightInBirth/Byakuya.png",
+	"UnderNightInBirth/Carmine.png",
+	"UnderNightInBirth/Chaos.png",
+	"UnderNightInBirth/Enkidu.png",
+	"UnderNightInBirth/Gordeau.png",
+	"UnderNightInBirth/Hilda.png",
+	"UnderNightInBirth/Kaguya.png",
+	"UnderNightInBirth/Kuon.png",
+	"UnderNightInBirth/Linne.png",
+	"UnderNightInBirth/Londrekia.png",
+	"UnderNightInBirth/Merkava.png",
+	"UnderNightInBirth/Mika.png",
+	"UnderNightInBirth/Ogre.png",
+	"UnderNightInBirth/Orie.png",
+	"UnderNightInBirth/Uzuki.png",
+	"UnderNightInBirth/Vatista.png",
+	"UnderNightInBirth/Wagner.png",
+	"UnderNightInBirth/Waldstein.png",
+	"UnderNightInBirth/Yuzuriha.png",
 	// Undertale
 	"Undertale/Alphys.webp",
 	"Undertale/AsgoreDreemurr.webp",
@@ -4828,10 +5157,21 @@ var chrImages = [
 	"WestOfLoathing/Smee.webp",
 	"WestOfLoathing/SusieCochrane.webp",
 	"WestOfLoathing/TerriGun.webp",
-	// Wii Fit (1363-1364)
+	// Wii Fit
 	"WiiFit/WiiFitTrainerFemale.webp",
 	"WiiFit/WiiFitTrainerMale.webp",
-	// Xenoblade (1365-1381)
+	// Wuthering Waves
+	"WutheringWaves/Baizhi.webp",
+	"WutheringWaves/Chixia.webp",
+	"WutheringWaves/Jianxin.webp",
+	"WutheringWaves/Jinhsi.webp",
+	"WutheringWaves/Lumi.webp",
+	"WutheringWaves/Mortefi.webp",
+	"WutheringWaves/RoverFemale.webp",
+	"WutheringWaves/RoverMale.webp",
+	"WutheringWaves/Sanhua.webp",
+	"WutheringWaves/Yangyang.webp",
+	// Xenoblade
 	"Xenoblade/Dunban.webp",
 	"Xenoblade/Eunie.webp",
 	"Xenoblade/Fiora.webp",
@@ -4849,7 +5189,7 @@ var chrImages = [
 	"Xenoblade/Shulk.webp",
 	"Xenoblade/Taion.webp",
 	"Xenoblade/ZekeVonGenbu.webp",
-	// Yo-Kai Watch (1382-1411)
+	// Yo-Kai Watch
 	"YoKaiWatch/AgentSpecthare.webp",
 	"YoKaiWatch/AgentX.webp",
 	"YoKaiWatch/Arachnus.webp",
@@ -4881,17 +5221,28 @@ var chrImages = [
 	"YoKaiWatch/ToadalDude.webp",
 	"YoKaiWatch/Venoct.webp",
 	// Zenless Zone Zero
-	"ZenlessZoneZero/AgentSoldier11.webp",
 	"ZenlessZoneZero/AlexandrinaSebastiane.webp",
 	"ZenlessZoneZero/AnbyDemara.webp",
 	"ZenlessZoneZero/AntonIvanov.webp",
+	"ZenlessZoneZero/AsabaHarumasa.webp",
+	"ZenlessZoneZero/AstraYao.webp",
 	"ZenlessZoneZero/Belle.webp",
 	"ZenlessZoneZero/BenBigger.webp",
 	"ZenlessZoneZero/BillyKid.webp",
+	"ZenlessZoneZero/BurniceWhite.webp",
+	"ZenlessZoneZero/CaesarKing.webp",
 	"ZenlessZoneZero/EllenJoe.webp",
+	"ZenlessZoneZero/EvelynChevalier.webp",
 	"ZenlessZoneZero/GraceHoward.webp",
+	"ZenlessZoneZero/HoshimiMiyabi.webp",
+	"ZenlessZoneZero/JaneDoe.webp",
+	"ZenlessZoneZero/Lighter.webp",
 	"ZenlessZoneZero/NicoleDemara.webp",
+	"ZenlessZoneZero/PulchraFellini.webp",
 	"ZenlessZoneZero/Qingyi.webp",
+	"ZenlessZoneZero/Soldier11.webp",
+	"ZenlessZoneZero/Trigger.webp",
+	"ZenlessZoneZero/TsukishiroYanagi.webp",
 	"ZenlessZoneZero/VonLycaon.webp",
 	"ZenlessZoneZero/Wise.webp",
 	"ZenlessZoneZero/ZhuYuan.webp",
@@ -5104,6 +5455,14 @@ var chrNameDescriptions = [
 	"<b>AGE: 30</b><br>Tressa \"Catalyst\" Smith",
 	"<b>AGE: 56</b><br>Walter Fitzroy Jr.",
 	"<b>AGE: 19</b><br>Xiomara \"Vantage\" Contreras",
+	// Awaria
+	"<b>AGE: Unknown</b><br>Cutwire 1",
+	"<b>AGE: Unknown</b><br>Cutwire 2",
+	"<b>AGE: Unknown</b><br>Doctor Sylvia Strzyga",
+	"<b>AGE: Unknown</b><br>Jagoda Jęczyduch",
+	"<b>AGE: Unknown</b><br>Nikita Naprava",
+	"<b>AGE: Unknown</b><br>Ula Usterka",
+	"<b>AGE: Unknown</b><br>Zofia Zmora",
 	// Baldi's Basics
 	"<b>AGE: Unknown</b><br>Baldi",
 	"<b>AGE: It's a cloud</b><br>Cloudy Copter",
@@ -5252,10 +5611,6 @@ var chrNameDescriptions = [
 	// Clash Royale
 	"<b>AGE: Unknown</b><br>King",
 	"<b>AGE: Unknown</b><br>S.P.A.R.K.Y.",
-	// The Coffin of Andy and Leyley
-	"<b>AGE: 22</b><br>Andrew Graves",
-	"<b>AGE: 20</b><br>Ashley Graves",
-	"<b>AGE: ~37</b><br>Renee Graves",
 	// Crash Bandicoot
 	"<b>AGE: Unknown</b><br>Crash Bandicoot",
 	"<b>AGE: Unknown</b><br>Dr. Nitrus Brio",
@@ -5506,9 +5861,17 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Yamcha",
 	"<b>AGE: Unknown</b><br>Zamasu",
 	// ENA
+	"<b>AGE: Unknown</b><br>Coral Glasses",
+	"<b>AGE: Unknown</b><br>Dratula",
 	"<b>AGE: Unknown</b><br>ƎNA",
+	"<b>AGE: Unknown</b><br>Froggy",
+	"<b>AGE: Unknown</b><br>Hoarder Alex",
+	"<b>AGE: Unknown</b><br>Kane",
 	"<b>AGE: Unknown</b><br>Moony",
+	"<b>AGE: Unknown</b><br>The Shaman",
 	"<b>AGE: Unknown</b><br>The Shepherd",
+	"<b>AGE: Unknown</b><br>Taski Maiden",
+	"<b>AGE: Unknown</b><br>Theodora",
 	// Everhood
 	"<b>AGE: Unknown</b><br>Barbot",
 	"<b>AGE: Unknown</b><br>Blue Thief",
@@ -5775,7 +6138,9 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Yelan",
 	"<b>AGE: Unknown</b><br>Yoimiya",
 	"<b>AGE: Unknown</b><br>Zhongli",
-	// Getting Over it
+	// Gensokyo Odyssey
+	"<b>AGE: Unknown</b><br>Kakkoi",
+	// Getting Over It
 	"<b>AGE: Unknown</b><br>Diogenes",
 	// God of War
 	"<b>AGE: Unknown</b><br>Kratos",
@@ -5803,6 +6168,7 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Grimnir",
 	"<b>AGE: 22</b><br>Haaselia",
 	"<b>AGE: Unknown</b><br>Halluel",
+	"<b>AGE: 23</b><br>Indala",
 	"<b>AGE: 24</b><br>Katalina",
 	"<b>AGE: 26</b><br>Katzelia",
 	"<b>AGE: 19</b><br>Kumbhira",
@@ -5815,7 +6181,6 @@ var chrNameDescriptions = [
 	"<b>AGE: 22</b><br>Lunalu",
 	"<b>AGE: 20</b><br>Makura",
 	"<b>AGE: Unknown</b><br>Malluel",
-	"<b>AGE: Unknown</b><br>Manamel",
 	"<b>AGE: 25</b><br>Metera",
 	"<b>AGE: Unknown</b><br>Michael",
 	"<b>AGE: Unknown</b><br>Monika",
@@ -5837,6 +6202,7 @@ var chrNameDescriptions = [
 	"<b>AGE: 19</b><br>Societte",
 	"<b>AGE: About 70</b><br>Soriz",
 	"<b>AGE: Unknown</b><br>Sturm",
+	"<b>AGE: Unknown</b><br>Tau'luk",
 	"<b>AGE: Unknown</b><br>Threo",
 	"<b>AGE: 22</b><br>Tweyen",
 	"<b>AGE: Unknown</b><br>Uriel",
@@ -6067,6 +6433,9 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Welt Yang",
 	"<b>AGE: Unknown</b><br>Xueyi",
 	"<b>AGE: Unknown</b><br>Yukong",
+	// Ib
+	"<b>AGE: Unknown</b><br>Ib's Father",
+	"<b>AGE: Unknown</b><br>Ib's Mother",
 	// Inscryption
 	"<b>AGE: Unknown</b><br>The Angler",
 	"<b>AGE: Unknown</b><br>The Archivist",
@@ -6091,6 +6460,16 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Medusa",
 	"<b>AGE: Unknown</b><br>Palutena",
 	"<b>AGE: Unknown</b><br>Pandora",
+	// Kill la Kill
+	"<b>AGE: Unknown</b><br>Aikurō Mikisugi",
+	"<b>AGE: 18</b><br>Hōka Inumuta",
+	"<b>AGE: 20</b><br>Ira Gamagōri",
+	"<b>AGE: 18</b><br>Nonon Jakuzure",
+	"<b>AGE: Unknown</b><br>Nui Harime",
+	"<b>AGE: Unknown</b><br>Ragyō Kiryūin",
+	"<b>AGE: 18</b><br>Satsuki Kiryūin",
+	"<b>AGE: Unknown</b><br>Tsumugu Kinagase",
+	"<b>AGE: 18</b><br>Uzu Sanageyama",
 	// Kindergarten
 	"<b>AGE: Unknown</b><br>Agnes",
 	"<b>AGE: Unknown</b><br>Bob",
@@ -6137,6 +6516,8 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Revali",
 	"<b>AGE: Unknown</b><br>Urbosa",
 	"<b>AGE: 18 biologically (presumably)</b><br>Zelda",
+	// Lethal Company
+	"<b>AGE: Unknown</b><br>Employee",
 	// Ludosity
 	"<b>AGE: 44</b><br>An assassin at work, and is largely a man of his work. He's determined to get the job done. Can I say much else about him? Not really.",
 	"<b>AGE: Unknown</b><br>As his name implies, he is a man out for business! He talks a lot of business, he deals in business, he works to make money... yeah, he's all about business. You wanna talk to him? It better be about business.",
@@ -6159,6 +6540,15 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Sanford",
 	"<b>AGE: Unknown</b><br>The Sheriff",
 	"<b>AGE: Unknown</b><br>Tricky",
+	// Maiden & Spell
+	"<b>AGE: Unknown</b><br>Depth's Secret",
+	"<b>AGE: Unknown</b><br>Dreadwyrm Heir",
+	"<b>AGE: Unknown</b><br>Hero of Frost",
+	"<b>AGE: Unknown</b><br>Lich of Flowers",
+	"<b>AGE: Unknown</b><br>Royal Arcanist",
+	"<b>AGE: Unknown</b><br>Silent Redhood",
+	"<b>AGE: Unknown</b><br>Stormbeast",
+	"<b>AGE: Unknown</b><br>Sun Priestess",
 	// Mega Man
 	"<b>AGE: Unknown</b><br>Bass",
 	"<b>AGE: 57</b><br>Dr. Albert W. Wily",
@@ -6235,6 +6625,17 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Soren",
 	"<b>AGE: Unknown</b><br>TorqueDawg",
 	"<b>AGE: Unknown</b><br>Wither Storm",
+	// MiSide
+	"<b>AGE: Unknown</b><br>2D Mita",
+	"<b>AGE: Unknown</b><br>Cap-Wearing Mita",
+	"<b>AGE: Unknown</b><br>Core Mita",
+	"<b>AGE: Unknown</b><br>Crazy Mita",
+	"<b>AGE: Unknown</b><br>Ghostly Mita",
+	"<b>AGE: Unknown</b><br>Kind Mita",
+	"<b>AGE: Unknown</b><br>Mila",
+	"<b>AGE: Unknown</b><br>Short-Haired Mita",
+	"<b>AGE: Unknown</b><br>Sleepy Mita",
+	"<b>AGE: Unknown</b><br>Ugly Mita",
 	// Mobile Suit Gundam: The Witch From Mercury
 	"<b>AGE: 20</b><br>Miorine Rembran",
 	"<b>AGE: 20</b><br>Suletta Mercury",
@@ -6271,10 +6672,30 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Master Belch",
 	"<b>AGE: Unknown</b><br>Porky Minch",
 	"<b>AGE: Unknown</b><br>Teddy",
+	// Mouthwashing
+	"<b>AGE: Unknown</b><br>Anya",
+	"<b>AGE: Unknown</b><br>Curly",
+	"<b>AGE: Unknown</b><br>Daisuke",
+	"<b>AGE: Unknown</b><br>Jimmy",
+	"<b>AGE: Unknown</b><br>Swansea",
 	// Muse Dash
 	"<b>AGE: Unknown</b><br>A real prankster, who tends to always be thinking of her next prank. If you're her target, food is your best deterrant. A bit self-conscious about her appearance (and isn't a fan of you looking at her like that). <i>Definitely</i> a big foodie, with a love for sweets, particularly donuts.",
 	"<b>AGE: Unknown</b><br>A real dom and one of those girls you sickos would probably ask to step on you. She likes to be in charge, dish out punishments (whatever they are), and isn't afraid to talk down to you... though, when flustered, is pretty thrown off guard.",
 	"<b>AGE: Unknown</b><br>A tomboy that's more of a tsundere, she likes to talk big, but she's quite easily flustered and embarrassed and can warm up to you if she likes you. A fan of rock music. Possibly a big foodie.",
+	// My Hero Acadamia
+	"<b>AGE: 121+</b><br>All For One",
+	"<b>AGE: 46</b><br>Enji Todoroki/Endeavor",
+	"<b>AGE: 41</b><br>Inko Midoriya",
+	"<b>AGE: 31</b><br>Jin Bubaigawara/Twice",
+	"<b>AGE: 23</b><br>Keigo Takami/Hawks",
+	"<b>AGE: 18</b><br>Mirio Togata/Lemillion",
+	"<b>AGE: 27</b><br>Rumi Usagiyama/Mirko",
+	"<b>AGE: 31</b><br>Shota Aizawa/Eraser Head",
+	"<b>AGE: Unknown</b><br>Sorahiko Torino/Gran Torino",
+	"<b>AGE: 21</b><br>Tomura Shigaraki",
+	"<b>AGE: 55+</b><br>Toshinori Yagi/All Might",
+	"<b>AGE: 24</b><br>Toya Todoroki/Dabi",
+	"<b>AGE: 24</b><br>Yu Takeyama/Mt. Lady",
 	// NEEDY STREAMER OVERLOAD
 	"<b>AGE: 24</b><br>If you're a big fan of mentally unstable women, look no further! She's a girl who has an obsession with the approval of others and is quite selfish and vapid to boot. Online, she takes on the persona of \"OMGkawaiiAngel\", a friendly façade of her making that she uses to stream and to capture the hearts of sad nerds on the internet. She does have her partner P-Chan though, but she can be a bit abrasive towards them even so. Being who she is, she clings onto them like flypaper to a fly. As you may be able to tell... yeah she's not doing too well mentally. But if you're willing to go through that... well, I think I have concerns for <i>you.</i>",
 	"<b>AGE: 24</b><br>OMGkawaiiAngel-chan",
@@ -6529,6 +6950,17 @@ var chrNameDescriptions = [
 	"<b>AGE: 35</b><br>Soda Popinski",
 	"<b>AGE: 28</b><br>Super Macho Man",
 	"<b>AGE: 42</b><br>Von Kaiser",
+	// Rabbit & Steel
+	"<b>AGE: Unknown</b><br>Ancient",
+	"<b>AGE: Unknown</b><br>Assassin",
+	"<b>AGE: Unknown</b><br>Bruiser",
+	"<b>AGE: Unknown</b><br>Dancer",
+	"<b>AGE: Unknown</b><br>Defender",
+	"<b>AGE: Unknown</b><br>Druid",
+	"<b>AGE: Unknown</b><br>Heavyblade",
+	"<b>AGE: Unknown</b><br>Sniper",
+	"<b>AGE: Unknown</b><br>Spellsword",
+	"<b>AGE: Unknown</b><br>Wizard",
 	// Rayman
 	"<b>AGE: Unknown</b><br>Annetta Fish",
 	"<b>AGE: Unknown</b><br>Art Rytus",
@@ -6545,6 +6977,12 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Rayman",
 	"<b>AGE: Unknown</b><br>Roméo Patti",
 	"<b>AGE: Unknown</b><br>Voodoo Mamma",
+	// Re:Zero
+	"<b>AGE: 20</b><br>Felix \"Ferris\" Argyle",
+	"<b>AGE: 18</b><br>Natsuki Subaru",
+	"<b>AGE: 20</b><br>Priscilla Barielle",
+	"<b>AGE: 18</b><br>Ram",
+	"<b>AGE: 18</b><br>Rem",
 	// Resident Evil
 	"<b>AGE: ~39</b><br>Ada Wong",
 	"<b>AGE: ~49</b><br>Albert Wesker",
@@ -6586,6 +7024,12 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Salvatore Moreau",
 	"<b>AGE: ~27</b><br>Sherry Birkin",
 	"<b>AGE: ~36</b><br>William Birkin",
+	// Reverse: 1999
+	"<b>AGE: Unknown</b><br>APPLe",
+	"<b>AGE: Unknown</b><br>Regulus",
+	"<b>AGE: Unknown</b><br>Schneider",
+	"<b>AGE: Unknown</b><br>Sonetto",
+	"<b>AGE: Unknown</b><br>Vertin",
 	// Risk of Rain
 	"<b>AGE: Unknown</b><br>Artificer",
 	"<b>AGE: Unknown</b><br>Bandit",
@@ -6602,9 +7046,11 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Clairen",
 	"<b>AGE: Unknown</b><br>Elliana",
 	"<b>AGE: Unknown</b><br>Etalus",
+	"<b>AGE: Unknown</b><br>Fleet",
 	"<b>AGE: Unknown</b><br>Forsburn",
 	"<b>AGE: Unknown</b><br>Hodan",
 	"<b>AGE: Unknown</b><br>Kragg",
+	"<b>AGE: Unknown</b><br>Loxodont",
 	"<b>AGE: Unknown</b><br>Maypul",
 	"<b>AGE: Unknown</b><br>Mollo",
 	"<b>AGE: Unknown</b><br>Olympia",
@@ -6616,6 +7062,11 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Zetterburn",
 	// Robot Series
 	"<b>AGE: Unknown</b><br>What do you want me to write about this guy? R.O.B. is a robot, it can pick things up, and rotate around. That good enough for you?",
+	// RWBY
+	"<b>AGE: 19</b><br>Blake Belladonna",
+	"<b>AGE: 23-25</b><br>Neopolitan",
+	"<b>AGE: 19</b><br>Weiss Schnee",
+	"<b>AGE: 19</b><br>Yang Xiao Long",
 	// Sam & Max
 	"<b>AGE: Unknown</b><br>Max",
 	"<b>AGE: Unknown</b><br>Sam",
@@ -6797,6 +7248,10 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Unknown Specimen 4",
 	"<b>AGE: Unknown</b><br>Unknown Specimen 5",
 	"<b>AGE: Unknown</b><br>Woormy Charles",
+	// The Stanley Parable
+	"<b>AGE: Bucket</b><br>The Bucket",
+	"<b>AGE: Unknown</b><br>The Narrator",
+	"<b>AGE: Unknown</b><br>Stanley",
 	// Star Fox
 	"<b>AGE: Unknown</b><br>Andross",
 	"<b>AGE: 28</b><br>Falco Lombardi",
@@ -6914,6 +7369,7 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Kamek",
 	"<b>AGE: Unknown</b><br>Kammy Koopa",
 	"<b>AGE: Unknown</b><br>King Bob-omb",
+	"<b>AGE: Unknown</b><br>Koopa Troopa",
 	"<b>AGE: Unknown</b><br>Kooper",
 	"<b>AGE: Unknown</b><br>Koops",
 	"<b>AGE: Unknown</b><br>Lady Bow",
@@ -7219,12 +7675,58 @@ var chrNameDescriptions = [
 	"<b>AGE: 19</b><br>Sion Eltnam Atlasia",
 	"<b>AGE: Unknown</b><br>Ushiwakamaru",
 	"<b>AGE: ~400</b><br>Vlov Arkhangel",
+	// Ultra Fight Da! Kyanta 2
+	"<b>AGE: Unknown</b><br>Anna",
+	"<b>AGE: Unknown</b><br>Blues",
+	"<b>AGE: Unknown</b><br>Buttobi",
+	"<b>AGE: Unknown</b><br>Chihiro",
+	"<b>AGE: Unknown</b><br>Cocorn",
+	"<b>AGE: Unknown</b><br>Dr. K",
+	"<b>AGE: Unknown</b><br>Garasha",
+	"<b>AGE: Unknown</b><br>Gyanta",
+	"<b>AGE: Unknown</b><br>Hatoyan",
+	"<b>AGE: Unknown</b><br>Hisomi",
+	"<b>AGE: Unknown</b><br>Investigator Azuma",
+	"<b>AGE: Unknown</b><br>Jakor",
+	"<b>AGE: Unknown</b><br>Katana Kyanta",
+	"<b>AGE: Unknown</b><br>kinoko",
+	"<b>AGE: Unknown</b><br>Michelle",
+	"<b>AGE: Unknown</b><br>Myusha",
+	"<b>AGE: Unknown</b><br>Nanatsu",
+	"<b>AGE: Unknown</b><br>Natanee",
+	"<b>AGE: Unknown</b><br>Rare",
+	"<b>AGE: Unknown</b><br>Robo-Azuma",
+	"<b>AGE: Unknown</b><br>Rogue",
+	"<b>AGE: Unknown</b><br>Sendou",
+	"<b>AGE: Unknown</b><br>Spike",
+	"<b>AGE: Unknown</b><br>Tsukinami",
+	"<b>AGE: Unknown</b><br>Well-Done",
 	// ULTRAKILL
 	"<b>AGE: Unknown</b><br>Gabriel",
 	"<b>AGE: Unknown</b><br>Minos Prime",
 	"<b>AGE: Unknown</b><br>Sisyphus Prime",
 	"<b>AGE: Unknown</b><br>V1",
 	"<b>AGE: Unknown</b><br>V2",
+	// Under Night In-Birth
+	"<b>AGE: Unknown</b><br>Byakuya",
+	"<b>AGE: Unknown</b><br>Carmine",
+	"<b>AGE: Unknown</b><br>Chaos",
+	"<b>AGE: Unknown</b><br>Enkidu",
+	"<b>AGE: Unknown</b><br>Gordeau",
+	"<b>AGE: Unknown</b><br>Hilda",
+	"<b>AGE: Unknown</b><br>Kaguya",
+	"<b>AGE: Unknown</b><br>Kuon",
+	"<b>AGE: Unknown</b><br>Linne",
+	"<b>AGE: Unknown</b><br>Londrekia",
+	"<b>AGE: Unknown</b><br>Merkava",
+	"<b>AGE: Unknown</b><br>Mika",
+	"<b>AGE: Unknown</b><br>Ogre",
+	"<b>AGE: Unknown</b><br>Orie",
+	"<b>AGE: Unknown</b><br>Uzuki",
+	"<b>AGE: Unknown</b><br>Vatista",
+	"<b>AGE: Unknown</b><br>Wagner",
+	"<b>AGE: Unknown</b><br>Waldstein",
+	"<b>AGE: Unknown</b><br>Yuzuriha",
 	// Undertale
 	"<b>AGE: Unknown</b><br>Alphys",
 	"<b>AGE: Unknown</b><br>Asgore Dreemurr",
@@ -7282,6 +7784,17 @@ var chrNameDescriptions = [
 	// Wii Fit
 	"<b>AGE: Uh...</b><br>Wii Fit Trainer (Female)",
 	"<b>AGE: Uh...</b><br>Wii Fit Trainer (Male)",
+	// Wuthering Waves
+	"<b>AGE: Unknown</b><br>Baizhi",
+	"<b>AGE: Unknown</b><br>Chixia",
+	"<b>AGE: Unknown</b><br>Jianxin",
+	"<b>AGE: Unknown</b><br>Jinhsi",
+	"<b>AGE: Unknown</b><br>Lumi",
+	"<b>AGE: Unknown</b><br>Mortefi",
+	"<b>AGE: Unknown</b><br>Rover (Female)",
+	"<b>AGE: Unknown</b><br>Rover (Male)",
+	"<b>AGE: Unknown</b><br>Sanhua",
+	"<b>AGE: Unknown</b><br>Yangyang",
 	// Xenoblade
 	"<b>AGE: 30</b><br>Dunban",
 	"<b>AGE: 9th term (a term lifetime is 10 terms)</b><br>Eunie",
@@ -7332,17 +7845,28 @@ var chrNameDescriptions = [
 	"<b>AGE: Unknown</b><br>Toadal Dude",
 	"<b>AGE: Unknown</b><br>Venoct",
 	// Zenless Zone Zero
-	"<b>AGE: Unknown</b><br>Agent Soldier 11",
 	"<b>AGE: Unknown</b><br>Alexandrina Sebastiane",
 	"<b>AGE: Unknown</b><br>Anby Demara",
 	"<b>AGE: Unknown</b><br>Anton Ivanov",
+	"<b>AGE: Unknown</b><br>Asaba Harumasa",
+	"<b>AGE: Unknown</b><br>Astra Yao",
 	"<b>AGE: Unknown</b><br>Belle",
 	"<b>AGE: Unknown</b><br>Ben Bigger",
 	"<b>AGE: Unknown</b><br>Billy Kid",
+	"<b>AGE: Unknown</b><br>Burnice White",
+	"<b>AGE: Unknown</b><br>Caesar King",
 	"<b>AGE: Unknown</b><br>Ellen Joe",
+	"<b>AGE: Unknown</b><br>Evelyn Chevalier",
 	"<b>AGE: Unknown</b><br>Grace Howard",
+	"<b>AGE: Unknown</b><br>Hoshimi Miyabi",
+	"<b>AGE: Unknown</b><br>Jane Doe",
+	"<b>AGE: Unknown</b><br>Lighter",
 	"<b>AGE: Unknown</b><br>Nicole Demara",
+	"<b>AGE: Unknown</b><br>Pulchra Fellini",
 	"<b>AGE: Unknown</b><br>Qingyi",
+	"<b>AGE: Unknown</b><br>Soldier 11",
+	"<b>AGE: Unknown</b><br>Trigger",
+	"<b>AGE: Unknown</b><br>Tsukishiro Yanagi",
 	"<b>AGE: Unknown</b><br>Von Lycaon",
 	"<b>AGE: Unknown</b><br>Wise",
 	"<b>AGE: Unknown</b><br>Zhu Yuan",
@@ -7696,6 +8220,9 @@ function assignSeries(value) {
 	if (seriesName.includes(" In ")) {
 		seriesName = seriesName.replace(" In ", " in ");
 	}
+	if (seriesName.includes(" La ")) {
+		seriesName = seriesName.replace(" La ", " la ");
+	}
 	if (seriesName.includes(" Of ")) {
 		seriesName = seriesName.replace(" Of ", " of ");
 	}
@@ -7746,10 +8273,16 @@ function assignSeries(value) {
 	if (seriesName == "Kunio Kun") {
 		seriesName = "Kunio-Kun";
 	}
+	if (seriesName == "Maiden and Spell") {
+		seriesName = "Maiden & Spell";
+	}
 	if (seriesName == "Minecraft Story Mode") {
 		seriesName = "Minecraft: Story Mode";
 	}
-	if (seriesName == "Mobile Suit Gundam the Witch From Mercury") {
+	if (seriesName == "Mi Side") {
+		seriesName = "MiSide";
+	}
+	if (seriesName == "The Witch From Mercury") {
 		seriesName = "Mobile Suit Gundam: The Witch From Mercury";
 	}
 	if (seriesName == "Mother Earthbound") {
@@ -7757,6 +8290,9 @@ function assignSeries(value) {
 	}
 	if (seriesName == "NEEDYSTREAMEROVERLOAD") {
 		seriesName = "NEEDY STREAMER OVERLOAD";
+	}
+	if (seriesName == "One Shot") {
+		seriesName = "OneShot";
 	}
 	if (seriesName.includes("Pac Man")) {
 		seriesName = seriesName.replace("Pac Man", "Pac-Man");
@@ -7772,6 +8308,15 @@ function assignSeries(value) {
 	}
 	if (seriesName == "Punch Out") {
 		seriesName = "Punch-Out!!";
+	}
+	if (seriesName == "Rabbit and Steel") {
+		seriesName = "Rabbit & Steel";
+	}
+	if (seriesName == "Re Zero") {
+		seriesName = "Re:Zero";
+	}
+	if (seriesName == "Reverse1999") {
+		seriesName = "Reverse: 1999";
 	}
 	if (seriesName == "Sam and Max") {
 		seriesName = "Sam & Max";
@@ -7794,6 +8339,12 @@ function assignSeries(value) {
 	if (seriesName == "TYPEMOON") {
 		seriesName = "TYPE-MOON";
 	}
+	if (seriesName == "Ultra Fight Da Kyanta2") {
+		seriesName = "Ultra Fight Da! Kyanta 2";
+	}
+	if (seriesName == "Under Night in Birth") {
+		seriesName = "Under Night In-Birth";
+	}
 	if (seriesName == "Undertale2") {
 		seriesName = "Undertale 2";
 	}
@@ -7806,6 +8357,7 @@ function assignSeries(value) {
 	
 	// De-generalization
 	switch (chrNames[randNum]) {
+		// TYPE-MOON
 		case "Artoria Pendragon": case "Astolfo": case "Edmond Dantès": case "Ushiwakamaru":
 			seriesName = "Fate series";
 			break;
@@ -7819,6 +8371,7 @@ function assignSeries(value) {
 			seriesName = "Tsukihime";
 			break;
 		
+		// Ludosity
 		case "Asha":
 			seriesName = "Card City Nights";
 			break;

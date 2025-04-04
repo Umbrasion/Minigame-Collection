@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fiction Fold | TMBP Game Collection</title>
+		<link rel="stylesheet" href="../styles/mainStyle.css">
+		<link rel="stylesheet" href="../styles/themeStyles.css">
+		<script src="../scripts/cardGame.js"></script>
+		<script src="../scripts/options.js"></script>
+		<style>
+			#game-window {
+				height: 640px;
+				aspect-ratio: 5 / 3;
+				border: solid black 4px;
+				border-radius: 6px;
+				margin: auto;
+			}
+		</style>
+	</head>
+	<body class="theme-element">
+		<header class="theme-element">
+			<div>
+				<span id="titlebar">FICTION FOLD</span>
+			</div>
+			<div class="header-info">
+				<span>Info</span>
+				<div class="header-infobox">Fiction Fold is a card battler where your deck is based on characters from many different series! Battle it out with a deck of characters from a specific series, or go wild and get a deck with any possible character in it!<br>Currently only supports local play.</div>
+			</div>
+		</header>
+		<main class="main-content">
+			<div id="gamestart-buttons">
+				<button onclick="startBattle(0)" style="margin-bottom: 10px; font-size: 1em; font-weight: bold">Card Battle (Solo)</button>
+				<button onclick="startBattle(1)" style="margin-bottom: 10px; font-size: 1em; font-weight: bold">Card Battle (Local)</button>
+			</div>
+			<div id="game-window">
+				
+			</div>
+		</main>
+		<div id="options">
+			<button id="options-button" onclick="optionsWindow()">
+				<img id="options-image" class="theme-element" src="../images/OptionsGear.webp">
+			</button>
+		</div>
+		<div id="options-window" class="theme-element" style="display: none">
+			<h5 class="options-title">Fiction Fold</h5>
+			<table>
+				<tr>
+					<th>nul</th>
+					<td>
+						<button id="options-button-" class="theme-element" onclick="">nul</button>
+					</td>
+				</tr>
+			</table>
+			<h5 class="options-title">General</h5>
+			<table>
+				<tr>
+					<th>
+						<label for="theme-select">Theme:</label>
+					</th>
+					<td>
+						<select name="theme" id="theme-select" class="theme-element">
+							<option value="default" onclick="toggleOptions('theme', 'default')" selected="selected">Default</option>
+							<option value="classic" onclick="toggleOptions('theme', 'classic')">Classic</option>
+							<option value="lightMode" onclick="toggleOptions('theme', 'lightMode')">Light Mode</option>
+							<option value="darkMode" onclick="toggleOptions('theme', 'darkMode')">Dark Mode</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="othergames-container">
+			<a href="../index.html" class="othergames theme-element">Back to game list</a>
+		</div>
+	</body>
+</html>
