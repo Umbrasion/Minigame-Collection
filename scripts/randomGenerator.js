@@ -2834,7 +2834,7 @@ var chrImages = [
 	// Awaria
 	"Awaria/Cutwire1.png",
 	"Awaria/Cutwire2.png",
-	"Awaria/DoctorSylvia Strzyga.png",
+	"Awaria/DoctorSylviaStrzyga.png",
 	"Awaria/JagodaJeczyduch.png",
 	"Awaria/NikitaNaprava.png",
 	"Awaria/UlaUsterka.png",
@@ -3685,7 +3685,7 @@ var chrImages = [
 	"GuiltyGear/SolBadguy.webp",
 	"GuiltyGear/Testament.webp",
 	"GuiltyGear/Valentine.webp",
-	"GuiltyGear/Venom.webp",
+	"GuiltyGear/Venom.png",
 	"GuiltyGear/VernonEGroubitz.webp",
 	"GuiltyGear/Zappa.webp",
 	"GuiltyGear/Zato1.webp",
