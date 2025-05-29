@@ -8367,7 +8367,7 @@ function generate(value, increment, incrementValue, type) {
 	// (10 - 1) + 1 is the max minus the min (plus one) plus the min
 	// Keep in mind the max is the number of characters minus 1
 	if (increment) {
-		if (randNum + incrementValue < chrNames.length && randNum + incrementValue >= 0) {
+		if (randNum + incrementValue < chrImages.length && randNum + incrementValue >= 0) {
 			randNum += incrementValue;
 			charInfo = writeName(chrImages[randNum]);
 			document.getElementById("identer-" + value).value = randNum;
@@ -8437,7 +8437,6 @@ function generate(value, increment, incrementValue, type) {
 					if (smToggles.AA) {
 						console.log("Pick rerolled: Ace Attorney");
 						if (type != undefined) {
-							chrNames.splice(randNum, 1);
 							chrImages.splice(randNum, 1);
 							chrNameDescriptions.splice(randNum, 1);
 						}
@@ -8449,7 +8448,6 @@ function generate(value, increment, incrementValue, type) {
 					if (smToggles.DR) {
 						console.log("Pick rerolled: Danganronpa");
 						if (type != undefined) {
-							chrNames.splice(randNum, 1);
 							chrImages.splice(randNum, 1);
 							chrNameDescriptions.splice(randNum, 1);
 						}
@@ -8461,7 +8459,6 @@ function generate(value, increment, incrementValue, type) {
 					if (smToggles.EH) {
 						console.log("Pick rerolled: Everhood");
 						if (type != undefined) {
-							chrNames.splice(randNum, 1);
 							chrImages.splice(randNum, 1);
 							chrNameDescriptions.splice(randNum, 1);
 						}
@@ -8473,7 +8470,6 @@ function generate(value, increment, incrementValue, type) {
 					if (smToggles.HK) {
 						console.log("Pick rerolled: Hollow Knight");
 						if (type != undefined) {
-							chrNames.splice(randNum, 1);
 							chrImages.splice(randNum, 1);
 							chrNameDescriptions.splice(randNum, 1);
 						}
@@ -8485,7 +8481,6 @@ function generate(value, increment, incrementValue, type) {
 					if (smToggles.I) {
 						console.log("Pick rerolled: Inscryption");
 						if (type != undefined) {
-							chrNames.splice(randNum, 1);
 							chrImages.splice(randNum, 1);
 							chrNameDescriptions.splice(randNum, 1);
 						}
@@ -8497,7 +8492,6 @@ function generate(value, increment, incrementValue, type) {
 					if (smToggles.MS) {
 						console.log("Pick rerolled: MiSide");
 						if (type != undefined) {
-							chrNames.splice(randNum, 1);
 							chrImages.splice(randNum, 1);
 							chrNameDescriptions.splice(randNum, 1);
 						}
@@ -8509,7 +8503,6 @@ function generate(value, increment, incrementValue, type) {
 					if (smToggles.OS) {
 						console.log("Pick rerolled: OneShot");
 						if (type != undefined) {
-							chrNames.splice(randNum, 1);
 							chrImages.splice(randNum, 1);
 							chrNameDescriptions.splice(randNum, 1);
 						}
@@ -8521,7 +8514,6 @@ function generate(value, increment, incrementValue, type) {
 					if (smToggles.OW) {
 						console.log("Pick rerolled: Outer Wilds");
 						if (type != undefined) {
-							chrNames.splice(randNum, 1);
 							chrImages.splice(randNum, 1);
 							chrNameDescriptions.splice(randNum, 1);
 						}
@@ -8533,7 +8525,6 @@ function generate(value, increment, incrementValue, type) {
 					if (smToggles.U2) {
 						console.log("Pick rerolled: Undertale 2");
 						if (type != undefined) {
-							chrNames.splice(randNum, 1);
 							chrImages.splice(randNum, 1);
 							chrNameDescriptions.splice(randNum, 1);
 						}
@@ -8653,10 +8644,9 @@ function generate(value, increment, incrementValue, type) {
 	}
 	
 	if (type != undefined) {
-		chrNames.splice(randNum, 1);
 		chrImages.splice(randNum, 1);
 		chrNameDescriptions.splice(randNum, 1);
-		console.log("Current total characters: " + chrNames.length);
+		console.log("Current total characters: " + chrImages.length);
 	}
 }
 
@@ -8822,7 +8812,7 @@ function display(displayWhat, descNum) {
 		case "chrDescription":
 			console.log(descriptionList);
 			document.getElementById("chrDescription").style.display = "block";
-			document.getElementById("_descHead").innerHTML = chrNames[descriptionList[descNum - 1]];
+			//document.getElementById("_descHead").innerHTML = chrNames[descriptionList[descNum - 1]];
 			document.getElementById("_descBody").innerHTML = chrNameDescriptions[descriptionList[descNum - 1]];
 			break;
 		case "spoilerModeMenu":
@@ -8853,10 +8843,9 @@ function cuddleMode() {
 }
 
 function splicer() {
-	chrNames.splice(0, 1130);
 	chrImages.splice(0, 1130);
 	chrNameDescriptions.splice(0, 1130);
-	console.log("Spliced! Current total characters: " + chrNames.length);
+	console.log("Spliced! Current total characters: " + chrImages.length);
 }
 
 var debugText = {
@@ -8878,7 +8867,7 @@ debugText.box3.addEventListener("keydown", function(e) {
 function submitDebugId(idEvent, slotNum) {
 	var charaId = idEvent.target.value;
 	charaId = Number(charaId);
-	if (idEvent.key == "Enter" && Number.isInteger(charaId) && charaId > -1 && charaId < chrNames.length) {
+	if (idEvent.key == "Enter" && Number.isInteger(charaId) && charaId > -1 && charaId < chrImages.length) {
 		randNum = 0;
 		generate(slotNum, true, charaId);
 	}
