@@ -154,6 +154,59 @@ header.theme-kiss {
 	border-bottom-color: #AF133F;
 }
 
+/* Theme: Marry */
+
+@font-face {
+	font-family: "Rainbow Bitch";
+	src: url("../fonts/Rainbowbitch2.ttf");
+}
+
+@font-face {
+	font-family: "A Butterfly On a Daffodil";
+	src: url("../fonts/AButterflyOnaDaffodil.ttf");
+}
+
+body.theme-marry {
+	font-family: "A Butterfly On a Daffodil", Arial;
+	background-color: #FFCCE1;
+	color: #6B0B25;
+}
+
+button.theme-marry, select.theme-marry, .othergames.theme-marry {
+	font-family: "A Butterfly On a Daffodil", Arial;
+	color: inherit;
+	background-color: #E09FBA;
+	border-color: #C45A88;
+}
+
+button.theme-marry:hover, .othergames.theme-marry:hover {
+	background-color: #E0B8C8;
+}
+
+header.theme-marry {
+	font-family: "Rainbow Bitch";
+	font-weight: bold;
+	background-image: linear-gradient(to bottom, #D8709D, #C45A88);
+}
+
+.othergames.theme-marry {
+	border-color: #6B0B25;
+}
+
+#spoilerModeMenuBox.theme-marry, #descriptionBox.theme-marry {
+	background-color: #E09FBA;
+	border-color: #C45A88;
+}
+
+#options-window.theme-marry {
+	background-color: #E09FBA;
+	border-color: #C45A88;
+}
+
+#options-window.theme-marry tr {
+	border-bottom-color: #AF133F;
+}
+
 /* Theme: Kill */
 
 @font-face {
