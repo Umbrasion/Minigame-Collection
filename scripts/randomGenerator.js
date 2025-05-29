@@ -3327,7 +3327,7 @@ var chrImages = [
 	"Dead_By_Daylight/David_King.webp",
 	"Dead_By_Daylight/The_Dredge.webp",
 	"Dead_By_Daylight/Dwight_Fairfield.webp",
-	"Dead_By_Daylight/Elodie_Rakoto.webp",
+	"Dead_By_Daylight/Élodie_Rakoto.webp",
 	"Dead_By_Daylight/Evan_MacMillan,_The_Trapper.webp",
 	"Dead_By_Daylight/Felix_Richter.webp",
 	"Dead_By_Daylight/Feng_Min.webp",
