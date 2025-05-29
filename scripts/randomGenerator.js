@@ -2792,7 +2792,7 @@ var chrImages = [
 	"Ace_Attorney/Ashley_Graydon.webp",
 	"Ace_Attorney/Athena_Cykes.webp",
 	"Ace_Attorney/Aura_Blackquill.webp",
-	"Ace_Attorney/Barok_von_Zieks.webp",
+	"Ace_Attorney/Barok_van_Zieks.webp",
 	"Ace_Attorney/Bellboy.webp",
 	"Ace_Attorney/Benjamin_Woodman.webp",
 	"Ace_Attorney/Beppo.webp",
