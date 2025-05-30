@@ -13,6 +13,9 @@ function writeName(arrayResult) {
 	if (charName == "Rude1") {
 		charName = "Rude#1"
 	}
+	if (charName == "GIFfany") {
+		charName = ".GIFfany"
+	}
 	
 	if (charSeries == "Honkai Star Rail") {
 		charSeries = "Honkai: Star Rail"
