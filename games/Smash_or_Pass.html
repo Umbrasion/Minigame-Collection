@@ -19,6 +19,9 @@
 				font-size: 1.15em;
 			}
 		</style>
+		<style id="pridestyle1"></style>
+		<style id="pridestyle2"></style>
+		<style id="pridestyle3"></style>
 	</head>
 	<body class="theme-element">
 		<header class="theme-element">
@@ -143,13 +146,15 @@
 						<label for="theme-select">Theme:</label>
 					</th>
 					<td>
-						<select name="theme" id="theme-select" class="theme-element">
-							<option value="default" onclick="toggleOptions('theme', 'default')" selected="selected">Default</option>
-							<option value="classic" onclick="toggleOptions('theme', 'classic')">Classic</option>
-							<option value="lightMode" onclick="toggleOptions('theme', 'lightMode')">Light Mode</option>
-							<option value="darkMode" onclick="toggleOptions('theme', 'darkMode')">Dark Mode</option>
-							<option value="smash" onclick="toggleOptions('theme', 'smash')">Smash</option>
-							<option value="pass" onclick="toggleOptions('theme', 'pass')">Pass</option>
+						<select name="theme" id="theme-select" class="theme-element" onchange="toggleOptions('theme')">
+							<option value="default" selected="selected">Default</option>
+							<option value="classic">Classic</option>
+							<option value="lightMode">Light Mode</option>
+							<option value="darkMode">Dark Mode</option>
+							<option value="pride">Pride</option>
+							<option value="ugly">Ugly</option>
+							<option value="smash">Smash</option>
+							<option value="pass">Pass</option>
 						</select>
 					</td>
 				</tr>

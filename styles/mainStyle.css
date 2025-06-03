@@ -232,6 +232,7 @@ h3 {
 	bottom: 55px;
 	left: 10px;
 	background-color: #0C141F;
+	width: 310px;
 	padding: 5px;
 	border: 2px solid white;
 	border-radius: 6px;
@@ -246,6 +247,7 @@ h3 {
 }
 
 #options-window table {
+	width: inherit;
 	border-collapse: collapse;
 }
 

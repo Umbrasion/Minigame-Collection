@@ -18,7 +18,7 @@ function toggleOptions(optionName, addValue) {
 			// var themeButton = document.getElementById("options-button-theme");
 			var themeSelect = document.getElementById("theme-select");
 			
-			switch (addValue) {
+			switch (themeSelect.value) {
 				case "default":
 					options.theme = "default";
 					removeOtherThemes();
@@ -37,6 +37,16 @@ function toggleOptions(optionName, addValue) {
 					options.theme = "darkMode";
 					removeOtherThemes();
 					document.querySelectorAll('.theme-element').forEach(el=>el.classList.add('theme-darkmode'));
+					break;
+				case "pride":
+					options.theme = "pride";
+					removeOtherThemes();
+					document.querySelectorAll('.theme-element').forEach(el=>el.classList.add('theme-pride'));
+					break;
+				case "ugly":
+					options.theme = "ugly";
+					removeOtherThemes();
+					document.querySelectorAll('.theme-element').forEach(el=>el.classList.add('theme-ugly'));
 					break;
 				case "kiss":
 					options.theme = "kiss";
@@ -69,6 +79,8 @@ function toggleOptions(optionName, addValue) {
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-classic'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-lightmode'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-darkmode'));
+				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-pride'));
+				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-ugly'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-kiss'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-marry'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-kill'));
@@ -143,32 +155,32 @@ function musicRunner() {
 	
 	switch (trackNum) {
 		case 1:
-			audio.src = "../music/Kiss, Marry, Or Kill 1.ogg";
+			audio.src = "../music/kmk/Kiss, Marry, Or Kill 1.ogg";
 			audio.play();
 			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 1";
 			break;
 		case 2:
-			audio.src = "../music/Kiss, Marry, Or Kill 2.ogg";
+			audio.src = "../music/kmk/Kiss, Marry, Or Kill 2.ogg";
 			audio.play();
 			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 2";
 			break;
 		case 3:
-			audio.src = "../music/Kiss, Marry, Or Kill 3.ogg";
+			audio.src = "../music/kmk/Kiss, Marry, Or Kill 3.ogg";
 			audio.play();
 			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 3";
 			break;
 		case 4:
-			audio.src = "../music/Kiss, Marry, Or Kill 4.ogg";
+			audio.src = "../music/kmk/Kiss, Marry, Or Kill 4.ogg";
 			audio.play();
 			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 4";
 			break;
 		case 5:
-			audio.src = "../music/Kiss, Marry, Or Kill 6.ogg";
+			audio.src = "../music/kmk/Kiss, Marry, Or Kill 6.ogg";
 			audio.play();
 			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 6";
 			break;
 		case 6:
-			audio.src = "../music/Kiss, Marry, Or Kill 12.ogg";
+			audio.src = "../music/kmk/Kiss, Marry, Or Kill 12.ogg";
 			audio.play();
 			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 12";
 			break;

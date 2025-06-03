@@ -2804,7 +2804,7 @@ var chrImages = [
 	"Ace_Attorney/Damon_Gant.webp",
 	"Ace_Attorney/Daryan_Crescend.webp",
 	"Ace_Attorney/Dee_Vasquez.webp",
-	"Ace_Attorney/Desirée_DeLite.webp",
+	"Ace_Attorney/Desiree_DeLite.webp",
 	"Ace_Attorney/Dick_Gumshoe.webp",
 	"Ace_Attorney/''Director_Hotti''.webp",
 	"Ace_Attorney/Drew_Misham.webp",
@@ -2995,7 +2995,7 @@ var chrImages = [
 	"Apex_Legends/Kaleb_''Revenant''_Cross.webp",
 	"Apex_Legends/Loba_Andrade.webp",
 	"Apex_Legends/Makoa_Gibraltar.webp",
-	"Apex_Legends/Margaret_''Mad_Maggie''_Kōhere.webp",
+	"Apex_Legends/Margaret_''Mad_Maggie''_Kohere.webp",
 	"Apex_Legends/Mary_''Horizon''_Somers.webp",
 	"Apex_Legends/Natalie_''Wattson''_Paquette.webp",
 	"Apex_Legends/Obi_''Seer''_Edolasim.webp",
@@ -3012,7 +3012,7 @@ var chrImages = [
 	"Awaria/Cutwire_1.png",
 	"Awaria/Cutwire_2.png",
 	"Awaria/Doctor_Sylvia_Strzyga.png",
-	"Awaria/Jagoda_Jęczyduch.png",
+	"Awaria/Jagoda_Jeczyduch.png",
 	"Awaria/Nikita_Naprava.png",
 	"Awaria/Ula_Usterka.png",
 	"Awaria/Zofia_Zmora.png",
@@ -3066,9 +3066,6 @@ var chrImages = [
 	"Bendy/Susie_Campbell.webp",
 	"Bendy/Thomas_Connor.webp",
 	// BlazBlue
-	"BlazBlue/ᴧ-No.11-.png",
-	"BlazBlue/μ-No.12-.png",
-	"BlazBlue/ν-No.13-.png",
 	"BlazBlue/Amane_Nishiki.png",
 	"BlazBlue/Arakune.png",
 	"BlazBlue/Azrael.png",
@@ -3098,7 +3095,10 @@ var chrImages = [
 	"BlazBlue/Trinity_Glassfille.webp",
 	"BlazBlue/Tsubaki_Yayoi.png",
 	"BlazBlue/Valkenhayn_R._Hellsing.png",
-	"BlazBlue/Yūki_Terumi.png",
+	"BlazBlue/Yuuki_Terumi.png",
+	"BlazBlue/Lambda-No.11-.png",
+	"BlazBlue/Mu-No.12-.png",
+	"BlazBlue/Nu-No.13-.png",
 	// Bloons
 	"Bloons/Adora.webp",
 	"Bloons/Admiral_Brickell.webp",
@@ -3232,7 +3232,7 @@ var chrImages = [
 	"Cyberpunk/Falco.webp",
 	"Cyberpunk/Faraday.webp",
 	"Cyberpunk/Jackie_Welles.webp",
-	"Cyberpunk/Judy_Álvarez.webp",
+	"Cyberpunk/Judy_Alvarez.webp",
 	"Cyberpunk/Kerry_Eurodyne.webp",
 	"Cyberpunk/Kiwi.webp",
 	"Cyberpunk/Lucyna_Kushinada.webp",
@@ -3327,7 +3327,7 @@ var chrImages = [
 	"Dead_By_Daylight/David_King.webp",
 	"Dead_By_Daylight/The_Dredge.webp",
 	"Dead_By_Daylight/Dwight_Fairfield.webp",
-	"Dead_By_Daylight/Élodie_Rakoto.webp",
+	"Dead_By_Daylight/Elodie_Rakoto.webp",
 	"Dead_By_Daylight/Evan_MacMillan,_The_Trapper.webp",
 	"Dead_By_Daylight/Felix_Richter.webp",
 	"Dead_By_Daylight/Feng_Min.webp",
@@ -3807,7 +3807,7 @@ var chrImages = [
 	"Granblue_Fantasy/Halluel.png",
 	"Granblue_Fantasy/Ilsa.webp",
 	"Granblue_Fantasy/Indala.webp",
-	"Granblue_Fantasy/Katalina.png",
+	"Granblue_Fantasy/Katalina_Aryze.png",
 	"Granblue_Fantasy/Katzelia.png",
 	"Granblue_Fantasy/Kumbhira.png",
 	"Granblue_Fantasy/Ladiva.png",
@@ -3850,7 +3850,7 @@ var chrImages = [
 	"Granblue_Fantasy/Vane.png",
 	"Granblue_Fantasy/Vaseraga.png",
 	"Granblue_Fantasy/Versusia.png",
-	"Granblue_Fantasy/Vira.png",
+	"Granblue_Fantasy/Vira_Lillie.png",
 	"Granblue_Fantasy/Wilnas.webp",
 	"Granblue_Fantasy/Yodarha.png",
 	"Granblue_Fantasy/Yuel.png",
@@ -3893,7 +3893,7 @@ var chrImages = [
 	"Gravity_Falls/Blendin_Blandin.webp",
 	"Gravity_Falls/Deputy_Durland.webp",
 	"Gravity_Falls/GIFfany.webp",
-	"Gravity_Falls/Jesús_''Soos''_Ramirez.webp",
+	"Gravity_Falls/Jesus_''Soos''_Ramirez.webp",
 	"Gravity_Falls/Melody.webp",
 	"Gravity_Falls/Rumble_McSkirmish.webp",
 	"Gravity_Falls/Sheriff_Blubs.webp",
@@ -4107,13 +4107,13 @@ var chrImages = [
 	"Kid_Icarus/Palutena.png",
 	"Kid_Icarus/Pandora.png",
 	// Kill la Kill
-	"Kill_la_Kill/Aikurō_Mikisugi.webp",
-	"Kill_la_Kill/Hōka_Inumuta.webp",
-	"Kill_la_Kill/Ira_Gamagōri.webp",
+	"Kill_la_Kill/Aikuro_Mikisugi.webp",
+	"Kill_la_Kill/Hoka_Inumuta.webp",
+	"Kill_la_Kill/Ira_Gamagori.webp",
 	"Kill_la_Kill/Nonon_Jakuzure.webp",
 	"Kill_la_Kill/Nui_Harime.webp",
-	"Kill_la_Kill/Ragyō_Kiryūin.webp",
-	"Kill_la_Kill/Satsuki_Kiryūin.webp",
+	"Kill_la_Kill/Ragyo_Kiryuin.webp",
+	"Kill_la_Kill/Satsuki_Kiryuin.webp",
 	"Kill_la_Kill/Tsumugu_Kinagase.webp",
 	"Kill_la_Kill/Uzu_Sanageyama.webp",
 	// Kindergarten
@@ -4149,7 +4149,7 @@ var chrImages = [
 	"Kirby/Zan_Partizanne.png",
 	// Kunio-Kun
 	"Kunio-Kun/Kunio.webp",
-	"Kunio-Kun/Kyōko.webp",
+	"Kunio-Kun/Kyoko.webp",
 	"Kunio-Kun/Misako.webp",
 	"Kunio-Kun/Riki.webp",
 	// The Legend of Zelda
@@ -4532,40 +4532,40 @@ var chrImages = [
 	"Plants_vs._Zombies/Zombie.webp",
 	"Plants_vs._Zombies/Zombie_Yeti.webp",
 	// Pokémon
-	"Pokémon/Alder.png",
-	"Pokémon/Archie.png",
-	"Pokémon/Cynthia.png",
-	"Pokémon/Cyrus.png",
-	"Pokémon/Diantha.png",
-	"Pokémon/Faba.png",
-	"Pokémon/Ghetsis_Harmonia_Gropius.png",
-	"Pokémon/Giovanni.png",
-	"Pokémon/Guzma.png",
-	"Pokémon/James.png",
-	"Pokémon/Jessie.png",
-	"Pokémon/Lance.png",
-	"Pokémon/Leon.png",
-	"Pokémon/Lusamine.png",
-	"Pokémon/Lysandre.png",
-	"Pokémon/Maxie.png",
-	"Pokémon/N.png",
-	"Pokémon/Nurse_Joy.png",
-	"Pokémon/Officer_Jenny.png",
-	"Pokémon/Piers.png",
-	"Pokémon/Professor_Birch.png",
-	"Pokémon/Professor_Elm.png",
-	"Pokémon/Professor_Juniper.png",
-	"Pokémon/Professor_Kukui.png",
-	"Pokémon/Professor_Laventon.png",
-	"Pokémon/Professor_Magnolia.png",
-	"Pokémon/Professor_Oak.png",
-	"Pokémon/Professor_Rowan.png",
-	"Pokémon/Professor_Sada.png",
-	"Pokémon/Professor_Sycamore.png",
-	"Pokémon/Professor_Turo.png",
-	"Pokémon/Sonia.png",
-	"Pokémon/Steven_Stone.png",
-	"Pokémon/Wallace.png",
+	"Pokemon/Alder.png",
+	"Pokemon/Archie.png",
+	"Pokemon/Cynthia.png",
+	"Pokemon/Cyrus.png",
+	"Pokemon/Diantha.png",
+	"Pokemon/Faba.png",
+	"Pokemon/Ghetsis_Harmonia_Gropius.png",
+	"Pokemon/Giovanni.png",
+	"Pokemon/Guzma.png",
+	"Pokemon/James.png",
+	"Pokemon/Jessie.png",
+	"Pokemon/Lance.png",
+	"Pokemon/Leon.png",
+	"Pokemon/Lusamine.png",
+	"Pokemon/Lysandre.png",
+	"Pokemon/Maxie.png",
+	"Pokemon/N.png",
+	"Pokemon/Nurse_Joy.png",
+	"Pokemon/Officer_Jenny.png",
+	"Pokemon/Piers.png",
+	"Pokemon/Professor_Birch.png",
+	"Pokemon/Professor_Elm.png",
+	"Pokemon/Professor_Juniper.png",
+	"Pokemon/Professor_Kukui.png",
+	"Pokemon/Professor_Laventon.png",
+	"Pokemon/Professor_Magnolia.png",
+	"Pokemon/Professor_Oak.png",
+	"Pokemon/Professor_Rowan.png",
+	"Pokemon/Professor_Sada.png",
+	"Pokemon/Professor_Sycamore.png",
+	"Pokemon/Professor_Turo.png",
+	"Pokemon/Sonia.png",
+	"Pokemon/Steven_Stone.png",
+	"Pokemon/Wallace.png",
 	// Portal
 	"Portal/ATLAS.png",
 	"Portal/Chell.png",
@@ -4631,7 +4631,7 @@ var chrImages = [
 	"Resident_Evil/Annette_Birkin.webp",
 	"Resident_Evil/Ashley_Graham.webp",
 	"Resident_Evil/Bela_Dimitrescu.webp",
-	"Resident_Evil/Bitores_Méndez.webp",
+	"Resident_Evil/Bitores_Mendez.webp",
 	"Resident_Evil/Brad_Vickers.webp",
 	"Resident_Evil/Brian_Irons.webp",
 	"Resident_Evil/Carlos_Oliveira.webp",
@@ -4724,7 +4724,7 @@ var chrImages = [
 	"Reverse1999/White_Rum.webp",
 	"Reverse1999/Willow.webp",
 	"Reverse1999/Windsong.webp",
-	"Reverse1999/Зима.webp",
+	"Reverse1999/Enma.webp",
 	// The Ring
 	"The_Ring/Sadako_Yamamura.webp",
 	// Risk of Rain
@@ -5361,7 +5361,7 @@ var chrImages = [
 	"TYPE-MOON/Artoria_Pendragon.png",
 	"TYPE-MOON/Astolfo.webp",
 	"TYPE-MOON/Ciel.png",
-	"TYPE-MOON/Edmond_Dantès.png",
+	"TYPE-MOON/Edmond_Dantes.png",
 	"TYPE-MOON/Hisui.png",
 	"TYPE-MOON/Kohaku.png",
 	"TYPE-MOON/Kouma_Kishima.png",
@@ -5506,7 +5506,7 @@ var chrImages = [
 	"Xenoblade/Lanz.webp",
 	"Xenoblade/Melia.webp",
 	"Xenoblade/Mio.webp",
-	"Xenoblade/Mòrag_Ladair.webp",
+	"Xenoblade/Morag_Ladair.webp",
 	"Xenoblade/Mythra.webp",
 	"Xenoblade/Nia.webp",
 	"Xenoblade/Noah.webp",
@@ -8537,65 +8537,38 @@ function generate(value, increment, incrementValue, type) {
 		}
 	}
 	
-	var image1 = document.getElementById("daImage1");
-	var image2 = document.getElementById("daImage2");
-	var image3 = document.getElementById("daImage3");
+	var imageArea = document.getElementById("daImage1");
 	switch (value) {
-		case 1:
-			descriptionList[value - 1] = randNum;
-			document.getElementById("characterName1").innerHTML = charInfo[0];
-			image1.src = "../images/characters/" + chrImages[randNum];
-			//document.getElementById("_descHead1").innerHTML = charInfo[0];
-			//document.getElementById("_descBody1").innerHTML = chrNameDescriptions[randNum];
-			assignSeries(value);
-			spoilerCheck(value);
-			break;
-		case 2:
-			descriptionList[value - 1] = randNum;
-			document.getElementById("characterName2").innerHTML = charInfo[0];
-			image2.src = "../images/characters/" + chrImages[randNum];
-			//document.getElementById("_descHead2").innerHTML = charInfo[0];
-			//document.getElementById("_descBody2").innerHTML = chrNameDescriptions[randNum];
-			assignSeries(value);
-			spoilerCheck(value);
-			break;
-		case 3:
-			descriptionList[value - 1] = randNum;
-			document.getElementById("characterName3").innerHTML = charInfo[0];
-			image3.src = "../images/characters/" + chrImages[randNum];
-			//document.getElementById("_descHead3").innerHTML = charInfo[0];
-			//document.getElementById("_descBody3").innerHTML = chrNameDescriptions[randNum];
-			assignSeries(value);
-			spoilerCheck(value);
+		case 1: case 2: case 3:
+			imageArea = document.getElementById("daImage" + value.toString());
+			changeCharacter(value);
+			document.getElementById("identer-" + value).value = randNum;
 			break;
 		case 4:
-			var tempValue = 1;
-			descriptionList[tempValue - 1] = randNum;
-			document.getElementById("characterName1").innerHTML = charInfo[0];
-			image1.src = "../images/characters/" + chrImages[randNum];
-			//document.getElementById("_descHead1").innerHTML = charInfo[0];
-			//document.getElementById("_descBody1").innerHTML = chrNameDescriptions[randNum];
-			assignSeries(tempValue);
-			spoilerCheck(tempValue);
-			tempValue = 2;
+			imageArea = document.getElementById("daImage1");
+			changeCharacter(1);
+			document.getElementById("identer-1").value = randNum;
 			rerollByName();
-			descriptionList[tempValue - 1] = randNum;
-			document.getElementById("characterName2").innerHTML = charInfo[0];
-			image2.src = "../images/characters/" + chrImages[randNum];
-			//document.getElementById("_descHead2").innerHTML = charInfo[0];
-			//document.getElementById("_descBody2").innerHTML = chrNameDescriptions[randNum];
-			assignSeries(tempValue);
-			spoilerCheck(tempValue);
-			tempValue = 3;
+			imageArea = document.getElementById("daImage2");
+			changeCharacter(2);
+			document.getElementById("identer-2").value = randNum;
 			rerollByName();
-			descriptionList[tempValue - 1] = randNum;
-			document.getElementById("characterName3").innerHTML = charInfo[0];
-			image3.src = "../images/characters/" + chrImages[randNum];
-			//document.getElementById("_descHead3").innerHTML = charInfo[0];
-			//document.getElementById("_descBody3").innerHTML = chrNameDescriptions[randNum];
-			assignSeries(tempValue);
-			spoilerCheck(tempValue);
+			imageArea = document.getElementById("daImage3");
+			changeCharacter(3);
+			document.getElementById("identer-3").value = randNum;
 			break;
+	}
+	function changeCharacter(slotValue) {
+		descriptionList[slotValue - 1] = randNum;
+		document.getElementById("characterName" + slotValue).innerHTML = charInfo[0];
+		imageArea.src = "../images/characters/" + chrImages[randNum];
+		assignSeries(slotValue);
+		spoilerCheck(slotValue);
+		
+		if (document.getElementById("theme-select").value == "pride") {
+			document.getElementById("pridestyle" + slotValue.toString()).innerHTML = "";
+			prideCheck(chrImages[randNum], slotValue);
+		}
 	}
 	
 	// Spoiler Mode for name/image/description changes
@@ -8804,6 +8777,9 @@ function clearPicks(smashOrPass) {
 			document.getElementById("series" + i).innerHTML = "";
 			document.getElementById("daImage" + i).src = "";
 		}
+		debugText.box1.value = "";
+		debugText.box2.value = "";
+		debugText.box3.value = "";
 	}
 }
 
@@ -8848,11 +8824,16 @@ function splicer() {
 	console.log("Spliced! Current total characters: " + chrImages.length);
 }
 
+// Debug stuff
+
 var debugText = {
 	box1: document.getElementById("identer-1"),
 	box2: document.getElementById("identer-2"),
 	box3: document.getElementById("identer-3")
 }
+debugText.box1.value = "";
+debugText.box2.value = "";
+debugText.box3.value = "";
 
 debugText.box1.addEventListener("keydown", function(e) {
 	submitDebugId(e, 1);

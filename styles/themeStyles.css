@@ -202,6 +202,113 @@ header.theme-marry {
 	border-bottom-color: #31498E;
 }
 
+/* Theme: Pride */
+
+body.theme-pride {
+	
+}
+
+button.theme-pride, select.theme-pride, .othergames.theme-pride {
+	
+}
+
+button.theme-pride:hover, .othergames.theme-pride:hover {
+	
+}
+
+header.theme-pride #titlebar {
+	background: linear-gradient(to right, rgba(255, 0, 0, 1) 0%, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%);
+	background-clip: text;
+	color: transparent;
+}
+
+/*#characterName1.theme-pride {
+	background: linear-gradient(to right, #078D70, #26CEAA, #98E8C1, #FFFFFF, #7BADE2, #5049CC, #622DC4);
+	background-clip: text;
+	color: transparent;
+}
+
+#characterName2.theme-pride {
+	background: linear-gradient(to right, #5BCEFA, #F5A9B8, #FFFFFF, #F5A9B8, #5BCEFA);
+	background-clip: text;
+	color: transparent;
+}
+
+#characterName3.theme-pride {
+	background: linear-gradient(to right, #D52D00, #FF9A56, #FFFFFF, #D362A4, #C9047A);
+	background-clip: text;
+	color: transparent;
+}*/
+
+.othergames.theme-pride {
+	
+}
+
+#spoilerModeMenuBox.theme-pride, #descriptionBox.theme-pride {
+	
+}
+
+#options-image.theme-pride {
+	
+}
+
+#options-window.theme-pride {
+	
+}
+
+#options-window.theme-pride tr {
+	
+}
+
+/* Theme: Ugly */
+
+body.theme-ugly {
+	font-family: cursive;
+	background-color: #373E23;
+	color: #EFAE46;
+}
+
+button.theme-ugly, select.theme-ugly, .othergames.theme-ugly {
+	font-family: cursive;
+	background-color: #301649;
+	color: #EFAE46;
+	border-color: #EFAE46;
+}
+
+button.theme-ugly:hover, .othergames.theme-ugly:hover {
+	background-color: #72319E;
+}
+
+header.theme-ugly {
+	background-image: linear-gradient(to bottom, #1FD825, #FC36FF, #9E5300);
+}
+
+header.theme-ugly #titlebar {
+	font-family: cursive;
+	color: #EFAE46;
+}
+
+.othergames.theme-ugly {
+	background-color: #301649;
+}
+
+#spoilerModeMenuBox.theme-ugly, #descriptionBox.theme-ugly {
+	border-color: #EFAE46;
+}
+
+#options-image.theme-ugly {
+	
+}
+
+#options-window.theme-ugly {
+	border-color: #EFAE46;
+	background-color: #301649;
+}
+
+#options-window.theme-ugly tr {
+	
+}
+
 /* Theme: Kill */
 
 @font-face {

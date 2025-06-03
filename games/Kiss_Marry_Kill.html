@@ -13,6 +13,9 @@
 				font-weight: bold;
 			}
 		</style>
+		<style id="pridestyle1"></style>
+		<style id="pridestyle2"></style>
+		<style id="pridestyle3"></style>
 	</head>
 	<body class="theme-element">
 		<header class="theme-element">
@@ -93,7 +96,7 @@
 						<button onclick="generate(1, true, 10)">+10</button>
 						<button onclick="generate(1, true, 100)">+100</button>
 					</div>
-					<h1 id="characterName1" class="character-name">Character 1</h1>
+					<h1 class="character-name"><span id="characterName1" class="theme-element">Character 1</span></h1>
 					<p id="series1" class="character-series"></p>
 				</div>
 				<img id="daImage1" class="character-image">
@@ -110,7 +113,7 @@
 						<button onclick="generate(2, true, 10)">+10</button>
 						<button onclick="generate(2, true, 100)">+100</button>
 					</div>
-					<h1 id="characterName2" class="character-name">Character 2</h1>
+					<h1 class="character-name"><span id="characterName2" class="theme-element">Character 2</span></h1>
 					<p id="series2" class="character-series"></p>
 				</div>
 				<img id="daImage2" class="character-image">
@@ -127,7 +130,7 @@
 						<button onclick="generate(3, true, 10)">+10</button>
 						<button onclick="generate(3, true, 100)">+100</button>
 					</div>
-					<h1 id="characterName3" class="character-name">Character 3</h1>
+					<h1 class="character-name"><span id="characterName3" class="theme-element">Character 3</span></h1>
 					<p id="series3" class="character-series"></p>
 				</div>
 				<img id="daImage3" class="character-image">
@@ -178,14 +181,16 @@
 						<label for="theme-select">Theme:</label>
 					</th>
 					<td>
-						<select name="theme" id="theme-select" class="theme-element">
-							<option value="default" onclick="toggleOptions('theme', 'default')" selected="selected">Default</option>
-							<option value="classic" onclick="toggleOptions('theme', 'classic')">Classic</option>
-							<option value="lightMode" onclick="toggleOptions('theme', 'lightMode')">Light Mode</option>
-							<option value="darkMode" onclick="toggleOptions('theme', 'darkMode')">Dark Mode</option>
-							<option value="kiss" onclick="toggleOptions('theme', 'kiss')">Kiss</option>
-							<option value="marry" onclick="toggleOptions('theme', 'marry')">Marry</option>
-							<option value="kill" onclick="toggleOptions('theme', 'kill')">Kill</option>
+						<select name="theme" id="theme-select" class="theme-element" onchange="toggleOptions('theme')">
+							<option value="default" selected="selected">Default</option>
+							<option value="classic">Classic</option>
+							<option value="lightMode">Light Mode</option>
+							<option value="darkMode">Dark Mode</option>
+							<option value="pride">Pride</option>
+							<option value="ugly">Ugly</option>
+							<option value="kiss">Kiss</option>
+							<option value="marry">Marry</option>
+							<option value="kill">Kill</option>
 						</select>
 					</td>
 				</tr>
@@ -198,7 +203,7 @@
 			</table>
 		</div>
 		<div id="musicplayer" style="display: none">
-			<audio id="musicplayer-audio" src="../music/Kiss, Marry, Or Kill 1.ogg" preload="metadata" controls onended="musicRunner()" style="display: none"></audio>
+			<audio id="musicplayer-audio" src="../music/kmk/Kiss, Marry, Or Kill 1.ogg" preload="metadata" controls onended="musicRunner()" style="display: none"></audio>
 			<span style="font-size: 0.7em">Now playing:</span><br>
 			<span id="musicplayer-trackname" style="font-size: 1.25em; font-weight: bold"></span><br>
 			<span style="color: #C8C8C8; font-size: 0.8em; font-style: italic">soulified_music</span>
