@@ -3467,6 +3467,8 @@ var chrImages = [
 	"Dragon_Ball/Videl.png",
 	"Dragon_Ball/Yamcha.png",
 	"Dragon_Ball/Zamasu.webp",
+	// Duke Nukem
+	"Duke_Nukem/Duke_Nukem.webp",
 	// Dungeon & Fighter
 	"Dungeon_&_Fighter/Battle_Mage.png",
 	"Dungeon_&_Fighter/Berserker.png",
@@ -4077,6 +4079,7 @@ var chrImages = [
 	"Honkai_Star_Rail/Xueyi.webp",
 	"Honkai_Star_Rail/Yukong.webp",
 	// Ib
+	"Ib/Gary.webp",
 	"Ib/Ib's_Father.png",
 	"Ib/Ib's_Mother.png",
 	// Inscryption
