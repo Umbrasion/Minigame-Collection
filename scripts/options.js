@@ -1,6 +1,7 @@
 var options = {
 	theme: "default",
 	music: false,
+	easterEggs: false,
 };
 
 function optionsWindow() {
@@ -105,8 +106,19 @@ function toggleOptions(optionName, addValue) {
 		case "musicplayer":
 			if (audioBox.style.display == "block") {
 				audioBox.style.display = "none";
-			} else if (audio.src != "") {
+			} else if (audio.src.includes(".ogg")) {
 				audioBox.style.display = "block";
+			}
+			break;
+		case "eastereggs":
+			if (options.easterEggs) {
+				options.easterEggs = false;
+				document.getElementById("options-button-easteregg").innerHTML = "Off";
+				changeLocalOptions("easterEgg");
+			} else {
+				options.easterEggs = true;
+				document.getElementById("options-button-easteregg").innerHTML = "On";
+				changeLocalOptions("easterEgg");
 			}
 			break;
 	}

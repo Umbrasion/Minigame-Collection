@@ -60,7 +60,7 @@ header {
 	margin: 0px 20px 35px;
 }
 
-#generateButton {
+#generateButton1, #generateButton2, #generateButton3 {
 	font-size: 0.9em;
 }
 
