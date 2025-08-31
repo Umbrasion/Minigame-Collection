@@ -3367,22 +3367,33 @@ var chrImages = [
 	"Dead_By_Daylight/Yun-Jin_Lee.webp",
 	"Dead_By_Daylight/Zarina_Kassir.webp",
 	// Deltarune
+	"Deltarune/Mr._Ant_Tenna.png",
 	"Deltarune/Cap'n.webp",
+	"Deltarune/Cat_Mike.gif",
 	"Deltarune/Clover.webp",
+	"Deltarune/Cowboy_Mike.gif",
+	"Deltarune/Elnina.gif",
+	"Deltarune/FRIEND.gif",
+	"Deltarune/Jackenstein.png",
 	"Deltarune/Jevil.webp",
 	"Deltarune/Jigsaw_Joe.webp",
 	"Deltarune/K_K.webp",
 	"Deltarune/K._Round.webp",
 	"Deltarune/King.webp",
+	"Deltarune/Lanino.gif",
+	"Deltarune/Ramb.png",
+	"Deltarune/The_Roaring_Knight.png",
+	"Deltarune/Small_Mike.gif",
 	"Deltarune/Starwalker.webp",
 	"Deltarune/Queen.webp",
 	"Deltarune/Rouxls_Kaard.webp",
-	"Deltarune/Rudolph_Holiday.webp",
+	"Deltarune/Rudolph_Holiday.png",
 	"Deltarune/Seam.webp",
 	"Deltarune/Spamton.webp",
 	"Deltarune/Swatch.webp",
 	"Deltarune/Sweet.webp",
 	"Deltarune/Tasque_Manager.webp",
+	"Deltarune/Titan.gif",
 	// Devil May Cry
 	"Devil_May_Cry/Dante.webp",
 	"Devil_May_Cry/Eva.webp",
@@ -5039,6 +5050,7 @@ var chrImages = [
 	"Street_Fighter/Marisa_Rossetti.webp",
 	"Street_Fighter/Rashid.webp",
 	"Street_Fighter/Ryu.webp",
+	"Street_Fighter/Sagat.png",
 	"Street_Fighter/Zangief.webp",
 	// Streets of Rage
 	"Streets_of_Rage/Adam_Hunter.webp",
@@ -5237,11 +5249,13 @@ var chrImages = [
 	"Titanfall/Jack_Cooper.webp",
 	// Touhou Project
 	"Touhou_Project/Alice_Margatroid.png",
+	"Touhou_Project/Ariya_Iwanaga.png",
 	"Touhou_Project/Aunn_Komano.png",
 	"Touhou_Project/Aya_Shameimaru.png",
 	"Touhou_Project/Benben_Tsukumo.png",
 	"Touhou_Project/Byakuren_Hijiri.png",
 	"Touhou_Project/Chimata_Tenkyuu.png",
+	"Touhou_Project/Chimi_Houjuu.png",
 	"Touhou_Project/Chiyari_Tenkajin.png",
 	"Touhou_Project/Doremy_Sweet.png",
 	"Touhou_Project/Eiki_Shiki,_Yamaxanadu.png",
@@ -5296,9 +5310,11 @@ var chrImages = [
 	"Touhou_Project/Momoyo_Himemushi.png",
 	"Touhou_Project/Mononobe_no_Futo.png",
 	"Touhou_Project/Mystia_Lorelei.png",
+	"Touhou_Project/Nareko_Michigami.png",
 	"Touhou_Project/Narumi_Yatadera.png",
 	"Touhou_Project/Nazrin.png",
 	"Touhou_Project/Nemuno_Sakata.png",
+	"Touhou_Project/Nina_Watari.png",
 	"Touhou_Project/Nitori_Kawashiro.png",
 	"Touhou_Project/Nue_Houjuu.png",
 	"Touhou_Project/Okina_Matara.png",
@@ -5339,17 +5355,19 @@ var chrImages = [
 	"Touhou_Project/Tewi_Inaba.png",
 	"Touhou_Project/Toyosatomimi_no_Miko.png",
 	"Touhou_Project/Tsukasa_Kudamaki.png",
+	"Touhou_Project/Ubame_Chirizuka.png",
 	"Touhou_Project/Unzan.png",
 	"Touhou_Project/Urumi_Ushizaki.png",
 	"Touhou_Project/Utsuho_Reiuji.png",
 	"Touhou_Project/Wakasagihime.png",
-	"Touhou_Project/Watatsuki_no_Toyohime.jpg",
+	"Touhou_Project/Watatsuki_no_Toyohime.png",
 	"Touhou_Project/Watatsuki_no_Yorihime.jpg",
 	"Touhou_Project/Wriggle_Nightbug.png",
 	"Touhou_Project/Yachie_Kicchou.png",
 	"Touhou_Project/Yamame_Kurodani.png",
 	"Touhou_Project/Yatsuhashi_Tsukumo.png",
 	"Touhou_Project/Youmu_Konpaku.png",
+	"Touhou_Project/Yuiman_Asama.png",
 	"Touhou_Project/Yukari_Yakumo.png",
 	"Touhou_Project/Yumemi_Okazaki.png",
 	"Touhou_Project/Yuugi_Hoshiguma.png",
@@ -5422,6 +5440,7 @@ var chrImages = [
 	"Under_Night_In-Birth/Enkidu.png",
 	"Under_Night_In-Birth/Gordeau.png",
 	"Under_Night_In-Birth/Hilda.png",
+	"Under_Night_In-Birth/Izumi.png",
 	"Under_Night_In-Birth/Kaguya.png",
 	"Under_Night_In-Birth/Kuon.png",
 	"Under_Night_In-Birth/Linne.png",
@@ -5524,33 +5543,47 @@ var chrImages = [
 	"Yo-Kai_Watch/Agent_Spect-hare.webp",
 	"Yo-Kai_Watch/Agent_X.webp",
 	"Yo-Kai_Watch/Arachnus.webp",
+	"Yo-Kai_Watch/Ashura.webp",
+	"Yo-Kai_Watch/Blizzie.webp",
+	"Yo-Kai_Watch/Boreas.webp",
 	"Yo-Kai_Watch/Bronzlow.webp",
+	"Yo-Kai_Watch/Byakko.webp",
 	"Yo-Kai_Watch/Camellia.webp",
 	"Yo-Kai_Watch/Dame_Dedtime.webp",
 	"Yo-Kai_Watch/Double_Time.webp",
 	"Yo-Kai_Watch/Dr._E._Raser.webp",
 	"Yo-Kai_Watch/Dr._Maddiman.webp",
+	"Yo-Kai_Watch/Eurus.webp",
 	"Yo-Kai_Watch/Gargaros.webp",
+	"Yo-Kai_Watch/Genbu.webp",
 	"Yo-Kai_Watch/The_Ghoulfather.webp",
 	"Yo-Kai_Watch/Gin.png",
 	"Yo-Kai_Watch/Hardy_Hound.webp",
 	"Yo-Kai_Watch/Hinozall.webp",
 	"Yo-Kai_Watch/The_Jawsome_Kid.webp",
+	"Yo-Kai_Watch/Juno.webp",
 	"Yo-Kai_Watch/Kabuking.webp",
 	"Yo-Kai_Watch/Kin.png",
 	"Yo-Kai_Watch/Kyubi.webp",
 	"Yo-Kai_Watch/Little_Charrmer.webp",
+	"Yo-Kai_Watch/Lord_Acala.webp",
+	"Yo-Kai_Watch/Lord_Ananta.webp",
 	"Yo-Kai_Watch/Mass_Mutterer.webp",
 	"Yo-Kai_Watch/Ogralus.webp",
 	"Yo-Kai_Watch/Orcanos.webp",
 	"Yo-Kai_Watch/Oridjinn.webp",
 	"Yo-Kai_Watch/Rubeus_J.webp",
+	"Yo-Kai_Watch/Saros.webp",
 	"Yo-Kai_Watch/Sgt._Burly.webp",
+	"Yo-Kai_Watch/Shien.webp",
+	"Yo-Kai_Watch/Shutendoji.webp",
 	"Yo-Kai_Watch/Silver_Lining.webp",
 	"Yo-Kai_Watch/Squiddilius_McKraken.webp",
 	"Yo-Kai_Watch/Steve_Jaws.webp",
+	"Yo-Kai_Watch/Suzaku.webp",
 	"Yo-Kai_Watch/Toadal_Dude.webp",
 	"Yo-Kai_Watch/Venoct.webp",
+	"Yo-Kai_Watch/Voidera.webp",
 	// Zenless Zone Zero
 	"Zenless_Zone_Zero/Alexandrina_Sebastiane.webp",
 	"Zenless_Zone_Zero/Anby_Demara.webp",
@@ -8422,115 +8455,148 @@ function generate(value, increment, incrementValue, type = "none") {
 		
 		function rerollByName() {
 			randNum = Math.floor(Math.random() * (chrImages.length));
-			//console.log(randNum);
+			console.log(randNum);
 			charInfo = writeName(chrImages[randNum]);
 			//console.log(charInfo);
 			
 			function commonReroll() {
 				randNum = Math.floor(Math.random() * (chrImages.length));
+				charInfo = writeName(chrImages[randNum]);
 			}
 			
 			// Spoiler Mode for character removals
 			reroll: while (spoilerMode == true) {
+				console.log(charInfo[0])
 				switch (charInfo[0]) {
 					// Ace Attorney
 					case "The Phantom": case "Zak Gramarye":
 						if (smToggles.AA) {
-							console.log("Pick rerolled: Ace Attorney");
+							console.log("Pick rerolled: Ace Attorney (" + charInfo[0] + ")");
 							if (type != "none") {
 								chrImages.splice(randNum, 1);
 								//chrNameDescriptions.splice(randNum, 1);
 							}
 							commonReroll();
 							continue reroll;
+						} else {
+							break reroll;
 						}
 					// Danganronpa
 					case "Izuru Kamukura": case "Mukuro Ikusaba": case "Ultimate Imposter":
 						if (smToggles.DR) {
-							console.log("Pick rerolled: Danganronpa");
+							console.log("Pick rerolled: Danganronpa (" + charInfo[0] + ")");
 							if (type != "none") {
 								chrImages.splice(randNum, 1);
 								//chrNameDescriptions.splice(randNum, 1);
 							}
 							commonReroll();
 							continue reroll;
+						} else {
+							break reroll;
+						}
+					// Deltarune
+					case "Cat Mike": case "Cowboy Mike": case "FRIEND": case "The Roaring Knight": case "Small Mike": case "Titan": case "Jackenstein": // Jackenstein here for River purposes
+						if (smToggles.DLTRN) {
+							console.log("Pick rerolled: Deltarune (" + charInfo[0] + ")");
+							if (type != "none") {
+								chrImages.splice(randNum, 1);
+								//chrNameDescriptions.splice(randNum, 1);
+							}
+							commonReroll();
+							continue reroll;
+						} else {
+							break reroll;
 						}
 					// Everhood
 					case "Cat God": case "Pink":
 						if (smToggles.EH) {
-							console.log("Pick rerolled: Everhood");
+							console.log("Pick rerolled: Everhood (" + charInfo[0] + ")");
 							if (type != "none") {
 								chrImages.splice(randNum, 1);
 								//chrNameDescriptions.splice(randNum, 1);
 							}
 							commonReroll();
 							continue reroll;
+						} else {
+							break reroll;
 						}
 					// Hollow Knight
 					case "The Hollow Knight": case "Radiance":
 						if (smToggles.HK) {
-							console.log("Pick rerolled: Hollow Knight");
+							console.log("Pick rerolled: Hollow Knight (" + charInfo[0] + ")");
 							if (type != "none") {
 								chrImages.splice(randNum, 1);
 								//chrNameDescriptions.splice(randNum, 1);
 							}
 							commonReroll();
 							continue reroll;
+						} else {
+							break reroll;
 						}
 					// Inscryption
 					case "The Archivist": case "The Bone Lord": case "G0lly": case "Grimora": case "The Lonely Wizard": case "Magnificus": case "P03": case "The Photographer":
 						if (smToggles.I) {
-							console.log("Pick rerolled: Inscryption");
+							console.log("Pick rerolled: Inscryption (" + charInfo[0] + ")");
 							if (type != "none") {
 								chrImages.splice(randNum, 1);
 								//chrNameDescriptions.splice(randNum, 1);
 							}
 							commonReroll();
 							continue reroll;
+						} else {
+							break reroll;
 						}
 					// MiSide
 					case "Core Mita": case "Creepy Mita": case "Ghostly Mita":
 						if (smToggles.MS) {
-							console.log("Pick rerolled: MiSide");
+							console.log("Pick rerolled: MiSide (" + charInfo[0] + ")");
 							if (type != "none") {
 								chrImages.splice(randNum, 1);
 								//chrNameDescriptions.splice(randNum, 1);
 							}
 							commonReroll();
 							continue reroll;
+						} else {
+							break reroll;
 						}
 					// OneShot
 					case "Prototype":
 						if (smToggles.OS) {
-							console.log("Pick rerolled: OneShot");
+							console.log("Pick rerolled: OneShot (" + charInfo[0] + ")");
 							if (type != "none") {
 								chrImages.splice(randNum, 1);
 								//chrNameDescriptions.splice(randNum, 1);
 							}
 							commonReroll();
 							continue reroll;
+						} else {
+							break reroll;
 						}
 					// Outer Wilds
 					case "The Prisoner": case "Solanum":
 						if (smToggles.OW) {
-							console.log("Pick rerolled: Outer Wilds");
+							console.log("Pick rerolled: Outer Wilds (" + charInfo[0] + ")");
 							if (type != "none") {
 								chrImages.splice(randNum, 1);
 								//chrNameDescriptions.splice(randNum, 1);
 							}
 							commonReroll();
 							continue reroll;
+						} else {
+							break reroll;
 						}
 					// Undertale 2
 					case "Seriph":
 						if (smToggles.U2) {
-							console.log("Pick rerolled: Undertale 2");
+							console.log("Pick rerolled: Undertale 2 (" + charInfo[0] + ")");
 							if (type != "none") {
 								chrImages.splice(randNum, 1);
 								//chrNameDescriptions.splice(randNum, 1);
 							}
 							commonReroll();
 							continue reroll;
+						} else {
+							break reroll;
 						}
 					default:
 						break reroll;
@@ -8584,38 +8650,38 @@ function generate(value, increment, incrementValue, type = "none") {
 			if (spoilerMode == true) {
 				switch (charInfo[0]) {
 					case "Matt Engarde":
-						console.log("Spoiler mode change check passed with " + charInfo[0]);
 						if (smToggles.AA) {
+							console.log("Spoiler mode change check passed with " + charInfo[0]);
 							document.getElementById("daImage" + daValue).src = "../images/characters/Ace_Attorney/Matt_Engarde_Normal.webp";
 						}
 						break;
 					case "Mimi Miney":
-						console.log("Spoiler mode change check passed with " + charInfo[0]);
 						if (smToggles.AA) {
+							console.log("Spoiler mode change check passed with " + charInfo[0]);
 							document.getElementById("characterName" + daValue).innerHTML = "Ini Miney";
 						}
 						break;
 					case "Misty Fey":
-						console.log("Spoiler mode change check passed with " + charInfo[0]);
 						if (smToggles.AA) {
+							console.log("Spoiler mode change check passed with " + charInfo[0]);
 							document.getElementById("characterName" + daValue).innerHTML = "Elise Deauxnim";
 						}
 						break;
 					case "Yanni Yogi":
-						console.log("Spoiler mode change check passed with " + charInfo[0]);
 						if (smToggles.AA) {
+							console.log("Spoiler mode change check passed with " + charInfo[0]);
 							document.getElementById("characterName" + daValue).innerHTML = "Caretaker";
 						}
 						break;
 					case "Junko Enoshima":
-						console.log("Spoiler mode change check passed with " + charInfo[0]);
 						if (smToggles.DR) {
+							console.log("Spoiler mode change check passed with " + charInfo[0]);
 							document.getElementById("daImage" + daValue).src = "../images/characters/Danganronpa/Junko_Enoshima_Disguise.webp";
 						}
 						break;
 					case "Pink Diamond":
-						console.log("Spoiler mode change check passed with " + charInfo[0]);
 						if (smToggles.SU) {
+							console.log("Spoiler mode change check passed with " + charInfo[0]);
 							document.getElementById("characterName" + daValue).innerHTML = "Rose Quartz";
 							document.getElementById("daImage" + daValue).src = "../images/characters/Steven_Universe/Rose_Quartz.webp";
 						}
@@ -8675,6 +8741,7 @@ function assignSeries(value) {
 var smToggles = {
 	AA: false,
 	DR: false,
+	DLTRN: false,
 	EH: false,
 	HK: false,
 	I: false,
@@ -8701,6 +8768,14 @@ function selectSpoilerMode(series) {
 				document.getElementById("spoilerDR").innerHTML = "<span style='color: lightgreen'>ON</span>";
 			} else {
 				document.getElementById("spoilerDR").innerHTML = "<span style='color: red'>OFF</span>";
+			}
+			break;
+		case "Deltarune":
+			smToggles.DLTRN = !smToggles.DLTRN;
+			if (smToggles.DLTRN) {
+				document.getElementById("spoilerDLTRN").innerHTML = "<span style='color: lightgreen'>ON</span>";
+			} else {
+				document.getElementById("spoilerDLTRN").innerHTML = "<span style='color: red'>OFF</span>";
 			}
 			break;
 		case "Everhood":
@@ -8768,7 +8843,7 @@ function selectSpoilerMode(series) {
 			}
 			break;
 	}
-	if (smToggles.AA || smToggles.DR || smToggles.EH || smToggles.HK || smToggles.I || smToggles.MS || smToggles.OS || smToggles.OW || smToggles.SU || smToggles.U2) {
+	if (smToggles.AA || smToggles.DR || smToggles.DLTRN || smToggles.EH || smToggles.HK || smToggles.I || smToggles.MS || smToggles.OS || smToggles.OW || smToggles.SU || smToggles.U2) {
 		spoilerMode = true;
 	} else {
 		spoilerMode = false;

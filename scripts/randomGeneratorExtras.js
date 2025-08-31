@@ -1,5 +1,5 @@
 function writeName(arrayResult) {
-	var charName = arrayResult.split("/")[1].replace(/_/g, " ").replace(/''/g, "\"").replace(/(.webp)|(.png)|(.jpg)|(.jpeg)/g, "").trim();
+	var charName = arrayResult.split("/")[1].replace(/_/g, " ").replace(/''/g, "\"").replace(/(.webp)|(.png)|(.jpg)|(.jpeg)|(.gif)/g, "").trim();
 	var charSeries = arrayResult.split("/")[0].replace(/_/g, " ").replace(/''/g, "\"").trim();
 	
 	// Corrections (Characters)
@@ -198,7 +198,7 @@ function easterEgg(eggType) {
 	var audio = document.getElementById("musicplayer-audio");
 	
 	switch (eggType) {
-		case "Anji Mito":
+		/*case "Anji Mito":
 			randomEventChance = Math.floor(Math.random() * 5);
 			if (randomEventChance == 0) {
 				console.log("EE Pass: Anji Mito");
@@ -212,8 +212,8 @@ function easterEgg(eggType) {
 			} else {
 				console.log("EE Fail: Anji Mito - " + randomEventChance);
 			}
-			break;
-		case "Jimbo":
+			break;*/
+		/*case "Jimbo":
 			randomEventChance = Math.floor(Math.random() * 5);
 			if (randomEventChance == 0) {
 				console.log("EE Pass: Jimbo");
@@ -227,7 +227,7 @@ function easterEgg(eggType) {
 			} else {
 				console.log("EE Fail: Jimbo - " + randomEventChance);
 			}
-			break;
+			break;*/
 		case "Lolbit":
 			randomEventChance = Math.floor(Math.random() * 2);
 			if (randomEventChance == 0) {
