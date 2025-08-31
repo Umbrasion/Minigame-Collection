@@ -3369,6 +3369,7 @@ var chrImages = [
 	// Deltarune
 	"Deltarune/Mr._Ant_Tenna.png",
 	"Deltarune/Cap'n.webp",
+	"Deltarune/Carol_Holiday.png",
 	"Deltarune/Cat_Mike.gif",
 	"Deltarune/Clover.webp",
 	"Deltarune/Cowboy_Mike.gif",
@@ -8495,7 +8496,7 @@ function generate(value, increment, incrementValue, type = "none") {
 							break reroll;
 						}
 					// Deltarune
-					case "Cat Mike": case "Cowboy Mike": case "FRIEND": case "The Roaring Knight": case "Small Mike": case "Titan": case "Jackenstein": // Jackenstein here for River purposes
+					case "Carol Holiday": case "Cat Mike": case "Cowboy Mike": case "FRIEND": case "The Roaring Knight": case "Small Mike": case "Titan": case "Jackenstein": // Jackenstein here for River purposes
 						if (smToggles.DLTRN) {
 							console.log("Pick rerolled: Deltarune (" + charInfo[0] + ")");
 							if (type != "none") {
