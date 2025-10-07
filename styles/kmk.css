@@ -1,0 +1,150 @@
+.character-container {
+	display: flex;
+	justify-content: center;
+}
+
+.character-space {
+	text-align: center;
+	width: 30%;
+	margin: 0px 20px 35px;
+}
+
+#generateButton1, #generateButton2, #generateButton3 {
+	font-size: 0.9em;
+}
+
+.character-name {
+	font-size: 1.75em;
+	margin: 20px 0px;
+}
+
+.character-series {
+	font-size: 1.3em;
+	margin: 20px 0px;
+}
+
+.character-image {
+	max-width: 100%;
+	max-height: 55vh;
+}
+
+#spoilerModeMenu, #chrDescription, #seriesToggleMenu {
+	display: none;
+	position: absolute;
+	background-color: rgba(50, 50, 50, 0.7);
+	top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+	z-index: 500;
+}
+
+#spoilerModeMenuBox, #seriesToggleMenuBox {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: #30363F;
+	text-align: left;
+	width: fit-content;
+	padding: 10px 20px;
+	border: 2px solid #D4D4D4;
+	border-radius: 8px;
+	margin: 50px auto;
+	/* margin: 50px calc(100vw / 2 - 197px); */
+	z-index: 501;
+}
+
+#seriesToggleMenuBox {
+	max-width: 95vw;
+	max-height: calc(100vh - 120px);
+	overflow-y: scroll;
+}
+
+#seriesToggleOptions {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.seriestoggler {
+	font-size: 0.8em;
+	width: 10em;
+	height: 4em;
+	margin: 4px;
+	background-color: #1C5237;
+	font-weight: bold;
+}
+
+.seriestoggler:hover {
+	background-color: #366D6B;
+}
+
+.seriestoggler-off {
+	background-color: #5D2337;
+}
+
+.seriestoggler-off:hover {
+	background-color: #71456B;
+}
+
+#descriptionBox {
+	background-color: #372D46;
+	padding: 10px 20px;
+	border: 2px solid #D4D4D4;
+	border-radius: 8px;
+	margin: 50px auto;
+	text-align: left;
+	z-index: 501;
+}
+
+#rrButton, #smButton, #paButton {
+	font-size: 1.3em;
+}
+
+#sopValueContainer {
+	font-size: 20px;
+	margin-top: 6px;
+	font-weight: bold;
+}
+
+#sopButtons {
+	position: absolute;
+	top: 30vh;
+	right: 10px;
+}
+
+#sopValueContainer span {
+	margin: 0px 4px;
+}
+
+#smashNum, #passNum, #skipNum {
+	font-size: 20px;
+	margin-top: 6px;
+	font-weight: bold;
+}
+
+#smashNum {
+	color: lightgreen;
+}
+
+#passNum {
+	color: tomato;
+}
+
+#skipNum {
+	color: lightgray;
+}
+
+@media (max-aspect-ratio: 2 / 3) {
+	.character-container {
+		flex-direction: column;
+	}
+
+	.character-space {
+		width: calc(100% - 40px);
+		flex-shrink: 0;
+	}
+}

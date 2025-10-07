@@ -4,9 +4,10 @@
 		<title>Kiss, Marry, Kill | Umbra's Game Collection</title>
 		<link rel="stylesheet" href="../styles/mainStyle.css">
 		<link rel="stylesheet" href="../styles/themeStyles.css">
-		<script src="../scripts/randomGeneratorExtras.js" defer></script>
+		<link rel="stylesheet" href="../styles/kmk.css">
 		<script src="../scripts/randomGenerator.js" defer></script>
-		<script src="../scripts/options.js"></script>
+		<script src="../scripts/randomGeneratorExtras.js" defer></script>
+		<script src="../scripts/options.js" defer></script>
 		<style>
 			.seriesButton {
 				margin-right: 4px;
@@ -38,8 +39,17 @@
 		<div class="main-content">
 			<div>
 				<button id="rrButton" class="theme-element" style="font-weight: bold; margin: 0px 6px" onclick="generate(4)">Reroll all</button>
-				<!-- <div id="bioInfo" style="font-style: italic">Click on a character's image to get their bio!</div> -->
 				<div id="bioInfo" style="font-style: italic">If there are any characters you see that you feel shouldn't be included here, for any reason, let me know!</div>
+			</div>
+			<div id="seriesToggleMenu" onclick="display('none')"></div>
+			<div id="seriesToggleMenuBox" class="theme-element" onclick="">
+				<h1 style="text-align: center; margin-top: 0px; margin-bottom: 10px">Series Toggle Settings</h1>
+				<div id="seriesToggleOptions" style="width: fit-content; margin: auto">
+					
+				</div>
+				<div style="text-align: center">
+					<p style="font-size: 0.9em"><i>Click outside the box to return...</i></p>
+				</div>
 			</div>
 			<div id="spoilerModeMenu" onclick="display('none')"></div>
 			<div id="spoilerModeMenuBox" class="theme-element" onclick="">
@@ -147,17 +157,6 @@
 				</div>
 				<img id="daImage3" class="character-image">
 			</div>
-			<!--Character description boxes-->
-			<div id="chrDescription" onclick="display('none')">
-				<div id="descriptionBox" class="theme-element" onclick="">
-					<h1 id="_descHead" style="text-align: center; margin-top: 0px; margin-bottom: 10px; border-bottom: 1px solid white"></h1>
-					<h2 id="_descNotice" style="font-weight: bold; color: red; text-align: center">NOTICE: Descriptions are far from finished. Most characters do not have one.</h2>
-					<p id="_descBody"></p>
-					<div style="text-align: center">
-						<p style="color: white; font-size: 16px"><i>Click anywhere to return...</i></p>
-					</div>
-				</div>
-			</div>
 		</div>
 		<div id="options">
 			<button id="options-button" onclick="optionsWindow()">
@@ -167,6 +166,12 @@
 		<div id="options-window" class="theme-element" style="display: none">
 			<h5 class="options-title">Kiss, Marry, Kill</h5>
 			<table>
+				<tr>
+					<th>Series toggle settings:</th>
+					<td>
+						<button id="options-button-spoilermode" class="theme-element" onclick="display('seriesToggleMenu'); optionsWindow()">Open</button>
+					</td>
+				</tr>
 				<tr>
 					<th>Spoiler mode settings:</th>
 					<td>
@@ -183,6 +188,12 @@
 					<th>Enable debug settings:</th>
 					<td>
 						<button id="options-button-debug" class="theme-element" onclick="debugToggle()">Off</button>
+					</td>
+				</tr>
+				<tr>
+					<th>Easter Eggs:</th>
+					<td>
+						<button id="options-button-easteregg" class="theme-element" onclick="toggleOptions('eastereggs')">Off</button>
 					</td>
 				</tr>
 			</table>
@@ -212,19 +223,14 @@
 						<button id="options-button-music" class="theme-element" onclick="toggleOptions('music')">Off</button>
 					</td>
 				</tr>
-				<tr>
-					<th>Easter Eggs:</th>
-					<td>
-						<button id="options-button-easteregg" class="theme-element" onclick="toggleOptions('eastereggs')">Off</button>
-					</td>
-				</tr>
 			</table>
 		</div>
 		<div id="musicplayer" style="display: none">
 			<audio id="musicplayer-audio" src="" preload="metadata" onended="musicRunner()" style="display: none"></audio>
 			<span style="font-size: 0.7em">Now playing:</span><br>
 			<span id="musicplayer-trackname" style="font-size: 1.25em; font-weight: bold"></span><br>
-			<span style="color: #C8C8C8; font-size: 0.8em; font-style: italic">soulified_music</span>
+			<span style="color: #C8C8C8; font-size: 0.8em; font-style: italic">soul_</span>
+			<br><input type="range" id="volumeslider" step="any" value="100">
 		</div>
 		<div class="othergames-container">
 			<a href="../index.html" class="othergames theme-element">Back to game list</a>

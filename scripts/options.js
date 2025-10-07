@@ -143,8 +143,12 @@ var tracksPlayed = [
 	"Kiss, Marry, or Kill 2",
 	"Kiss, Marry, or Kill 3",
 	"Kiss, Marry, or Kill 4",
+	"Kiss, Marry, or Kill 5",
 	"Kiss, Marry, or Kill 6",
+	"Kiss, Marry, or Kill 8",
 	"Kiss, Marry, or Kill 12",
+	"Kiss, Marry, or Kill 15",
+	"Kiss, Marry, or Kill 16",
 ];
 var totalSongs = tracksPlayed.length;
 
@@ -167,7 +171,7 @@ function musicRunner() {
 	
 	switch (trackNum) {
 		case 1:
-			audio.src = "../music/kmk/Kiss, Marry, Or Kill 1.ogg";
+			audio.src = "../music/kmk/Kiss, Marry, Or Kill 1 Remastered.ogg";
 			audio.play();
 			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 1";
 			break;
@@ -187,17 +191,45 @@ function musicRunner() {
 			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 4";
 			break;
 		case 5:
+			audio.src = "../music/kmk/Kiss, Marry, Or Kill 5.ogg";
+			audio.play();
+			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 5";
+			break;
+		case 6:
 			audio.src = "../music/kmk/Kiss, Marry, Or Kill 6.ogg";
 			audio.play();
 			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 6";
 			break;
-		case 6:
+		case 7:
+			audio.src = "../music/kmk/Kiss, Marry, Or Kill 8.ogg";
+			audio.play();
+			document.getElementById("musicplayer-trackname").innerHTML = "So Indie!!!";
+			break;
+		case 8:
 			audio.src = "../music/kmk/Kiss, Marry, Or Kill 12.ogg";
 			audio.play();
 			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 12";
 			break;
+		case 9:
+			audio.src = "../music/kmk/Kiss, Marry, Or Kill 15.ogg";
+			audio.play();
+			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 15";
+			break;
+		case 10:
+			audio.src = "../music/kmk/Kiss, Marry, Or Kill 16.ogg";
+			audio.play();
+			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 16";
+			break;
 	}
 }
+
+document.getElementById("volumeslider").addEventListener("input", function(e) {
+    audio.volume = e.currentTarget.value / 100;
+});
+
+setTimeout(function() {
+	audio.volume = document.getElementById("volumeslider").value / 100;
+}, 1);
 
 function debugToggle() {
 	var debugMenu = document.getElementsByClassName("debugmenu");

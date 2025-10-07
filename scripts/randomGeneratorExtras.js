@@ -8,6 +8,10 @@ function writeName(arrayResult) {
 		charName = "Aikur&omacr; Mikisugi"
 		// Aikurō Mikisugi
 	}
+	if (charName == "Angel") {
+		charName = "&Aacute;ngel"
+		// Ángel
+	}
 	if (charName == "Bitores Mendez") {
 		charName = "Bitores M&eacute;ndez"
 		// Bitores Méndez
@@ -66,6 +70,14 @@ function writeName(arrayResult) {
 		charName = "Ragy&omacr; Kiry&umacr;in"
 		// Ragyō Kiryūin
 	}
+	if (charName == "Ramon") {
+		charName = "Ram&oacute;n"
+		// Ramón
+	}
+	if (charName == "Ramon Salazar") {
+		charName = "Ram&oacute;n Salazar"
+		// Ramón Salazar
+	}
 	if (charName == "Rude1") {
 		charName = "Rude#1"
 	}
@@ -99,6 +111,12 @@ function writeName(arrayResult) {
 	
 	// Corrections (Series)
 	
+	if (charSeries == "AI The Somnium Files") {
+		charSeries = "AI: The Somnium Files"
+	}
+	if (charSeries == "BNA Brand New Animal") {
+		charSeries = "BNA: Brand New Animal"
+	}
 	if (charSeries == "Honkai Star Rail") {
 		charSeries = "Honkai: Star Rail"
 	}
@@ -180,7 +198,7 @@ function prideCheck(nameInput, slotValue) {
 			}`
 			break;
 		// Non-binary
-		case "Napstablook": case "River Person": case "Testament":
+		case "Medicine Pocket": case "Napstablook": case "Ori": case "River Person": case "Testament":
 			prideStyle.innerHTML += `
 			#characterName` + slotValue + `.theme-pride {
 				background: linear-gradient(to right, #FFF433, #FFFFFF, #9B59D0, #2D2D2D);
@@ -377,4 +395,65 @@ function easterEgg(eggType) {
 				break;
 		}
 	}
+}
+
+function display(displayWhat, descNum) {
+	switch (displayWhat) {
+		case "seriesToggleMenu":
+			document.getElementById("seriesToggleMenu").style.display = "block";
+			document.getElementById("seriesToggleMenuBox").style.display = "block";
+			break;
+		case "spoilerModeMenu":
+			document.getElementById("spoilerModeMenu").style.display = "block";
+			document.getElementById("spoilerModeMenuBox").style.display = "block";
+			break;
+		case "none":
+			document.getElementById("seriesToggleMenu").style.display = "none";
+			document.getElementById("seriesToggleMenuBox").style.display = "none";
+			document.getElementById("spoilerModeMenu").style.display = "none";
+			document.getElementById("spoilerModeMenuBox").style.display = "none";
+			break;
+	}
+}
+
+function cuddleMode() {
+	cuddleModeToggle = !cuddleModeToggle;
+	if (cuddleModeToggle) {
+		document.getElementById("titlebar").innerHTML = "CUDDLE OR PASS";
+		document.getElementById("smashNum").innerHTML = "CUDDLE: " + smashAmount;
+		document.getElementById("smButton").innerHTML = "CUDDLE";
+		document.getElementById("options-button-cuddlemode").innerHTML = "On";
+	} else {
+		document.getElementById("titlebar").innerHTML = "SMASH OR PASS";
+		document.getElementById("smashNum").innerHTML = "SMASH: " + smashAmount;
+		document.getElementById("smButton").innerHTML = "SMASH";
+		document.getElementById("options-button-cuddlemode").innerHTML = "Off";
+	}
+}
+
+function splicer() {
+	chrImages.splice(0, 1130);
+	console.log("Spliced! Current total characters: " + chrImages.length);
+}
+
+function getSeriesForToggle() {
+	for (i = 0; i < seriesList.length; i++) {
+		document.getElementById("seriesToggleOptions").innerHTML += `
+			<button id="st-` + seriesList[i].replace(/( )|(:)|(&)|(')/g, "") + `" class="seriestoggler theme-element" onclick="toggleSeries('` + seriesList[i].replace(/( )|(:)|(&)|(')/g, "") + `')">` + seriesList[i] + `</button>
+		`;
+	}
+}
+
+getSeriesForToggle();
+
+function toggleSeries(seriesName) {
+	if (disabledSeries.includes(seriesName)) {
+		var seriesIndex = disabledSeries.indexOf(seriesName);
+		disabledSeries.splice(seriesIndex, 1);
+		document.getElementById("st-" + seriesName.replace(/( )|(:)|(&)|(')/g, "")).classList.remove('seriestoggler-off');
+	} else if (disabledSeries.length != seriesList.length - 10) {
+		disabledSeries.push(seriesName);
+		document.getElementById("st-" + seriesName.replace(/( )|(:)|(&)|(')/g, "")).classList.add('seriestoggler-off');
+	}
+	console.log(disabledSeries);
 }
