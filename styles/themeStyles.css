@@ -41,7 +41,6 @@ button.theme-lightmode:hover, .othergames.theme-lightmode:hover {
 }
 
 header.theme-lightmode {
-	font-family: inherit;
 	color: white;
 	background-color: black;
 	background-image: none;
@@ -82,7 +81,6 @@ button.theme-darkmode:hover, .othergames.theme-darkmode:hover {
 }
 
 header.theme-darkmode {
-	font-family: inherit;
 	color: white;
 	background-color: black;
 	background-image: none;
@@ -109,45 +107,45 @@ header.theme-darkmode {
 }
 
 @font-face {
-	font-family: "A Butterfly On a Daffodil";
-	src: url("../fonts/AButterflyOnaDaffodil.ttf");
+	font-family: "LT Diploma";
+	src: url("../fonts/LT Diploma.otf");
 }
 
 body.theme-kiss {
-	font-family: "A Butterfly On a Daffodil", Arial;
-	background-color: #FFCCE1;
-	color: #6B0B25;
+	font-family: "LT Diploma", Arial;
+	background-color: #E09BC6;
+	color: #420314;
 }
 
 button.theme-kiss, select.theme-kiss, .othergames.theme-kiss {
-	font-family: "A Butterfly On a Daffodil", Arial;
+	font-family: "LT Diploma", Arial;
 	color: inherit;
-	background-color: #E09FBA;
-	border-color: #C45A88;
+	background-color: #CA8CBB;
+	border-color: #9E4069;
 }
 
 button.theme-kiss:hover, .othergames.theme-kiss:hover {
-	background-color: #E0B8C8;
+	background-color: #CE9DC3;
 }
 
 header.theme-kiss {
 	font-family: "Rainbow Bitch";
 	font-weight: bold;
-	background-image: linear-gradient(to bottom, #D8709D, #C45A88);
+	background-image: linear-gradient(to bottom, #E482C3, #C45A88);
 }
 
 .othergames.theme-kiss {
 	border-color: #6B0B25;
 }
 
-#spoilerModeMenuBox.theme-kiss, #descriptionBox.theme-kiss {
-	background-color: #E09FBA;
-	border-color: #C45A88;
+#seriesToggleMenuBox.theme-kiss, #series-character-box.theme-kiss, #spoilerModeMenuBox.theme-kiss, #descriptionBox.theme-kiss, #musicplayer.theme-kiss {
+	background-color: #DB86B8;
+	border-color: #4B1341;
 }
 
 #options-window.theme-kiss {
-	background-color: #E09FBA;
-	border-color: #C45A88;
+	background-color: #DB86B8;
+	border-color: #4B1341;
 }
 
 #options-window.theme-kiss tr {

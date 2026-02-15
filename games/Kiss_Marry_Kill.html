@@ -38,17 +38,28 @@
 		</header>
 		<div class="main-content">
 			<div>
-				<button id="rrButton" class="theme-element" style="font-weight: bold; margin: 0px 6px" onclick="generate(4)">Reroll all</button>
+				<button id="rrButton" class="theme-element" style="font-weight: bold; margin: 0px 6px" onclick="generate(0)">Reroll all</button>
 				<div id="bioInfo" style="font-style: italic">If there are any characters you see that you feel shouldn't be included here, for any reason, let me know!</div>
 			</div>
 			<div id="seriesToggleMenu" onclick="display('none')"></div>
 			<div id="seriesToggleMenuBox" class="theme-element" onclick="">
 				<h1 style="text-align: center; margin-top: 0px; margin-bottom: 10px">Series Toggle Settings</h1>
+				<div style="text-align: center; margin-bottom: 6px"><i>Double-click a series to see a list of the characters included!</i></div>
+				<div style="text-align: center; margin-bottom: 6px"><i>CAUTION: Character list does not account for current spoiler mode toggles</i></div>
 				<div id="seriesToggleOptions" style="width: fit-content; margin: auto">
 					
 				</div>
 				<div style="text-align: center">
 					<p style="font-size: 0.9em"><i>Click outside the box to return...</i></p>
+				</div>
+			</div>
+			<div id="series-characters" onclick="setDisplay('series-characters')" style="display: none">
+				<div style="display: flex; height: 100%" onclick="">
+					<div id="series-characters-box" class="theme-element">
+						<h1 id="series-characters-title"></h1>
+						<div id="series-characters-list"></div>
+						<div style="text-align: center; font-size: 0.9em"><i>Click anywhere to return...</i></div>
+					</div>
 				</div>
 			</div>
 			<div id="spoilerModeMenu" onclick="display('none')"></div>
@@ -113,7 +124,7 @@
 						<button onclick="generate(1, true, -100)">-100</button>
 						<button onclick="generate(1, true, -10)">-10</button>
 						<button onclick="generate(1, true, -1)">-1</button>
-						<input type="text" id="identer-1" name="identer-1" minlength="1" maxlength="4" style="width: 32px; text-align: center">
+						<input type="text" id="identer-1" name="identer-1" minlength="1" maxlength="4" style="width: 32px; text-align: center" value="0">
 						<button onclick="generate(1, true, 1)">+1</button>
 						<button onclick="generate(1, true, 10)">+10</button>
 						<button onclick="generate(1, true, 100)">+100</button>
@@ -130,7 +141,7 @@
 						<button onclick="generate(2, true, -100)">-100</button>
 						<button onclick="generate(2, true, -10)">-10</button>
 						<button onclick="generate(2, true, -1)">-1</button>
-						<input type="text" id="identer-2" name="identer-2" minlength="1" maxlength="4" style="width: 32px; text-align: center">
+						<input type="text" id="identer-2" name="identer-2" minlength="1" maxlength="4" style="width: 32px; text-align: center" value="0">
 						<button onclick="generate(2, true, 1)">+1</button>
 						<button onclick="generate(2, true, 10)">+10</button>
 						<button onclick="generate(2, true, 100)">+100</button>
@@ -147,7 +158,7 @@
 						<button onclick="generate(3, true, -100)">-100</button>
 						<button onclick="generate(3, true, -10)">-10</button>
 						<button onclick="generate(3, true, -1)">-1</button>
-						<input type="text" id="identer-3" name="identer-3" minlength="1" maxlength="4" style="width: 32px; text-align: center">
+						<input type="text" id="identer-3" name="identer-3" minlength="1" maxlength="4" style="width: 32px; text-align: center" value="0">
 						<button onclick="generate(3, true, 1)">+1</button>
 						<button onclick="generate(3, true, 10)">+10</button>
 						<button onclick="generate(3, true, 100)">+100</button>
@@ -225,16 +236,16 @@
 				</tr>
 			</table>
 		</div>
-		<div id="musicplayer" style="display: none">
+		<div id="musicplayer" class="theme-element" style="display: none">
 			<audio id="musicplayer-audio" src="" preload="metadata" onended="musicRunner()" style="display: none"></audio>
 			<span style="font-size: 0.7em">Now playing:</span><br>
 			<span id="musicplayer-trackname" style="font-size: 1.25em; font-weight: bold"></span><br>
-			<span style="color: #C8C8C8; font-size: 0.8em; font-style: italic">soul_</span>
+			<span style="opacity: 0.7; font-size: 0.8em; font-style: italic">soul_</span>
 			<br><input type="range" id="volumeslider" step="any" value="100">
 		</div>
 		<div class="othergames-container">
 			<a href="../index.html" class="othergames theme-element">Back to game list</a>
 		</div>
-		<img id="easterEggImage" style="">
+		<img id="easterEggImage">
 	</body>
 </html>

@@ -6,7 +6,7 @@ var options = {
 
 function optionsWindow() {
 	var windowEl = document.getElementById("options-window")
-	if (windowEl.style.display == "block") {
+	if (windowEl.style.display === "block") {
 		windowEl.style.display = "none";
 	} else {
 		windowEl.style.display = "block";
@@ -126,6 +126,9 @@ function toggleOptions(optionName, addValue) {
 
 setTimeout(function() {
 	document.getElementById("theme-select").selectedIndex = 0;
+	if (document.getElementById("charnum-select") != null) {
+		document.getElementById("charnum-select").selectedIndex = 0;
+	}
 }, 1);
 
 var curTrack = 0;
@@ -149,18 +152,19 @@ var tracksPlayed = [
 	"Kiss, Marry, or Kill 12",
 	"Kiss, Marry, or Kill 15",
 	"Kiss, Marry, or Kill 16",
+	"Kiss, Marry, or Kill 20",
 ];
 var totalSongs = tracksPlayed.length;
 
 function musicRunner() {
-	if (tracksPlayed.length == totalSongs) {
+	if (tracksPlayed.length === totalSongs) {
 		var tempLastSong = tracksPlayed[tracksPlayed.length - 1];
 		tracksPlayed = [];
 	}
 	
 	unplayed: while (true) {
 		trackNum = Math.floor(Math.random() * (totalSongs) + 1);
-		if (tracksPlayed.includes(trackNum) || trackNum == tempLastSong) {
+		if (tracksPlayed.includes(trackNum) || trackNum === tempLastSong) {
 			continue unplayed;
 		} else {
 			break unplayed;
@@ -173,32 +177,32 @@ function musicRunner() {
 		case 1:
 			audio.src = "../music/kmk/Kiss, Marry, Or Kill 1 Remastered.ogg";
 			audio.play();
-			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 1";
+			document.getElementById("musicplayer-trackname").innerHTML = "Deliberation";
 			break;
 		case 2:
 			audio.src = "../music/kmk/Kiss, Marry, Or Kill 2.ogg";
 			audio.play();
-			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 2";
+			document.getElementById("musicplayer-trackname").innerHTML = "Interesting Pulls";
 			break;
 		case 3:
 			audio.src = "../music/kmk/Kiss, Marry, Or Kill 3.ogg";
 			audio.play();
-			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 3";
+			document.getElementById("musicplayer-trackname").innerHTML = "Town Inside the KMK";
 			break;
 		case 4:
 			audio.src = "../music/kmk/Kiss, Marry, Or Kill 4.ogg";
 			audio.play();
-			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 4";
+			document.getElementById("musicplayer-trackname").innerHTML = "Batchelor Pads";
 			break;
 		case 5:
 			audio.src = "../music/kmk/Kiss, Marry, Or Kill 5.ogg";
 			audio.play();
-			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 5";
+			document.getElementById("musicplayer-trackname").innerHTML = "Comic Sans Font";
 			break;
 		case 6:
 			audio.src = "../music/kmk/Kiss, Marry, Or Kill 6.ogg";
 			audio.play();
-			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 6";
+			document.getElementById("musicplayer-trackname").innerHTML = "Main Title Lo-Fi";
 			break;
 		case 7:
 			audio.src = "../music/kmk/Kiss, Marry, Or Kill 8.ogg";
@@ -208,28 +212,36 @@ function musicRunner() {
 		case 8:
 			audio.src = "../music/kmk/Kiss, Marry, Or Kill 12.ogg";
 			audio.play();
-			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 12";
+			document.getElementById("musicplayer-trackname").innerHTML = 'The Titular "I Want" Song';
 			break;
 		case 9:
 			audio.src = "../music/kmk/Kiss, Marry, Or Kill 15.ogg";
 			audio.play();
-			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 15";
+			document.getElementById("musicplayer-trackname").innerHTML = "Fuzzy Feelings For Images";
 			break;
 		case 10:
 			audio.src = "../music/kmk/Kiss, Marry, Or Kill 16.ogg";
 			audio.play();
-			document.getElementById("musicplayer-trackname").innerHTML = "Kiss, Marry, or Kill 16";
+			document.getElementById("musicplayer-trackname").innerHTML = "Lore Drop";
+			break;
+		case 11:
+			audio.src = "../music/kmk/Kiss, Marry, Or Kill 20.ogg";
+			audio.play();
+			document.getElementById("musicplayer-trackname").innerHTML = "The Pull to Ever Be";
 			break;
 	}
 }
 
-document.getElementById("volumeslider").addEventListener("input", function(e) {
-    audio.volume = e.currentTarget.value / 100;
-});
+if (document.getElementById("volumeslider") != null) {
+	document.getElementById("volumeslider").addEventListener("input", function(e) {
+		audio.volume = e.currentTarget.value / 100;
+	});
+	
+	setTimeout(function() {
+		audio.volume = document.getElementById("volumeslider").value / 100;
+	}, 1);
+}
 
-setTimeout(function() {
-	audio.volume = document.getElementById("volumeslider").value / 100;
-}, 1);
 
 function debugToggle() {
 	var debugMenu = document.getElementsByClassName("debugmenu");
@@ -237,7 +249,7 @@ function debugToggle() {
 	
 	var debugDisplayState = "none";
 	
-	if (debugMenu[0].style.display == "none") {
+	if (debugMenu[0].style.display === "none") {
 		debugDisplayState = "block";
 		debugButton.innerHTML = "On";
 	} else {

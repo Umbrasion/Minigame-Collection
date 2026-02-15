@@ -368,6 +368,15 @@ var chrImages = [
 	"Borderlands/Mad_Moxxi.webp",
 	"Borderlands/Mordecai.webp",
 	"Borderlands/Roland.webp",
+	// Cars
+	"Cars/Cruz_Ramirez.webp",
+	"Cars/Doc_Hudson.png",
+	"Cars/Finn_McMissile.webp",
+	"Cars/Holley_Shiftwell.jpg",
+	"Cars/Jackson_Storm.webp",
+	"Cars/Lightning_McQueen.png",
+	"Cars/Sally_Carrera.png",
+	"Cars/Tow_Mater.png",
 	// Castlevania
 	"Castlevania/Alucard.webp",
 	"Castlevania/Death.webp",
@@ -414,6 +423,131 @@ var chrImages = [
 	// Clash Royale
 	"Clash_Royale/King.webp",
 	"Clash_Royale/S.P.A.R.K.Y..webp",
+	// Cookie Run
+	"Cookie_Run/Adventurer_Cookie.webp",
+	"Cookie_Run/Affogato_Cookie.webp",
+	"Cookie_Run/Alchemist_Cookie.webp",
+	"Cookie_Run/Almond_Cookie.webp",
+	"Cookie_Run/Avocado_Cookie.webp",
+	"Cookie_Run/Black_Forest_Cookie.webp",
+	"Cookie_Run/Black_Lemonade_Cookie.webp",
+	"Cookie_Run/Black_Pearl_Cookie.webp",
+	"Cookie_Run/Black_Raisin_Cookie.webp",
+	"Cookie_Run/Black_Sapphire_Cookie.webp",
+	"Cookie_Run/Blackberry_Cookie.webp",
+	"Cookie_Run/Blueberry_Pie_Cookie.webp",
+	"Cookie_Run/Burning_Spice_Cookie.webp",
+	"Cookie_Run/Burnt_Cheese_Cookie.webp",
+	"Cookie_Run/Butter_Roll_Cookie.webp",
+	"Cookie_Run/Camellia_Cookie.webp",
+	"Cookie_Run/Capsaicin_Cookie.webp",
+	"Cookie_Run/Captain_Caviar_Cookie.webp",
+	"Cookie_Run/Caramel_Arrow_Cookie.webp",
+	"Cookie_Run/Caramel_Choux_Cookie.webp",
+	"Cookie_Run/Carol_Cookie.webp",
+	"Cookie_Run/Charcoal_Cookie.webp",
+	"Cookie_Run/Cherry_Blossom_Cookie.webp",
+	"Cookie_Run/Chili_Pepper_Cookie.webp",
+	"Cookie_Run/Choco_Drizzle_Cookie.webp",
+	"Cookie_Run/Clotted_Cream_Cookie.webp",
+	"Cookie_Run/Clover_Cookie.webp",
+	"Cookie_Run/Cocoa_Cookie.webp",
+	"Cookie_Run/Cream_Unicorn_Cookie.webp",
+	"Cookie_Run/Creme_Brulee_Cookie.webp",
+	"Cookie_Run/Crimson_Coral_Cookie.webp",
+	"Cookie_Run/Crunchy_Chip_Cookie.webp",
+	"Cookie_Run/Dark_Cacao_Cookie.webp",
+	"Cookie_Run/Dark_Choco_Cookie.webp",
+	"Cookie_Run/Dark_Enchantress_Cookie.webp",
+	"Cookie_Run/Doughael.webp",
+	"Cookie_Run/Eclair_Cookie.webp",
+	"Cookie_Run/Elder_Faerie_Cookie.webp",
+	"Cookie_Run/Espresso_Cookie.webp",
+	"Cookie_Run/Eternal_Sugar_Cookie.webp",
+	"Cookie_Run/Fig_Cookie.webp",
+	"Cookie_Run/Financier_Cookie.webp",
+	"Cookie_Run/Fire_Spirit_Cookie.webp",
+	"Cookie_Run/Frilled_Jellyfish_Cookie.webp",
+	"Cookie_Run/Frost_Queen_Cookie.webp",
+	"Cookie_Run/Golden_Cheese_Cookie.webp",
+	"Cookie_Run/Golden_Osmanthus_Cookie.webp",
+	"Cookie_Run/Green_Tea_Mousse_Cookie.webp",
+	"Cookie_Run/Herb_Cookie.webp",
+	"Cookie_Run/Hollyberry_Cookie.webp",
+	"Cookie_Run/Jagae_Cookie.webp",
+	"Cookie_Run/Knight_Cookie.webp",
+	"Cookie_Run/Kouign_Amann_Cookie.webp",
+	"Cookie_Run/Kumiho_Cookie.webp",
+	"Cookie_Run/Latte_Cookie.webp",
+	"Cookie_Run/Lemon_Cookie.webp",
+	"Cookie_Run/Licorice_Cookie.webp",
+	"Cookie_Run/Lilac_Cookie.webp",
+	"Cookie_Run/Linzer_Cookie.webp",
+	"Cookie_Run/Macaron_Cookie.webp",
+	"Cookie_Run/Madeleine_Cookie.webp",
+	"Cookie_Run/Mala_Sauce_Cookie.webp",
+	"Cookie_Run/Manju_Cookie.webp",
+	"Cookie_Run/Matcha_Cookie.webp",
+	"Cookie_Run/Menthol_Cookie.webp",
+	"Cookie_Run/Mercurial_Knight_Cookie.webp",
+	"Cookie_Run/Milk_Cookie.webp",
+	"Cookie_Run/Millennial_Tree_Cookie.webp",
+	"Cookie_Run/Mint_Choco_Cookie.webp",
+	"Cookie_Run/Moonlight_Cookie.webp",
+	"Cookie_Run/Mozzarella_Cookie.webp",
+	"Cookie_Run/Muscle_Cookie.webp",
+	"Cookie_Run/Mystic_Flour_Cookie.webp",
+	"Cookie_Run/Ninja_Cookie.webp",
+	"Cookie_Run/Nutmeg_Tiger_Cookie.webp",
+	"Cookie_Run/Okchun_Cookie.webp",
+	"Cookie_Run/Olive_Cookie.webp",
+	"Cookie_Run/Orange_Cookie.webp",
+	"Cookie_Run/Oyster_Cookie.webp",
+	"Cookie_Run/Parfait_Cookie.webp",
+	"Cookie_Run/Pastry_Cookie.webp",
+	"Cookie_Run/Peach_Blossom_Cookie.webp",
+	"Cookie_Run/Pitaya_Dragon_Cookie.webp",
+	"Cookie_Run/Pomegranate_Cookie.webp",
+	"Cookie_Run/Princess_Cookie.webp",
+	"Cookie_Run/Prophet_Cookie.webp",
+	"Cookie_Run/Prune_Juice_Cookie.webp",
+	"Cookie_Run/Pure_Vanilla_Cookie.webp",
+	"Cookie_Run/Purple_Yam_Cookie.webp",
+	"Cookie_Run/Raspberry_Cookie.webp",
+	"Cookie_Run/Rebel_Cookie.webp",
+	"Cookie_Run/Red_Osmanthus_Cookie.webp",
+	"Cookie_Run/Red_Velvet_Cookie.webp",
+	"Cookie_Run/Rockstar_Cookie.webp",
+	"Cookie_Run/Royal_Margarine_Cookie.webp",
+	"Cookie_Run/Rye_Cookie.webp",
+	"Cookie_Run/Salt_Cellar_Cookie.webp",
+	"Cookie_Run/Schwarzwalder.webp",
+	"Cookie_Run/Sea_Fairy_Cookie.webp",
+	"Cookie_Run/Seltzer_Cookie.webp",
+	"Cookie_Run/Shadow_Milk_Cookie.webp",
+	"Cookie_Run/Shining_Glitter_Cookie.webp",
+	"Cookie_Run/Silent_Salt_Cookie.webp",
+	"Cookie_Run/Silverbell_Cookie.webp",
+	"Cookie_Run/Smoked_Cheese_Cookie.webp",
+	"Cookie_Run/Sparkling_Cookie.webp",
+	"Cookie_Run/Stardust_Cookie.webp",
+	"Cookie_Run/Stormbringer_Cookie.webp",
+	"Cookie_Run/Street_Urchin_Cookie.webp",
+	"Cookie_Run/Tarte_Tatin_Cookie.webp",
+	"Cookie_Run/Tea_Knight_Cookie.webp",
+	"Cookie_Run/Tiger_Lily_Cookie.webp",
+	"Cookie_Run/Twizzly_Gummy_Cookie.webp",
+	"Cookie_Run/Vampire_Cookie.webp",
+	"Cookie_Run/Wedding_Cake_Cookie.webp",
+	"Cookie_Run/Werewolf_Cookie.webp",
+	"Cookie_Run/White_Lily_Cookie.webp",
+	"Cookie_Run/Wildberry_Cookie.webp",
+	"Cookie_Run/Wind_Archer_Cookie.webp",
+	// Corporate Mascots
+	"Corporate_Mascots/Jack_Box.jpg",
+	"Corporate_Mascots/Ronald_McDonald.jpg",
+	"Corporate_Mascots/The_Burger_King.jpg",
+	"Corporate_Mascots/Wendy.png",
 	// Courage the Cowardly Dog
 	"Courage_the_Cowardly_Dog/Eustace_Bagge.webp",
 	"Courage_the_Cowardly_Dog/Muriel_Bagge.webp",
@@ -422,6 +556,8 @@ var chrImages = [
 	"Crash_Bandicoot/Dr._Nitrus_Brio.webp",
 	"Crash_Bandicoot/Neo_Cortex.webp",
 	"Crash_Bandicoot/Tawna_Bandicoot.webp",
+	// Creepypastas
+	"Creepypastas/The_Rake.jpg",
 	// Cuphead
 	"Cuphead/Announcer_Snail.webp",
 	"Cuphead/Anteater.webp",
@@ -946,10 +1082,10 @@ var chrImages = [
 	"Friday_Night_Funkin'_Mods/Whitty.webp",
 	"Friday_Night_Funkin'_Mods/Xigmund.webp",
 	// Frieren
-	"Frieren/Aura.webp", // 500+
-	"Frieren/Fern.webp", // 19-20
-	"Frieren/Frieren.webp", // 1000+
-	"Frieren/Himmel.webp", // ~26
+	"Frieren/Aura.webp",
+	"Frieren/Fern.webp",
+	"Frieren/Frieren.webp",
+	"Frieren/Himmel.webp",
 	// Garfield
 	"Garfield/Dr._Liz_Wilson.webp",
 	"Garfield/Jon_Q._Arbuckle.webp",
@@ -1030,8 +1166,6 @@ var chrImages = [
 	"Genshin_Impact/Yelan.webp",
 	"Genshin_Impact/Yoimiya.webp",
 	"Genshin_Impact/Zhongli.webp",
-	// Gensokyo Odyssey
-	"Gensokyo_Odyssey/Kakkoi.png",
 	// Getting Over It
 	"Getting_Over_It/Diogenes.png",
 	// God of War
@@ -1063,7 +1197,7 @@ var chrImages = [
 	"Granblue_Fantasy/Grimnir.png",
 	"Granblue_Fantasy/Haaselia.png",
 	"Granblue_Fantasy/Halluel.png",
-	"Granblue_Fantasy/Ilsa.webp",
+	"Granblue_Fantasy/Ilsa.png",
 	"Granblue_Fantasy/Indala.webp",
 	"Granblue_Fantasy/Katalina_Aryze.png",
 	"Granblue_Fantasy/Katzelia.png",
@@ -1079,6 +1213,7 @@ var chrImages = [
 	"Granblue_Fantasy/Lunalu.png",
 	"Granblue_Fantasy/Makura.png",
 	"Granblue_Fantasy/Malluel.png",
+	"Granblue_Fantasy/Meg.png",
 	"Granblue_Fantasy/Metera.png",
 	"Granblue_Fantasy/Michael.png",
 	"Granblue_Fantasy/Monika.png",
@@ -1310,11 +1445,73 @@ var chrImages = [
 	// Hitman
 	"Hitman/Agent_47.webp",
 	// Hollow Knight
+	"Hollow_Knight/Bardoon.png",
+	"Hollow_Knight/Bretta.webp",
+	"Hollow_Knight/Brumm.webp",
+	"Hollow_Knight/Cloth.webp",
+	"Hollow_Knight/Collector.png",
+	"Hollow_Knight/Confessor_Jiji.webp",
 	"Hollow_Knight/Cornifer.webp",
+	"Hollow_Knight/Crystal_Guardian.webp",
+	"Hollow_Knight/Divine.png",
+	"Hollow_Knight/Dryya.png",
+	"Hollow_Knight/Elder_Hu.webp",
+	"Hollow_Knight/Elderbug.webp",
+	"Hollow_Knight/Eternal_Emilitia.webp",
+	"Hollow_Knight/Fluke_Hermit.webp",
+	"Hollow_Knight/Flukemarm.webp",
+	"Hollow_Knight/Galien.webp",
+	"Hollow_Knight/God_Tamer.png",
+	"Hollow_Knight/Godseeker.png",
+	"Hollow_Knight/Gorb.webp",
+	"Hollow_Knight/Great_Nailsage_Sly.webp",
 	"Hollow_Knight/Grimm.webp",
+	"Hollow_Knight/Grubfather.webp",
+	"Hollow_Knight/Hegemol.png",
+	"Hollow_Knight/Herrah_the_Beast.webp",
+	"Hollow_Knight/Hive_Knight.webp",
 	"Hollow_Knight/The_Hollow_Knight.webp",
 	"Hollow_Knight/Hornet.webp",
+	"Hollow_Knight/Hunter.png",
+	"Hollow_Knight/Iselda.png",
+	"Hollow_Knight/Isma.png",
+	"Hollow_Knight/Knight.webp",
+	"Hollow_Knight/Lace.webp",
+	"Hollow_Knight/Leg_Eater.webp",
+	"Hollow_Knight/Lord_Fool.png",
+	"Hollow_Knight/Lost_Kin.webp",
+	"Hollow_Knight/Lurien_the_Watcher.webp",
+	"Hollow_Knight/Markoth.webp",
+	"Hollow_Knight/Mask_Maker.png",
+	"Hollow_Knight/Midwife.png",
+	"Hollow_Knight/Mister_Mushroom.webp",
+	"Hollow_Knight/Monomon_the_Teacher.png",
+	"Hollow_Knight/Myla.webp",
+	"Hollow_Knight/Nailmaster_Mato.png",
+	"Hollow_Knight/Nailmaster_Oro.png",
+	"Hollow_Knight/Nailmaster_Sheo.png",
+	"Hollow_Knight/Nailsmith_Sheo.png",
+	"Hollow_Knight/No_Eyes.png",
+	"Hollow_Knight/Nymm.webp",
+	"Hollow_Knight/Ogrim.webp",
+	"Hollow_Knight/Pale_King.webp",
+	"Hollow_Knight/Queen_Vespa.webp",
+	"Hollow_Knight/Quirrel.webp",
 	"Hollow_Knight/Radiance.webp",
+	"Hollow_Knight/Relic_Seeker_Lemm.webp",
+	"Hollow_Knight/Salubra.png",
+	"Hollow_Knight/Seer.webp",
+	"Hollow_Knight/Shade_Lord.webp",
+	"Hollow_Knight/Snail_Shaman.webp",
+	"Hollow_Knight/Soul_Master.png",
+	"Hollow_Knight/Steel_Soul_Jinn.png",
+	"Hollow_Knight/Tiso.webp",
+	"Hollow_Knight/Traitor_Lord.png",
+	"Hollow_Knight/Tuk.png",
+	"Hollow_Knight/Unn.png",
+	"Hollow_Knight/White_Lady.png",
+	"Hollow_Knight/Xero.webp",
+	"Hollow_Knight/Ze'mer.png",
 	"Hollow_Knight/Zote.webp",
 	// Honkai: Star Rail
 	"Honkai_Star_Rail/Acheron.webp",
@@ -1359,6 +1556,8 @@ var chrImages = [
 	"Ib/Gary.webp",
 	"Ib/Ib's_Father.png",
 	"Ib/Ib's_Mother.png",
+	// INPUT6
+	"INPUT6/MAIDAI.png",
 	// Inscryption
 	"Inscryption/The_Angler.webp",
 	"Inscryption/The_Archivist.webp",
@@ -1472,6 +1671,12 @@ var chrImages = [
 	"The_King_of_Fighters/Whip.webp",
 	"The_King_of_Fighters/Yashiro_Nanakase.webp",
 	"The_King_of_Fighters/Yuri_Sakazaki.webp",
+	// King of the Hill
+	"King_of_the_Hill/Bill_Dauterive.webp",
+	"King_of_the_Hill/Dale_Gribble.webp",
+	"King_of_the_Hill/Hank_Hill.webp",
+	"King_of_the_Hill/Jeff_Boomhauer.webp",
+	"King_of_the_Hill/Peggy_Hill.webp",
 	// Kirby
 	"Kirby/Bandana_Dee.png",
 	"Kirby/Dark_Matter.png",
@@ -1512,6 +1717,12 @@ var chrImages = [
 	"The_Legend_of_Zelda/Zelda.png",
 	// Lethal Company
 	"Lethal_Company/Employee.webp",
+	// Love Curse: Find Your Soulmate
+	"Love_Curse_Find_Your_Soulmate/Eleanor_Si.webp",
+	"Love_Curse_Find_Your_Soulmate/Iris_Wen.webp",
+	"Love_Curse_Find_Your_Soulmate/Nyx_Xia.webp",
+	"Love_Curse_Find_Your_Soulmate/Selene_Yan.webp",
+	"Love_Curse_Find_Your_Soulmate/Victoria_Qi.webp",
 	// Ludosity
 	"Ludosity/Asha.webp",
 	"Ludosity/Business_Casual_Man.webp",
@@ -1543,6 +1754,48 @@ var chrImages = [
 	"Maiden_&_Spell/Silent_Redhood.webp",
 	"Maiden_&_Spell/Stormbeast.webp",
 	"Maiden_&_Spell/Sun_Priestess.webp",
+	// Marvel
+	"Marvel/Adam_Warlock.png",
+	"Marvel/Angela_(Aldrif_Odinsdottir).png",
+	"Marvel/Black_Panther_(T'Challa).png",
+	"Marvel/Black_Widow_(Natasha_Romanova).png",
+	"Marvel/Blade_(Eric_Brooks).png",
+	"Marvel/Bruce_Banner.png",
+	"Marvel/Captain_America_(Steven_Rogers).png",
+	"Marvel/Daredevil_(Matt_Murdock).png",
+	"Marvel/Doctor_Strange_(Stephen_Strange).png",
+	"Marvel/Emma_Frost.png",
+	"Marvel/Groot.png",
+	"Marvel/Hawkeye_(Clint_Barton).png",
+	"Marvel/Hela.png",
+	"Marvel/Hulk.png",
+	"Marvel/Human_Torch_(Johnny_Storm).png",
+	"Marvel/Invisible_Woman_(Susan_Storm).png",
+	"Marvel/Iron_Fist_(Lin_Lie).png",
+	"Marvel/Iron_Man_(Anthony_Stark).png",
+	"Marvel/Loki_Laufeyson.png",
+	"Marvel/Luna_Snow_(Seol_Hee).png",
+	"Marvel/Magik_(Illyana_Rasputin).png",
+	"Marvel/Magneto_(Max_Eisenhardt).png",
+	"Marvel/Mantis.png",
+	"Marvel/Mister_Fantastic_(Reed_Richards).png",
+	"Marvel/Moon_Knight_(Marc_Spector).png",
+	"Marvel/Namor_McKenzie.png",
+	"Marvel/Phoenix_(Jean_Grey).png",
+	"Marvel/Psylocke_(Sai).png",
+	"Marvel/Rocket_Raccoon.png",
+	"Marvel/Scarlet_Witch_(Wanda_Maximoff).png",
+	"Marvel/Spider-Man_(Peter_Parker).png",
+	"Marvel/Squirrel_Girl_(Doreen_Green).png",
+	"Marvel/Star-Lord_(Peter_Quill).png",
+	"Marvel/Storm_(Ororo_Munroe).png",
+	"Marvel/The_Punisher_(Frank_Castle).png",
+	"Marvel/The_Thing_(Ben_Grimm).png",
+	"Marvel/Thor_Odinson.png",
+	"Marvel/Ultron.png",
+	"Marvel/Venom_(Edward_Brock).png",
+	"Marvel/Winter_Soldier_(James_Buchanan_Barnes).png",
+	"Marvel/Wolverine_(Logan).png",
 	// Mega Man
 	"Mega_Man/Bass.webp",
 	"Mega_Man/Dr._Albert_W._Wily.webp",
@@ -1642,6 +1895,15 @@ var chrImages = [
 	// Mobile Suit Gundam
 	"Mobile_Suit_Gundam/Miorine_Rembran.webp",
 	"Mobile_Suit_Gundam/Suletta_Mercury.webp",
+	// Monopoly
+	"Monopoly/Monopoly_Man.png",
+	// Monsters, Inc.
+	"Monsters,_Inc/Celia_Mae.webp",
+	"Monsters,_Inc/Henry_J._Waternoose_III.jpg",
+	"Monsters,_Inc/James_P._Sullivan.png",
+	"Monsters,_Inc/Mike_Wazowski.png",
+	"Monsters,_Inc/Randall_Boggs.png",
+	"Monsters,_Inc/Roz.jpg",
 	// Mortal Kombat
 	"Mortal_Kombat/Baraka.webp",
 	"Mortal_Kombat/Bi-Han.webp",
@@ -1832,6 +2094,13 @@ var chrImages = [
 	"Papa's/Joy.webp",
 	"Papa's/Papa_Louie.webp",
 	"Papa's/Roy.webp",
+	// Paranormasight
+	"Paranormasight/Harue_Shigima.webp",
+	"Paranormasight/Jun_Erio.webp",
+	"Paranormasight/Richter_Kai.webp",
+	"Paranormasight/Shogo_Okiie.webp",
+	"Paranormasight/Tetsuo_Tsutsumi.webp",
+	"Paranormasight/Yoko_Fukunaga.webp",
 	// Persona
 	"Persona/Aigis.webp",
 	// Phasmophobia
@@ -1924,7 +2193,7 @@ var chrImages = [
 	"Plants_vs._Zombies/Super_Brainz.webp",
 	"Plants_vs._Zombies/Sunflower.webp",
 	"Plants_vs._Zombies/Torchwood.webp",
-	"Plants_vs._Zombies/Wall_knight.webp",
+	"Plants_vs._Zombies/Wall_Knight.webp",
 	"Plants_vs._Zombies/Wall_Nut.webp",
 	"Plants_vs._Zombies/Wizard.webp",
 	"Plants_vs._Zombies/Zombie.png",
@@ -2008,6 +2277,11 @@ var chrImages = [
 	"Rabbit_&_Steel/Sniper.webp",
 	"Rabbit_&_Steel/Spellsword.webp",
 	"Rabbit_&_Steel/Wizard.webp",
+	// Rage Comics
+	"Rage_Comics/Derpina.webp",
+	"Rage_Comics/Forever_Alone.webp",
+	"Rage_Comics/Rage_Guy.png",
+	"Rage_Comics/Trollface.png",
 	// Rayman
 	"Rayman/Annetta_Fish.png",
 	"Rayman/Art_Rytus.png",
@@ -2024,12 +2298,29 @@ var chrImages = [
 	"Rayman/Rayman.png",
 	"Rayman/Romeo_Patti.png",
 	"Rayman/Voodoo_Mamma.png",
+	// Regular Show
+	"Regular_Show/Benson_Dunwoody.webp",
+	"Regular_Show/CJ.webp",
+	"Regular_Show/Eileen_Roberts.webp",
+	"Regular_Show/Hi_Five_Ghost.webp",
+	"Regular_Show/Margaret_Smith.webp",
+	"Regular_Show/Mordecai.webp",
+	"Regular_Show/Mr._Maellard.webp",
+	"Regular_Show/Muscle_Man.webp",
+	"Regular_Show/Pops_Maellard.webp",
+	"Regular_Show/Rigby.webp",
+	"Regular_Show/Skips.webp",
+	"Regular_Show/Thomas.webp",
 	// Re:Zero
 	"ReZero/Felix_''Ferris''_Argyle.webp",
 	"ReZero/Natsuki_Subaru.webp",
 	"ReZero/Priscilla_Barielle.webp",
 	"ReZero/Ram.webp",
 	"ReZero/Rem.webp",
+	// Ren & Stimpy
+	"Ren_&_Stimpy/Powdered_Toast_Man.webp",
+	"Ren_&_Stimpy/Ren_Hoek.webp",
+	"Ren_&_Stimpy/Stimpson_''Stimpy''_J._Cat.webp",
 	// Resident Evil
 	"Resident_Evil/Ada_Wong.webp",
 	"Resident_Evil/Albert_Wesker.webp",
@@ -2153,8 +2444,10 @@ var chrImages = [
 	"Rivals_of_Aether/Etalus.webp",
 	"Rivals_of_Aether/Fleet.webp",
 	"Rivals_of_Aether/Forsburn.webp",
+	"Rivals_of_Aether/Galvan.webp",
 	"Rivals_of_Aether/Hodan.webp",
 	"Rivals_of_Aether/Kragg.webp",
+	"Rivals_of_Aether/La_Reina.webp",
 	"Rivals_of_Aether/Loxodont.webp",
 	"Rivals_of_Aether/Maypul.webp",
 	"Rivals_of_Aether/Mollo.webp",
@@ -2189,8 +2482,17 @@ var chrImages = [
 	"SCP/SCP-682.jpg",
 	"SCP/SCP-1471-A.jpg",
 	// Second Stellar
+	"Second_Stellar/Arbitration.webp",
 	"Second_Stellar/Asphodene.png",
+	"Second_Stellar/Castor.gif",
 	"Second_Stellar/Eridani.png",
+	"Second_Stellar/Nalhaun.webp",
+	"Second_Stellar/Penthesilea.webp",
+	"Second_Stellar/Perseus.png",
+	"Second_Stellar/Pollux.gif",
+	"Second_Stellar/The_Warrior_of_Light.gif",
+	"Second_Stellar/Thespian.webp",
+	"Second_Stellar/Tsukiyomi.png",
 	// Shantae
 	"Shantae/Bolo.webp",
 	"Shantae/Mimic.webp",
@@ -2270,7 +2572,7 @@ var chrImages = [
 	"Skullgirls/Robo-Fortune.webp",
 	"Skullgirls/Roxie.webp",
 	"Skullgirls/Squigly.webp",
-	"Skullgirls/Valentine_Skullgirls.webp",
+	"Skullgirls/Valentine.webp",
 	// Slay the Princess
 	"Slay_the_Princess/The_Narrator.png",
 	"Slay_the_Princess/The_Player.png",
@@ -2321,12 +2623,12 @@ var chrImages = [
 	"Splatoon/Agent_8_(Female).webp",
 	"Splatoon/Agent_8_(Male).webp",
 	"Splatoon/Big_Man.webp",
-	"Splatoon/Callie.webp",
+	"Splatoon/Callie.png",
 	"Splatoon/Cap'n_Craig_Cuttlefish.webp",
 	"Splatoon/DJ_Octavio.webp",
 	"Splatoon/Frye_Onaga.webp",
 	"Splatoon/Jelonzo.webp",
-	"Splatoon/Marie.webp",
+	"Splatoon/Marie.png",
 	"Splatoon/Marina_Ida.webp",
 	"Splatoon/Pearl_Houzuki.webp",
 	"Splatoon/Shiver_Hohojiro.webp",
@@ -2359,8 +2661,8 @@ var chrImages = [
 	"Spooky's_Jumpscare_Mansion/The_Clown.webp",
 	"Spooky's_Jumpscare_Mansion/Frenzy.webp",
 	"Spooky's_Jumpscare_Mansion/Husk.webp",
-	"Spooky's_Jumpscare_Mansion/Monster_2.webp",
 	"Spooky's_Jumpscare_Mansion/Monster_1.webp",
+	"Spooky's_Jumpscare_Mansion/Monster_2.webp",
 	"Spooky's_Jumpscare_Mansion/Monster_4.webp",
 	"Spooky's_Jumpscare_Mansion/Monster_5.webp",
 	"Spooky's_Jumpscare_Mansion/Monster_6.webp",
@@ -2446,6 +2748,7 @@ var chrImages = [
 	"Street_Fighter/A.K.I..webp",
 	"Street_Fighter/Akuma.webp",
 	"Street_Fighter/Blanka.webp",
+	"Street_Fighter/C._Viper.webp",
 	"Street_Fighter/Cammy_White.webp",
 	"Street_Fighter/Chun-Li.webp",
 	"Street_Fighter/Dan_Hibiki.webp",
@@ -2453,7 +2756,7 @@ var chrImages = [
 	"Street_Fighter/Dhalsim.webp",
 	"Street_Fighter/E._Honda.webp",
 	"Street_Fighter/Ed.webp",
-	"Street_Fighter/Elena.png",
+	"Street_Fighter/Elena.webp",
 	"Street_Fighter/F.A.N.G..webp",
 	"Street_Fighter/Guile.webp",
 	"Street_Fighter/Jamie_Siu.webp",
@@ -2466,7 +2769,7 @@ var chrImages = [
 	"Street_Fighter/Marisa_Rossetti.webp",
 	"Street_Fighter/Rashid.webp",
 	"Street_Fighter/Ryu.webp",
-	"Street_Fighter/Sagat.png",
+	"Street_Fighter/Sagat.webp",
 	"Street_Fighter/Zangief.webp",
 	// Streets of Rage
 	"Streets_of_Rage/Adam_Hunter.webp",
@@ -2589,79 +2892,111 @@ var chrImages = [
 	"Tekken/Yoshimitsu.webp",
 	"Tekken/Zafina.webp",
 	// Terraria
-	"Terraria/Arms_Dealer.webp",
+	"Terraria/Arms_Dealer.png",
 	"Terraria/Brain_of_Cthulhu.webp",
-	"Terraria/Clothier.webp",
-	"Terraria/Cyborg.webp",
-	"Terraria/Demolitionist.webp",
+	"Terraria/Clothier.png",
+	"Terraria/Cyborg.png",
+	"Terraria/Demolitionist.png",
 	"Terraria/The_Destroyer.webp",
-	"Terraria/Dryad.webp",
+	"Terraria/Dryad.png",
 	"Terraria/Duke_Fishron.webp",
-	"Terraria/Dye_Trader.webp",
+	"Terraria/Dye_Trader.png",
 	"Terraria/Eater_of_Worlds.webp",
 	"Terraria/Empress_of_Light.webp",
 	"Terraria/Eye_of_Cthulhu.webp",
-	"Terraria/Goblin_Tinkerer.webp",
+	"Terraria/Goblin_Tinkerer.png",
 	"Terraria/Golem.webp",
-	"Terraria/Golfer.webp",
-	"Terraria/Guide.webp",
+	"Terraria/Golfer.png",
+	"Terraria/Guide.png",
 	"Terraria/King_Slime.webp",
 	"Terraria/Lepus.webp",
 	"Terraria/Lunatic_Cultist.webp",
-	"Terraria/Mechanic.webp",
-	"Terraria/Merchant.webp",
-	"Terraria/Moon_Lord.webp",
-	"Terraria/Nurse.webp",
+	"Terraria/Mechanic.png",
+	"Terraria/Merchant.png",
+	"Terraria/Moon_Lord.gif",
+	"Terraria/Nurse.png",
 	"Terraria/Ocram.webp",
-	"Terraria/Painter.webp",
-	"Terraria/Party_Girl.webp",
-	"Terraria/Pirate.webp",
+	"Terraria/Painter.png",
+	"Terraria/Party_Girl.png",
+	"Terraria/Pirate.png",
 	"Terraria/Plantera.webp",
 	"Terraria/Queen_Bee.webp",
 	"Terraria/Queen_Slime.png",
-	"Terraria/Skeleton_Merchant.webp",
+	"Terraria/Skeleton_Merchant.png",
 	"Terraria/Skeletron.webp",
 	"Terraria/Skeletron_Prime.webp",
-	"Terraria/Steampunker.webp",
-	"Terraria/Stylist.webp",
-	"Terraria/Tavernkeep.webp",
-	"Terraria/Tax_Collector.webp",
-	"Terraria/Traveling_Merchant.webp",
-	"Terraria/Truffle.webp",
+	"Terraria/Steampunker.png",
+	"Terraria/Stylist.png",
+	"Terraria/Tavernkeep.png",
+	"Terraria/Tax_Collector.png",
+	"Terraria/Traveling_Merchant.png",
+	"Terraria/Truffle.png",
 	"Terraria/Turkor_the_Ungrateful.webp",
 	"Terraria/The_Twins.webp",
 	"Terraria/Wall_of_Flesh.webp",
-	"Terraria/Witch_Doctor.webp",
-	"Terraria/Wizard.webp",
-	"Terraria/Zoologist.webp",
+	"Terraria/Witch_Doctor.png",
+	"Terraria/Wizard.png",
+	"Terraria/Zoologist.png",
 	// Terraria Mods
+	"Terraria_Mods/Abominationn.webp",
 	"Terraria_Mods/Anahita.webp",
 	"Terraria_Mods/Aquatic_Scourge.webp",
 	"Terraria_Mods/Archmage.webp",
 	"Terraria_Mods/Astrum_Aureus.webp",
 	"Terraria_Mods/Astrum_Deus.webp",
 	"Terraria_Mods/Bandit.webp",
+	"Terraria_Mods/Banished_Baron.png",
+	"Terraria_Mods/Blacksmith.webp",
+	"Terraria_Mods/Borean_Strider.webp",
 	"Terraria_Mods/Brimstone_Elemental.png",
+	"Terraria_Mods/Buried_Champion.gif",
 	"Terraria_Mods/Ceaseless_Void.webp",
+	"Terraria_Mods/Cobbler.webp",
+	"Terraria_Mods/Confused_Zombie.webp",
+	"Terraria_Mods/Cook.webp",
+	"Terraria_Mods/Corpse_Bloom.gif",
 	"Terraria_Mods/Crabulon.webp",
 	"Terraria_Mods/Cryogen.webp",
+	"Terraria_Mods/Cursed_Coffin.png",
+	"Terraria_Mods/Desert_Acolyte.webp",
 	"Terraria_Mods/Desert_Scourge.webp",
+	"Terraria_Mods/Deviantt.webp",
 	"Terraria_Mods/The_Devourer_of_Gods.webp",
+	"Terraria_Mods/Diverman.webp",
 	"Terraria_Mods/Draedon.png",
 	"Terraria_Mods/Dragonfolly.webp",
+	"Terraria_Mods/Druid.webp",
+	"Terraria_Mods/Eridanus.gif",
+	"Terraria_Mods/Fallen_Beholder.gif",
+	"Terraria_Mods/Forgotten_One.gif",
+	"Terraria_Mods/The_Grand_Thunder_Bird.gif",
+	"Terraria_Mods/Granite_Energy_Storm.gif",
 	"Terraria_Mods/The_Hive_Mind.webp",
+	"Terraria_Mods/Illusionist.gif",
 	"Terraria_Mods/The_Leviathan.png",
+	"Terraria_Mods/Lich.gif",
+	"Terraria_Mods/Lifelight.gif",
+	"Terraria_Mods/LumberJack.webp",
+	"Terraria_Mods/Mutant.webp",
 	"Terraria_Mods/The_Old_Duke.png",
+	"Terraria_Mods/Patch_Werk.gif",
 	"Terraria_Mods/The_Perforator_Hive.webp",
 	"Terraria_Mods/The_Plaguebringer_Goliath.webp",
 	"Terraria_Mods/Polterghast.png",
+	"Terraria_Mods/The_Primordials.gif",
 	"Terraria_Mods/Providence.webp",
+	"Terraria_Mods/Queen_Jellyfish.webp",
 	"Terraria_Mods/Ravager.webp",
 	"Terraria_Mods/Sea_King.webp",
 	"Terraria_Mods/Signus.webp",
 	"Terraria_Mods/The_Slime_God.webp",
+	"Terraria_Mods/Spiritualist.webp",
+	"Terraria_Mods/Star_Scouter.gif",
 	"Terraria_Mods/Storm_Weaver.webp",
 	"Terraria_Mods/Supreme_Witch,_Calamitas.webp",
+	"Terraria_Mods/Tracker.webp",
+	"Terraria_Mods/Viscount.gif",
+	"Terraria_Mods/Weapon_Master.webp",
 	"Terraria_Mods/Yharim.jpg",
 	"Terraria_Mods/Yharon.webp",
 	// Titanfall
@@ -2795,6 +3130,8 @@ var chrImages = [
 	"Touhou_Project/Yuuma_Toutetsu.png",
 	"Touhou_Project/Yuyuko_Saigyouji.png",
 	"Touhou_Project/Zanmu_Nippaku.png",
+	// Touhou Project Fanworks
+	"Touhou_Project_Fanworks/Kakkoi.png",
 	// Tsukihime
 	"Tsukihime/Akiha_Tohno.png",
 	"Tsukihime/Aoko_Aozaki.png",
@@ -2842,6 +3179,12 @@ var chrImages = [
 	"ULTRAKILL/Sisyphus_Prime.webp",
 	"ULTRAKILL/V1.webp",
 	"ULTRAKILL/V2.webp",
+	// Umamusume
+	"Umamusume/Fumino_Nase.png",
+	"Umamusume/Ginjirou_Musaka.png",
+	"Umamusume/Hana_Toujou.png",
+	"Umamusume/Jo_Kitahara.png",
+	"Umamusume/Trainer.png",
 	// Under Night In-Birth
 	"Under_Night_In-Birth/Byakuya.png",
 	"Under_Night_In-Birth/Carmine.png",
@@ -2938,6 +3281,8 @@ var chrImages = [
 	"Wuthering_Waves/Rover_(Male).webp",
 	"Wuthering_Waves/Sanhua.webp",
 	"Wuthering_Waves/Yangyang.webp",
+	// Xavier: Renegade Angel
+	"Xavier_Renegade_Angel/Xavier.png",
 	// Xenoblade
 	"Xenoblade/Dunban.webp",
 	"Xenoblade/Eunie.webp",
@@ -3001,6 +3346,22 @@ var chrImages = [
 	"Yo-Kai_Watch/Toadal_Dude.webp",
 	"Yo-Kai_Watch/Venoct.webp",
 	"Yo-Kai_Watch/Voidera.webp",
+	// Your Turn to Die
+	"Your_Turn_to_Die/Alice_Yabusame.webp",
+	"Your_Turn_to_Die/Gashu_Satou.webp",
+	"Your_Turn_to_Die/Kai_Satou.webp",
+	"Your_Turn_to_Die/Kazumi_Mishima.webp",
+	"Your_Turn_to_Die/Keiji_Shinogi.webp",
+	"Your_Turn_to_Die/Mai_Tsurugi.webp",
+	"Your_Turn_to_Die/Midori.webp",
+	"Your_Turn_to_Die/Nao_Egokoro.webp",
+	"Your_Turn_to_Die/Naomichi_Kurumada.webp",
+	"Your_Turn_to_Die/Q-taro_Burgerberg.webp",
+	"Your_Turn_to_Die/Reko_Yabusame.webp",
+	"Your_Turn_to_Die/Shunsuke_Hayasaka.webp",
+	"Your_Turn_to_Die/Sou_Hiyori.webp",
+	"Your_Turn_to_Die/Sue_Miley.webp",
+	"Your_Turn_to_Die/Tia_Safalin.webp",
 	// Zenless Zone Zero
 	"Zenless_Zone_Zero/Alexandrina_Sebastiane.webp",
 	"Zenless_Zone_Zero/Anby_Demara.webp",
@@ -3031,42 +3392,6 @@ var chrImages = [
 	"Zenless_Zone_Zero/Zhu_Yuan.webp",
 ];
 
-var seriesList = [];
-getSeries();
-
-function getSeries() {
-	var curSeries = "";
-	for (i = 0; i < chrImages.length; i++) {
-		curSeries = chrImages[i].split("/")[0].replace(/_/g, " ").replace(/''/g, "\"").trim();
-		if (!seriesList.includes(curSeries)) {
-			seriesList.push(curSeries);
-		}
-	}
-	
-	// Corrections
-	
-	var seriesIndex = seriesList.indexOf("AI The Somnium Files");
-	seriesList[seriesIndex] = "AI: The Somnium Files";
-	
-	seriesIndex = seriesList.indexOf("BNA Brand New Animal");
-	seriesList[seriesIndex] = "BNA: Brand New Animal";
-	
-	seriesIndex = seriesList.indexOf("Honkai Star Rail");
-	seriesList[seriesIndex] = "Honkai: Star Rail";
-	
-	seriesIndex = seriesList.indexOf("Minecraft Story Mode");
-	seriesList[seriesIndex] = "Minecraft: Story Mode";
-	
-	seriesIndex = seriesList.indexOf("Pokemon");
-	seriesList[seriesIndex] = "Pokémon";
-	
-	seriesIndex = seriesList.indexOf("ReZero");
-	seriesList[seriesIndex] = "Re:Zero";
-	
-	seriesIndex = seriesList.indexOf("Reverse1999");
-	seriesList[seriesIndex] = "Reverse:1999";
-}
-
 var disabledSeries = [];
 
 var spoilerMode = false;
@@ -3082,20 +3407,32 @@ var skipAmount = 0;
 
 var cuddleModeToggle = false;
 
+var localOptions = {
+	canRoll: true,
+	easterEggs: false,
+}
+
 function generate(value, increment, incrementValue, type = "none") {
-	if (localOptions.canRoll == true) {
+	if (localOptions.canRoll) {
 		if (increment) {
-			if (randNum + incrementValue < chrImages.length && randNum + incrementValue >= 0) {
-				randNum += incrementValue;
-				charInfo = writeName(chrImages[randNum]);
-				document.getElementById("identer-" + value).value = randNum;
+			randNum = parseInt(document.getElementById("identer-" + value).value);
+			if (isNaN(randNum)) {
+				randNum = -1;
 			}
+			randNum += incrementValue;
+			if (randNum < 0) {
+				randNum = 0;
+			} else if (randNum >= chrImages.length) {
+				randNum = chrImages.length - 1;
+			}
+			charInfo = writeName(chrImages[randNum]);
+			document.getElementById("identer-" + value).value = randNum;
 		} else {
 			rerollByName();
 		}
 		
 		if (type != "none") {
-			if (chrImages.length == 0) {
+			if (chrImages.length === 0) {
 				document.getElementById("upperSpace").innerHTML = "";
 				document.getElementById("chrSpace").style.textAlign = "center";
 				document.getElementById("chrSpace").style.display = "block";
@@ -3138,9 +3475,7 @@ function generate(value, increment, incrementValue, type = "none") {
 		
 		function rerollByName() {
 			randNum = Math.floor(Math.random() * (chrImages.length));
-			//console.log(randNum);
 			charInfo = writeName(chrImages[randNum]);
-			//console.log(charInfo);
 			
 			function commonReroll() {
 				randNum = Math.floor(Math.random() * (chrImages.length));
@@ -3149,7 +3484,7 @@ function generate(value, increment, incrementValue, type = "none") {
 			
 			reroll: while (true) {
 				
-				if (!spoilerMode && disabledSeries.length == 0) {
+				if (!spoilerMode && disabledSeries.length === 0) {
 					break reroll;
 				}
 				
@@ -3216,7 +3551,7 @@ function generate(value, increment, incrementValue, type = "none") {
 								break reroll;
 							}
 						// Hollow Knight
-						case "The Hollow Knight": case "Radiance":
+						case "Herrah the Beast": case "The Hollow Knight": case "Lurien the Watcher": case "Monomon the Teacher": case "Radiance": case "Shade Lord":
 							if (smToggles.HK) {
 								console.log("Pick rerolled: Hollow Knight (" + charInfo[0] + ")");
 								if (type != "none") {
@@ -3294,50 +3629,48 @@ function generate(value, increment, incrementValue, type = "none") {
 			}
 		}
 		
-		var imageArea = document.getElementById("daImage1");
+		var imageArea;
 		switch (value) {
-			case 1: case 2: case 3:
-				imageArea = document.getElementById("daImage" + value.toString());
-				changeCharacter(value);
-				document.getElementById("identer-" + value).value = randNum;
+			case 0:
+				for (i = 1; i <= document.getElementsByClassName("character-space").length; i++) {
+					imageArea = document.getElementById("daImage" + i);
+					value = i;
+					changeCharacter();
+					document.getElementById("identer-" + i).value = randNum;
+					if (i != document.getElementsByClassName("character-space").length) {
+						rerollByName();
+					}
+				}
 				break;
-			case 4:
-				imageArea = document.getElementById("daImage1");
-				changeCharacter(1);
-				document.getElementById("identer-1").value = randNum;
-				rerollByName();
-				imageArea = document.getElementById("daImage2");
-				changeCharacter(2);
-				document.getElementById("identer-2").value = randNum;
-				rerollByName();
-				imageArea = document.getElementById("daImage3");
-				changeCharacter(3);
-				document.getElementById("identer-3").value = randNum;
+			default:
+				imageArea = document.getElementById("daImage" + value);
+				changeCharacter();
+				document.getElementById("identer-" + value).value = randNum;
 				break;
 		}
 		
-		function changeCharacter(slotValue) {
-			descriptionList[slotValue - 1] = randNum;
-			document.getElementById("characterName" + slotValue).innerHTML = charInfo[0];
-			imageArea.src = "../images/characters/" + chrImages[randNum];
-			assignSeries(slotValue);
-			spoilerCheck(slotValue);
+		function changeCharacter() {
+			// descriptionList[slotValue - 1] = randNum;
+			document.getElementById("characterName" + value).innerHTML = charInfo[0];
+			document.getElementById("daImage" + value).src = "../images/characters/" + chrImages[randNum];
+			assignSeries(value);
+			spoilerCheck(value);
 			
-			if (document.getElementById("theme-select").value == "pride") {
-				document.getElementById("pridestyle" + slotValue.toString()).innerHTML = "";
-				prideCheck(chrImages[randNum], slotValue);
+			if (document.getElementById("theme-select").value === "pride") {
+				document.getElementById("pridestyle" + value).innerHTML = "";
+				prideCheck(chrImages[randNum], value);
 			}
 			
 			// Check for easter eggs
 			
-			if (type == "none" && localOptions.easterEggs) {
+			if (type === "none" && localOptions.easterEggs) {
 				easterEgg(charInfo[0]);
 			}
 		}
 		
 		// Spoiler Mode for name/image/description changes
 		function spoilerCheck(daValue) {
-			if (spoilerMode == true) {
+			if (spoilerMode) {
 				switch (charInfo[0]) {
 					case "Matt Engarde":
 						if (smToggles.AA) {
@@ -3526,56 +3859,49 @@ function selectSpoilerMode(series) {
 	}
 }
 
-function clearPicks(smashOrPass) {
-	if (smashOrPass == true ) {
+function clearPicks(smashOrPass = false) {
+	if (smashOrPass) {
 		document.getElementById("characterName1").innerHTML = "Character";
 		document.getElementById("series1").innerHTML = "";
 		document.getElementById("daImage1").src = "";
 	} else {
-		for (i = 1; i <= 3; i++) {
+		for (i = 1; i <= document.getElementsByClassName("character-space").length; i++) {
 			document.getElementById("characterName" + i).innerHTML = "Character " + i;
 			document.getElementById("series" + i).innerHTML = "";
 			document.getElementById("daImage" + i).src = "";
+			debugText[i - 1].value = "";
 		}
-		debugText.box1.value = "";
-		debugText.box2.value = "";
-		debugText.box3.value = "";
 	}
 }
 
 // Debug stuff
 
-var debugText = {
-	box1: document.getElementById("identer-1"),
-	box2: document.getElementById("identer-2"),
-	box3: document.getElementById("identer-3")
-}
-debugText.box1.value = "";
-debugText.box2.value = "";
-debugText.box3.value = "";
+var debugText = [];
 
-debugText.box1.addEventListener("keydown", function(e) {
-	submitDebugId(e, 1);
-});
-debugText.box2.addEventListener("keydown", function(e) {
-	submitDebugId(e, 2);
-});
-debugText.box3.addEventListener("keydown", function(e) {
-	submitDebugId(e, 3);
-});
+function updateDebugText() {
+	for (i = 1; i <= document.getElementsByClassName("character-space").length; i++) {
+		debugText.push(document.getElementById("identer-" + i));
+	}
+
+	for (i = 0; i < debugText.length; i++) {
+		(function() {
+			var slotNum = i;
+			debugText[slotNum].value = "";
+			debugText[slotNum].addEventListener("keydown", function(e) {
+				submitDebugId(e, slotNum + 1);
+			});
+		}());
+	}
+	clearPicks();
+}
+updateDebugText();
 
 function submitDebugId(idEvent, slotNum) {
 	var charaId = idEvent.target.value;
 	charaId = Number(charaId);
-	if (idEvent.key == "Enter" && Number.isInteger(charaId) && charaId > -1 && charaId < chrImages.length) {
-		randNum = 0;
-		generate(slotNum, true, charaId);
+	if (idEvent.key === "Enter" && Number.isInteger(charaId) && charaId > -1 && charaId < chrImages.length) {
+		generate(slotNum, true, 0);
 	}
-}
-
-var localOptions = {
-	canRoll: true,
-	easterEggs: false,
 }
 
 function changeLocalOptions(optionType) {

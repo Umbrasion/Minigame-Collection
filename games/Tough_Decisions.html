@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tough Decisions | Umbra's Game Collection</title>
+		<link rel="stylesheet" href="../styles/mainStyle.css">
+		<link rel="stylesheet" href="../styles/themeStyles.css">
+		<link rel="stylesheet" href="../styles/td.css">
+		<script src="../scripts/tdGenerator.js" defer></script>
+		<script src="../scripts/options.js" defer></script>
+		<style>
+			
+		</style>
+	</head>
+	<body class="theme-element">
+		<header class="theme-element">
+			<div>
+				<span id="titlebar">TOUGH DECISIONS</span>
+			</div>
+			<div class="header-info">
+				<span>Info</span>
+				<div class="header-infobox">You have two options... and it's up to your own opinions to decide which one you'd rather go with!</div>
+			</div>
+		</header>
+		<div class="main-content">
+			<div>
+				<button id="decision-button" class="theme-element" style="font-weight: bold; margin: 0px 6px" onclick="generate(0)">New Decision</button>
+			</div>
+		</div>
+		<div id="decisions-box">
+			<div id="decisions-box-l" class="decision-box">
+				<h3 class="decision-subtitle">I would rather...</h3>
+				<h1 id="decision-title-l" class="decision-title">Example 1</h1>
+			</div>
+			<div id="decisions-box-r" class="decision-box">
+				<h3 class="decision-subtitle">I would rather...</h3>
+				<h1 id="decision-title-r" class="decision-title">Example 2</h1>
+			</div>
+		</div>
+		<div id="options">
+			<button id="options-button" onclick="optionsWindow()">
+				<img id="options-image" class="theme-element" src="../images/OptionsGear.webp">
+			</button>
+		</div>
+		<div id="options-window" class="theme-element" style="display: none">
+			<h5 class="options-title">Tough Decisions</h5>
+			<table>
+				<tr>
+					<th>Decision Log:</th>
+					<td>
+						<button id="options-button-decisionlog" class="theme-element" onclick="">Open</button>
+					</td>
+				</tr>
+			</table>
+			<h5 class="options-title">Decision Categories</h5>
+			<table>
+				<tr>
+					<th>
+						<label for="category-generic">Generic:</label>
+					</th>
+					<td>
+						<input type="checkbox" id="category-generic" name="category-generic" checked>
+						<span class="category-info" title="A category with generic decision options">(?)</span>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="category-goodvibes">Good Vibes:</label>
+					</th>
+					<td>
+						<input type="checkbox" id="category-goodvibes" name="category-goodvibes">
+						<span class="category-info" title="A category with positive choices rather than negative ones; best played by itself">(?)</span>
+					</td>
+				</tr>
+			</table>
+			<h5 class="options-title">General</h5>
+			<table>
+				<tr>
+					<th>
+						<label for="theme-select">Theme:</label>
+					</th>
+					<td>
+						<select name="theme" id="theme-select" class="theme-element" onchange="toggleOptions('theme')">
+							<option value="default" selected="selected">Default</option>
+							<option value="classic">Classic</option>
+							<option value="lightMode">Light Mode</option>
+							<option value="darkMode">Dark Mode</option>
+							<option value="ugly">Ugly</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="othergames-container">
+			<a href="../index.html" class="othergames theme-element">Back to game list</a>
+		</div>
+		<img id="easterEggImage" style="">
+	</body>
+</html>

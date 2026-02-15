@@ -53,14 +53,47 @@
 	border: 2px solid #D4D4D4;
 	border-radius: 8px;
 	margin: 50px auto;
-	/* margin: 50px calc(100vw / 2 - 197px); */
 	z-index: 501;
 }
 
-#seriesToggleMenuBox {
+#series-characters {
+	display: none;
+	position: absolute;
+	background-color: rgba(50, 50, 50, 0.7);
+	top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+	z-index: 505;
+}
+
+#series-characters-box {
+	background-color: #30363F;
+	text-align: left;
+	width: fit-content;
+	height: fit-content;
+	padding: 10px 20px;
+	border: 2px solid #D4D4D4;
+	border-radius: 8px;
+	margin: auto;
+	z-index: 506;
+}
+
+#series-characters-title {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+#series-characters-list {
+	
+}
+
+#seriesToggleMenuBox, #series-characters-box {
 	max-width: 95vw;
 	max-height: calc(100vh - 120px);
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 
 #seriesToggleOptions {
