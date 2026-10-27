@@ -126,6 +126,23 @@ var chrImages = [
 	"Ace_Attorney/Yujin_Mikotoba.webp",
 	"Ace_Attorney/Yuri_Cosmos.webp",
 	"Ace_Attorney/Zak_Gramarye.webp",
+	// Advanced Education with Viktor Strobovski
+	"Advanced_Education_with_Viktor_Strobovski/Albert.webp",
+	"Advanced_Education_with_Viktor_Strobovski/Alice_Freudenmacher.webp",
+	"Advanced_Education_with_Viktor_Strobovski/Angellica.webp",
+	"Advanced_Education_with_Viktor_Strobovski/Antibreather.webp",
+	"Advanced_Education_with_Viktor_Strobovski/Doggos.webp",
+	"Advanced_Education_with_Viktor_Strobovski/Erie.webp",
+	"Advanced_Education_with_Viktor_Strobovski/Freek-a-del'ka.webp",
+	"Advanced_Education_with_Viktor_Strobovski/Grandma.webp",
+	"Advanced_Education_with_Viktor_Strobovski/Konstantin_XI.webp",
+	"Advanced_Education_with_Viktor_Strobovski/Laura.webp",
+	"Advanced_Education_with_Viktor_Strobovski/Marzia_V..webp",
+	"Advanced_Education_with_Viktor_Strobovski/Mr._Cleany-Clean.webp",
+	"Advanced_Education_with_Viktor_Strobovski/Mr._Mix.webp",
+	"Advanced_Education_with_Viktor_Strobovski/Phonty-Phonograph.webp",
+	"Advanced_Education_with_Viktor_Strobovski/Puppet.webp",
+	"Advanced_Education_with_Viktor_Strobovski/Viktor_Strobovski.webp",
 	// Adventure Time
 	"Adventure_Time/Billy.webp",
 	"Adventure_Time/Cake.webp",
@@ -423,6 +440,12 @@ var chrImages = [
 	// Clash Royale
 	"Clash_Royale/King.webp",
 	"Clash_Royale/S.P.A.R.K.Y..webp",
+	// Cloudy with a Chance of Meatballs
+	"Cloudy_with_a_Chance_of_Meatballs/Chester_V.webp",
+	"Cloudy_with_a_Chance_of_Meatballs/Earl_Devereaux.webp",
+	"Cloudy_with_a_Chance_of_Meatballs/Flint_Lockwood.webp",
+	"Cloudy_with_a_Chance_of_Meatballs/Sam_Sparks.webp",
+	"Cloudy_with_a_Chance_of_Meatballs/Tim_Lockwood.webp",
 	// Cookie Run
 	"Cookie_Run/Adventurer_Cookie.webp",
 	"Cookie_Run/Affogato_Cookie.webp",
@@ -545,7 +568,7 @@ var chrImages = [
 	"Cookie_Run/Wind_Archer_Cookie.webp",
 	// Corporate Mascots
 	"Corporate_Mascots/Jack_Box.jpg",
-	"Corporate_Mascots/Ronald_McDonald.jpg",
+	"Corporate_Mascots/Ronald_McDonald.png",
 	"Corporate_Mascots/The_Burger_King.jpg",
 	"Corporate_Mascots/Wendy.png",
 	// Courage the Cowardly Dog
@@ -753,14 +776,18 @@ var chrImages = [
 	"Dead_By_Daylight/Yun-Jin_Lee.webp",
 	"Dead_By_Daylight/Zarina_Kassir.webp",
 	// Deltarune
-	"Deltarune/Mr._''Ant''_Tenna.png",
+	"Deltarune/Alvin.png",
+	"Deltarune/Blue.png",
 	"Deltarune/Cap'n.webp",
 	"Deltarune/Carol_Holiday.png",
 	"Deltarune/Cat_Mike.gif",
 	"Deltarune/Clover.webp",
 	"Deltarune/Cowboy_Mike.gif",
 	"Deltarune/Elnina.gif",
+	"Deltarune/Flowery.png",
 	"Deltarune/FRIEND.gif",
+	"Deltarune/Green.png",
+	"Deltarune/Hopschef.gif",
 	"Deltarune/Jackenstein.png",
 	"Deltarune/Jevil.webp",
 	"Deltarune/Jigsaw_Joe.webp",
@@ -768,6 +795,9 @@ var chrImages = [
 	"Deltarune/K._Round.webp",
 	"Deltarune/King.webp",
 	"Deltarune/Lanino.gif",
+	"Deltarune/Mr._''Ant''_Tenna.png",
+	"Deltarune/Pink.gif",
+	"Deltarune/Pink_(Ghost).gif",
 	"Deltarune/Ramb.png",
 	"Deltarune/The_Roaring_Knight.png",
 	"Deltarune/Small_Mike.gif",
@@ -781,6 +811,8 @@ var chrImages = [
 	"Deltarune/Sweet.webp",
 	"Deltarune/Tasque_Manager.webp",
 	"Deltarune/Titan.gif",
+	"Deltarune/Top_Chef.png",
+	"Deltarune/Yellow.png",
 	// Devil May Cry
 	"Devil_May_Cry/Dante.webp",
 	"Devil_May_Cry/Eva.webp",
@@ -932,6 +964,14 @@ var chrImages = [
 	"F-Zero/Black_Shadow.webp",
 	"F-Zero/Blood_Falcon.webp",
 	"F-Zero/Captain_Falcon.webp",
+	// FAITH
+	"FAITH/Father_Allred.webp",
+	"FAITH/Father_Garcia.webp",
+	"FAITH/Gary.png",
+	"FAITH/John_Ward.webp",
+	"FAITH/Lisa_Pearson.webp",
+	"FAITH/Miriam_Bell.webp",
+	"FAITH/Peekaboo_Demon.webp",
 	// Family Guy
 	"Family_Guy/Cleveland_Brown.webp",
 	"Family_Guy/Glenn_Quagmire.webp",
@@ -1086,6 +1126,8 @@ var chrImages = [
 	"Frieren/Fern.webp",
 	"Frieren/Frieren.webp",
 	"Frieren/Himmel.webp",
+	// Game & Watch
+	"Game_&_Watch/Mr._Game_&_Watch.png",
 	// Garfield
 	"Garfield/Dr._Liz_Wilson.webp",
 	"Garfield/Jon_Q._Arbuckle.webp",
@@ -1183,6 +1225,7 @@ var chrImages = [
 	"Granblue_Fantasy/Cagliostro.png",
 	"Granblue_Fantasy/Cain.webp",
 	"Granblue_Fantasy/Charlotta_Fenia.png",
+	"Granblue_Fantasy/Darydara.png",
 	"Granblue_Fantasy/Drang.png",
 	"Granblue_Fantasy/Eahta.png",
 	"Granblue_Fantasy/Estarriola.png",
@@ -1191,14 +1234,17 @@ var chrImages = [
 	"Granblue_Fantasy/Fediel.webp",
 	"Granblue_Fantasy/Fraux.png",
 	"Granblue_Fantasy/Gabriel.png",
+	"Granblue_Fantasy/Gallanza.png",
 	"Granblue_Fantasy/Galleon.webp",
 	"Granblue_Fantasy/Geisenborger.png",
 	"Granblue_Fantasy/Ghandagoza.png",
 	"Granblue_Fantasy/Grimnir.png",
 	"Granblue_Fantasy/Haaselia.png",
 	"Granblue_Fantasy/Halluel.png",
+	"Granblue_Fantasy/Id.png",
 	"Granblue_Fantasy/Ilsa.png",
 	"Granblue_Fantasy/Indala.webp",
+	"Granblue_Fantasy/Jherion.png",
 	"Granblue_Fantasy/Katalina_Aryze.png",
 	"Granblue_Fantasy/Katzelia.png",
 	"Granblue_Fantasy/Kumbhira.png",
@@ -1211,10 +1257,13 @@ var chrImages = [
 	"Granblue_Fantasy/Lu_Woh.webp",
 	"Granblue_Fantasy/Lucilius.png",
 	"Granblue_Fantasy/Lunalu.png",
+	"Granblue_Fantasy/Maglielle.png",
 	"Granblue_Fantasy/Makura.png",
 	"Granblue_Fantasy/Malluel.png",
+	"Granblue_Fantasy/Maminas.png",
 	"Granblue_Fantasy/Meg.png",
 	"Granblue_Fantasy/Metera.png",
+	"Granblue_Fantasy/Miamint.png",
 	"Granblue_Fantasy/Michael.png",
 	"Granblue_Fantasy/Monika.png",
 	"Granblue_Fantasy/Narmaya.png",
@@ -1296,11 +1345,15 @@ var chrImages = [
 	// GTFO
 	"GTFO/Abeo_Dauda.webp",
 	"GTFO/Aiden_Hackett.webp",
+	"GTFO/Charger.png",
 	"GTFO/Frank_Bishop.webp",
 	"GTFO/Isaiah_Woods.webp",
+	"GTFO/Mother.png",
 	"GTFO/Scout.webp",
 	"GTFO/Shooter.webp",
+	"GTFO/Snatcher.png",
 	"GTFO/Striker.webp",
+	"GTFO/Tank.jpg",
 	// Guilty Gear
 	"Guilty_Gear/A.B.A.webp",
 	"Guilty_Gear/Anji_Mito.webp",
@@ -1325,7 +1378,7 @@ var chrImages = [
 	"Guilty_Gear/I-No.webp",
 	"Guilty_Gear/Izuna.webp",
 	"Guilty_Gear/Jack-O'_Valentine.webp",
-	"Guilty_Gear/Jam_Kuradoberi.webp",
+	"Guilty_Gear/Jam_Kuradoberi.png",
 	"Guilty_Gear/Johnny.webp",
 	"Guilty_Gear/Justice.webp",
 	"Guilty_Gear/Kliff_Undersn.webp",
@@ -1339,7 +1392,7 @@ var chrImages = [
 	"Guilty_Gear/Ramlethal_Valentine.webp",
 	"Guilty_Gear/Raven.webp",
 	"Guilty_Gear/Reinforced_High-Density_Bedframe.webp",
-	"Guilty_Gear/Robo-Ky.webp",
+	"Guilty_Gear/Robo-Ky.png",
 	"Guilty_Gear/Slayer.webp",
 	"Guilty_Gear/Sol_Badguy.webp",
 	"Guilty_Gear/Testament.webp",
@@ -1408,6 +1461,8 @@ var chrImages = [
 	"Hazbin_Hotel/Valentino.webp",
 	"Hazbin_Hotel/Velvette.webp",
 	"Hazbin_Hotel/Vox.webp",
+	// Hello Neighbor
+	"Hello_Neighbor/Theodore_Peterson.png",
 	// Helltaker
 	"Helltaker/Azazel.webp",
 	"Helltaker/Beelzebub.webp",
@@ -1552,6 +1607,29 @@ var chrImages = [
 	"Honkai_Star_Rail/Welt_Yang.webp",
 	"Honkai_Star_Rail/Xueyi.webp",
 	"Honkai_Star_Rail/Yukong.webp",
+	// HUNTERxHUNTER
+	"HUNTERxHUNTER/Bara.webp",
+	"HUNTERxHUNTER/Biscuit_Krueger.webp",
+	"HUNTERxHUNTER/Bonolenov_Ndongo.webp",
+	"HUNTERxHUNTER/Chrollo_Lucifer.webp",
+	"HUNTERxHUNTER/Feitan_Portor.webp",
+	"HUNTERxHUNTER/Franklin_Bordeau.webp",
+	"HUNTERxHUNTER/Genthru.webp",
+	"HUNTERxHUNTER/Hisoka_Morow.webp",
+	"HUNTERxHUNTER/Illumi_Zoldyck.webp",
+	"HUNTERxHUNTER/Isaac_Netero.webp",
+	"HUNTERxHUNTER/Kite.webp",
+	"HUNTERxHUNTER/Leorio_Paradinight.webp",
+	"HUNTERxHUNTER/Machi_Komacine.webp",
+	"HUNTERxHUNTER/Meruem.webp",
+	"HUNTERxHUNTER/Morel_Mackernasey.webp",
+	"HUNTERxHUNTER/Neferpitou.webp",
+	"HUNTERxHUNTER/Nobunaga_Hazama.webp",
+	"HUNTERxHUNTER/Phinks_Magcub.webp",
+	"HUNTERxHUNTER/Razor.webp",
+	"HUNTERxHUNTER/Shizuku_Murasaki.webp",
+	"HUNTERxHUNTER/Sub.webp",
+	"HUNTERxHUNTER/Uvogin.webp",
 	// Ib
 	"Ib/Gary.webp",
 	"Ib/Ib's_Father.png",
@@ -1575,8 +1653,12 @@ var chrImages = [
 	"Inscryption/The_Trapper.webp",
 	"Inscryption/The_Woodcarver.webp",
 	// Invincible
+	"Invincible/Atom_Eve.webp",
+	"Invincible/Conquest.webp",
+	"Invincible/Deborah_Grayson.webp",
 	"Invincible/Markus_Sebastian_''Invincible''_Grayson.webp",
 	"Invincible/Nolan_''Omni-Man''_Grayson.webp",
+	"Invincible/Thragg.webp",
 	// Jetpack Joyride
 	"Jetpack_Joyride/Barry_Steakfries.webp",
 	// JoJo's Bizzare Adventure
@@ -1757,14 +1839,22 @@ var chrImages = [
 	// Marvel
 	"Marvel/Adam_Warlock.png",
 	"Marvel/Angela_(Aldrif_Odinsdottir).png",
+	"Marvel/Black_Panther_(Shuri).png",
 	"Marvel/Black_Panther_(T'Challa).png",
 	"Marvel/Black_Widow_(Natasha_Romanova).png",
 	"Marvel/Blade_(Eric_Brooks).png",
 	"Marvel/Bruce_Banner.png",
 	"Marvel/Captain_America_(Steven_Rogers).png",
+	"Marvel/Carnage_(Cletus_Kasady).png",
+	"Marvel/Champion_(Tryco_Slatterus).png",
+	"Marvel/Danger.png",
 	"Marvel/Daredevil_(Matt_Murdock).png",
-	"Marvel/Doctor_Strange_(Stephen_Strange).png",
+	"Marvel/Deadpool_(Wade_Wilson).png",
+	"Marvel/Doctor_Stephen_Strange.png",
+	"Marvel/Doctor_Victor_von_Doom.png",
 	"Marvel/Emma_Frost.png",
+	"Marvel/Ghost_Rider_(Robbie_Reyes).png",
+	"Marvel/Green_Goblin_(Norman_Osborn).png",
 	"Marvel/Groot.png",
 	"Marvel/Hawkeye_(Clint_Barton).png",
 	"Marvel/Hela.png",
@@ -1782,6 +1872,7 @@ var chrImages = [
 	"Marvel/Moon_Knight_(Marc_Spector).png",
 	"Marvel/Namor_McKenzie.png",
 	"Marvel/Phoenix_(Jean_Grey).png",
+	"Marvel/Promoter_(Xirena_Awhina).png",
 	"Marvel/Psylocke_(Sai).png",
 	"Marvel/Rocket_Raccoon.png",
 	"Marvel/Scarlet_Witch_(Wanda_Maximoff).png",
@@ -2101,6 +2192,10 @@ var chrImages = [
 	"Paranormasight/Shogo_Okiie.webp",
 	"Paranormasight/Tetsuo_Tsutsumi.webp",
 	"Paranormasight/Yoko_Fukunaga.webp",
+	// PEAK
+	"PEAK/Bing_Bong.webp",
+	"PEAK/Scout.png",
+	"PEAK/Scoutmaster_Myres.webp",
 	// Persona
 	"Persona/Aigis.webp",
 	// Phasmophobia
@@ -2111,18 +2206,10 @@ var chrImages = [
 	"Phasmophobia/Male_Ghost_5.webp",
 	"Phasmophobia/Male_Ghost_6.webp",
 	"Phasmophobia/Male_Ghost_7.webp",
-	"Phasmophobia/Male_Player_1.webp",
-	"Phasmophobia/Male_Player_2.webp",
-	"Phasmophobia/Male_Player_3.webp",
-	"Phasmophobia/Male_Player_4.webp",
 	"Phasmophobia/Female_Ghost_1.webp",
 	"Phasmophobia/Female_Ghost_2.webp",
 	"Phasmophobia/Female_Ghost_3.webp",
 	"Phasmophobia/Female_Ghost_4.webp",
-	"Phasmophobia/Female_Player_1.webp",
-	"Phasmophobia/Female_Player_2.webp",
-	"Phasmophobia/Female_Player_3.webp",
-	"Phasmophobia/Female_Player_4.webp",
 	// Phineas and Ferb
 	"Phineas_and_Ferb/Charlene_Doofenshmirtz.webp",
 	"Phineas_and_Ferb/Dr._Heinz_Doofenshmirtz.webp",
@@ -2455,6 +2542,7 @@ var chrImages = [
 	"Rivals_of_Aether/Orcane.webp",
 	"Rivals_of_Aether/Pomme.webp",
 	"Rivals_of_Aether/Ranno.webp",
+	"Rivals_of_Aether/Slade.webp",
 	"Rivals_of_Aether/Sylvanos.webp",
 	"Rivals_of_Aether/Wrastor.webp",
 	"Rivals_of_Aether/Zetterburn.webp",
@@ -2587,6 +2675,16 @@ var chrImages = [
 	"Slime_Rancher/Ogden_Ortiz.webp",
 	"Slime_Rancher/Thora_West.webp",
 	"Slime_Rancher/Viktor_Humphries.webp",
+	// Smiling Friends
+	"Smiling_Friends/Allan_Red.webp",
+	"Smiling_Friends/Charlie_Dompler.webp",
+	"Smiling_Friends/Glep.webp",
+	"Smiling_Friends/Mr._Boss.webp",
+	"Smiling_Friends/Mr._Frog.webp",
+	"Smiling_Friends/Mr._Landlord.webp",
+	"Smiling_Friends/Pim_Pimling.webp",
+	"Smiling_Friends/Satan.webp",
+	"Smiling_Friends/Squim.webp",
 	// Sonic the Hedgehog
 	"Sonic_the_Hedgehog/Big.webp",
 	"Sonic_the_Hedgehog/Dr._Robotnik.png",
@@ -2747,6 +2845,9 @@ var chrImages = [
 	// Street Fighter
 	"Street_Fighter/A.K.I..webp",
 	"Street_Fighter/Akuma.webp",
+	"Street_Fighter/Alex_Winger.webp",
+	"Street_Fighter/Arjun_Gummadi.webp",
+	"Street_Fighter/Balrog.webp",
 	"Street_Fighter/Blanka.webp",
 	"Street_Fighter/C._Viper.webp",
 	"Street_Fighter/Cammy_White.webp",
@@ -2758,7 +2859,8 @@ var chrImages = [
 	"Street_Fighter/Ed.webp",
 	"Street_Fighter/Elena.webp",
 	"Street_Fighter/F.A.N.G..webp",
-	"Street_Fighter/Guile.webp",
+	"Street_Fighter/G.webp",
+	"Street_Fighter/Ingrid.webp",
 	"Street_Fighter/Jamie_Siu.webp",
 	"Street_Fighter/JP.webp",
 	"Street_Fighter/Juri_Han.webp",
@@ -2767,9 +2869,15 @@ var chrImages = [
 	"Street_Fighter/M._Bison.webp",
 	"Street_Fighter/Manon_Legrand.webp",
 	"Street_Fighter/Marisa_Rossetti.webp",
+	"Street_Fighter/Menat.webp",
+	"Street_Fighter/Q.webp",
 	"Street_Fighter/Rashid.webp",
 	"Street_Fighter/Ryu.webp",
 	"Street_Fighter/Sagat.webp",
+	"Street_Fighter/Seth.webp",
+	"Street_Fighter/Twelve.webp",
+	"Street_Fighter/William_Guile.webp",
+	"Street_Fighter/Yasmine_Bautista.webp",
 	"Street_Fighter/Zangief.webp",
 	// Streets of Rage
 	"Streets_of_Rage/Adam_Hunter.webp",
@@ -2944,6 +3052,7 @@ var chrImages = [
 	"Terraria_Mods/Archmage.webp",
 	"Terraria_Mods/Astrum_Aureus.webp",
 	"Terraria_Mods/Astrum_Deus.webp",
+	"Terraria_Mods/Avatar_of_Emptiness.png",
 	"Terraria_Mods/Bandit.webp",
 	"Terraria_Mods/Banished_Baron.png",
 	"Terraria_Mods/Blacksmith.webp",
@@ -2978,6 +3087,7 @@ var chrImages = [
 	"Terraria_Mods/Lifelight.gif",
 	"Terraria_Mods/LumberJack.webp",
 	"Terraria_Mods/Mutant.webp",
+	"Terraria_Mods/Nameless_Deity_of_Light.png",
 	"Terraria_Mods/The_Old_Duke.png",
 	"Terraria_Mods/Patch_Werk.gif",
 	"Terraria_Mods/The_Perforator_Hive.webp",
@@ -2990,6 +3100,7 @@ var chrImages = [
 	"Terraria_Mods/Sea_King.webp",
 	"Terraria_Mods/Signus.webp",
 	"Terraria_Mods/The_Slime_God.webp",
+	"Terraria_Mods/Solyn.webp",
 	"Terraria_Mods/Spiritualist.webp",
 	"Terraria_Mods/Star_Scouter.gif",
 	"Terraria_Mods/Storm_Weaver.webp",
@@ -3153,7 +3264,7 @@ var chrImages = [
 	"Ultra_Fight_Da!_Kyanta_2/Buttobi.png",
 	"Ultra_Fight_Da!_Kyanta_2/Chihiro.png",
 	"Ultra_Fight_Da!_Kyanta_2/Cocorn.png",
-	"Ultra_Fight_Da!_Kyanta_2/Dr._K.png",
+	"Ultra_Fight_Da!_Kyanta_2/Doctor_K.png",
 	"Ultra_Fight_Da!_Kyanta_2/Garasha.png",
 	"Ultra_Fight_Da!_Kyanta_2/Gyanta.png",
 	"Ultra_Fight_Da!_Kyanta_2/Hatoyan.png",
@@ -3167,12 +3278,12 @@ var chrImages = [
 	"Ultra_Fight_Da!_Kyanta_2/Nanatsu.png",
 	"Ultra_Fight_Da!_Kyanta_2/Natanee.png",
 	"Ultra_Fight_Da!_Kyanta_2/Rare.png",
-	"Ultra_Fight_Da!_Kyanta_2/Robo-Azuma.png",
+	"Ultra_Fight_Da!_Kyanta_2/Robo_Azuma.png",
 	"Ultra_Fight_Da!_Kyanta_2/Rogue.png",
 	"Ultra_Fight_Da!_Kyanta_2/Sendou.png",
 	"Ultra_Fight_Da!_Kyanta_2/Spike.png",
 	"Ultra_Fight_Da!_Kyanta_2/Tsukinami.png",
-	"Ultra_Fight_Da!_Kyanta_2/Well-Done.png",
+	"Ultra_Fight_Da!_Kyanta_2/Well_Done.png",
 	// ULTRAKILL
 	"ULTRAKILL/Gabriel.webp",
 	"ULTRAKILL/Minos_Prime.webp",
@@ -3206,6 +3317,7 @@ var chrImages = [
 	"Under_Night_In-Birth/Wagner.png",
 	"Under_Night_In-Birth/Waldstein.png",
 	"Under_Night_In-Birth/Yuzuriha.png",
+	"Under_Night_In-Birth/Zohar.png",
 	// Undertale
 	"Undertale/Alphys.webp",
 	"Undertale/Asgore_Dreemurr.webp",
@@ -3242,6 +3354,18 @@ var chrImages = [
 	"Undertale_2/Seriph.webp",
 	// Vib-Ribbon
 	"Vib-Ribbon/Vibri.webp",
+	// Voices of the Void
+	"Voices_of_the_Void/Argemia_Armuntela.png",
+	"Voices_of_the_Void/Dr._Enara.png",
+	"Voices_of_the_Void/Dr._Hans_Baom.png",
+	"Voices_of_the_Void/Dr._Kellen.png",
+	"Voices_of_the_Void/Dr._Ken.png",
+	"Voices_of_the_Void/Dr._Ler.png",
+	"Voices_of_the_Void/Dr._Leslie_Dundee.png",
+	"Voices_of_the_Void/Dr._Maxine.png",
+	"Voices_of_the_Void/Dr._Noa.png",
+	"Voices_of_the_Void/Dr._Ula.png",
+	"Voices_of_the_Void/Prof._Lea.png",
 	// Wallace & Gromit
 	"Wallace_&_Gromit/Lady_Campanula_Tottington.webp",
 	"Wallace_&_Gromit/Piella_Bakewell.webp",
@@ -3270,6 +3394,9 @@ var chrImages = [
 	// Wii Fit
 	"Wii_Fit/Wii_Fit_Trainer_(Female).webp",
 	"Wii_Fit/Wii_Fit_Trainer_(Male).webp",
+	// Witch Hat Atelier
+	"Witch_Hat_Atelier/Olruggio.webp",
+	"Witch_Hat_Atelier/Qifrey.webp",
 	// Wuthering Waves
 	"Wuthering_Waves/Baizhi.webp",
 	"Wuthering_Waves/Chixia.webp",
@@ -3399,16 +3526,15 @@ var pickNum = 0;
 var randNum = -1;
 var charInfo = [];
 var descriptionList = [];
-console.log("Current total characters: " + chrImages.length);
+document.getElementById("character-count").innerHTML = `CURRENT CHARACTER TOTAL: ${chrImages.length}`;
 
-var smashAmount = 0;
-var passAmount = 0;
-var skipAmount = 0;
+var smashAmount = 0, passAmount = 0, skipAmount = 0;
 
 var cuddleModeToggle = false;
 
 var localOptions = {
 	canRoll: true,
+	rollAnim: true,
 	easterEggs: false,
 }
 
@@ -3427,8 +3553,37 @@ function generate(value, increment, incrementValue, type = "none") {
 			}
 			charInfo = writeName(chrImages[randNum]);
 			document.getElementById("identer-" + value).value = randNum;
+		} else if (localOptions.rollAnim) {
+			var rollAnimInt, animCycle = 0, cycleDelay = 50;
+			localOptions.canRoll = false;
+			document.getElementById(`daImage1`).classList.remove("image-flash");
+			document.getElementById(`daImage2`).classList.remove("image-flash");
+			document.getElementById(`daImage3`).classList.remove("image-flash");
+			checkSlot();
+			function cycleCharacter() {
+				checkSlot();
+				animCycle++;
+				cycleDelay += 25;
+				if (animCycle === 11) {
+					clearInterval(rollAnimInt);
+					localOptions.canRoll = true;
+					var resultSound = new Audio("../sfx/Spin_result.ogg");
+					resultSound.volume = 0.1;
+					resultSound.play();
+					if (value === 0) {
+						document.getElementById(`daImage1`).classList.add("image-flash");
+						document.getElementById(`daImage2`).classList.add("image-flash");
+						document.getElementById(`daImage3`).classList.add("image-flash");
+					} else {
+						document.getElementById(`daImage${value}`).classList.add("image-flash");
+					}
+				} else {
+					setTimeout(cycleCharacter, cycleDelay);
+				}
+			}
+			setTimeout(cycleCharacter, cycleDelay);
 		} else {
-			rerollByName();
+			checkSlot();
 		}
 		
 		if (type != "none") {
@@ -3472,18 +3627,26 @@ function generate(value, increment, incrementValue, type = "none") {
 				document.getElementById("skipNum").innerHTML = "SKIP: " + skipAmount;
 			}
 		}
+
+		function checkSlot() {
+			if (value === 0) {
+				rerollByName(1);
+				rerollByName(2);
+				rerollByName(3);
+			} else {
+				rerollByName(value);
+			}
+		}
 		
-		function rerollByName() {
-			randNum = Math.floor(Math.random() * (chrImages.length));
-			charInfo = writeName(chrImages[randNum]);
-			
+		function rerollByName(slotNum) {
 			function commonReroll() {
 				randNum = Math.floor(Math.random() * (chrImages.length));
 				charInfo = writeName(chrImages[randNum]);
 			}
+
+			commonReroll();
 			
 			reroll: while (true) {
-				
 				if (!spoilerMode && disabledSeries.length === 0) {
 					break reroll;
 				}
@@ -3504,8 +3667,8 @@ function generate(value, increment, incrementValue, type = "none") {
 					switch (charInfo[0]) {
 						// Ace Attorney
 						case "The Phantom": case "Zak Gramarye":
-							if (smToggles.AA) {
-								console.log("Pick rerolled: Ace Attorney (" + charInfo[0] + ")");
+							if (smToggles.AA && charInfo[1] === "Ace_Attorney") {
+								console.log("SM - Pick rerolled: Ace Attorney (" + charInfo[0] + ")");
 								if (type != "none") {
 									chrImages.splice(randNum, 1);
 								}
@@ -3516,8 +3679,8 @@ function generate(value, increment, incrementValue, type = "none") {
 							}
 						// Danganronpa
 						case "Izuru Kamukura": case "Mukuro Ikusaba": case "Ultimate Imposter":
-							if (smToggles.DR) {
-								console.log("Pick rerolled: Danganronpa (" + charInfo[0] + ")");
+							if (smToggles.DR && charInfo[1] === "Danganronpa") {
+								console.log("SM - Pick rerolled: Danganronpa (" + charInfo[0] + ")");
 								if (type != "none") {
 									chrImages.splice(randNum, 1);
 								}
@@ -3527,9 +3690,9 @@ function generate(value, increment, incrementValue, type = "none") {
 								break reroll;
 							}
 						// Deltarune
-						case "Carol Holiday": case "Cat Mike": case "Cowboy Mike": case "FRIEND": case "The Roaring Knight": case "Small Mike": case "Titan": case "Jackenstein": // Jackenstein here for River purposes
-							if (smToggles.DLTRN) {
-								console.log("Pick rerolled: Deltarune (" + charInfo[0] + ")");
+						case "Carol Holiday": case "Cat Mike": case "Cowboy Mike": case "FRIEND": case "The Roaring Knight": case "Small Mike": case "Titan":
+							if (smToggles.DLTRN && charInfo[1] === "Deltarune") {
+								console.log("SM - Pick rerolled: Deltarune (" + charInfo[0] + ")");
 								if (type != "none") {
 									chrImages.splice(randNum, 1);
 								}
@@ -3540,8 +3703,8 @@ function generate(value, increment, incrementValue, type = "none") {
 							}
 						// Everhood
 						case "Cat God": case "Pink":
-							if (smToggles.EH) {
-								console.log("Pick rerolled: Everhood (" + charInfo[0] + ")");
+							if (smToggles.EH && charInfo[1] === "Everhood") {
+								console.log("SM - Pick rerolled: Everhood (" + charInfo[0] + ")");
 								if (type != "none") {
 									chrImages.splice(randNum, 1);
 								}
@@ -3552,8 +3715,8 @@ function generate(value, increment, incrementValue, type = "none") {
 							}
 						// Hollow Knight
 						case "Herrah the Beast": case "The Hollow Knight": case "Lurien the Watcher": case "Monomon the Teacher": case "Radiance": case "Shade Lord":
-							if (smToggles.HK) {
-								console.log("Pick rerolled: Hollow Knight (" + charInfo[0] + ")");
+							if (smToggles.HK && charInfo[1] === "Hollow_Knight") {
+								console.log("SM - Pick rerolled: Hollow Knight (" + charInfo[0] + ")");
 								if (type != "none") {
 									chrImages.splice(randNum, 1);
 								}
@@ -3564,8 +3727,8 @@ function generate(value, increment, incrementValue, type = "none") {
 							}
 						// Inscryption
 						case "The Archivist": case "The Bone Lord": case "G0lly": case "Grimora": case "The Lonely Wizard": case "Magnificus": case "P03": case "The Photographer":
-							if (smToggles.I) {
-								console.log("Pick rerolled: Inscryption (" + charInfo[0] + ")");
+							if (smToggles.IS && charInfo[1] === "Inscryption") {
+								console.log("SM - Pick rerolled: Inscryption (" + charInfo[0] + ")");
 								if (type != "none") {
 									chrImages.splice(randNum, 1);
 								}
@@ -3576,8 +3739,8 @@ function generate(value, increment, incrementValue, type = "none") {
 							}
 						// MiSide
 						case "Core Mita": case "Creepy Mita": case "Ghostly Mita":
-							if (smToggles.MS) {
-								console.log("Pick rerolled: MiSide (" + charInfo[0] + ")");
+							if (smToggles.MS && charInfo[1] === "MiSide") {
+								console.log("SM - Pick rerolled: MiSide (" + charInfo[0] + ")");
 								if (type != "none") {
 									chrImages.splice(randNum, 1);
 								}
@@ -3588,8 +3751,8 @@ function generate(value, increment, incrementValue, type = "none") {
 							}
 						// OneShot
 						case "Prototype":
-							if (smToggles.OS) {
-								console.log("Pick rerolled: OneShot (" + charInfo[0] + ")");
+							if (smToggles.OS && charInfo[1] === "OneShot") {
+								console.log("SM - Pick rerolled: OneShot (" + charInfo[0] + ")");
 								if (type != "none") {
 									chrImages.splice(randNum, 1);
 								}
@@ -3600,8 +3763,8 @@ function generate(value, increment, incrementValue, type = "none") {
 							}
 						// Outer Wilds
 						case "The Prisoner": case "Solanum":
-							if (smToggles.OW) {
-								console.log("Pick rerolled: Outer Wilds (" + charInfo[0] + ")");
+							if (smToggles.OW && charInfo[1] === "Outer_Wilds") {
+								console.log("SM - Pick rerolled: Outer Wilds (" + charInfo[0] + ")");
 								if (type != "none") {
 									chrImages.splice(randNum, 1);
 								}
@@ -3612,8 +3775,8 @@ function generate(value, increment, incrementValue, type = "none") {
 							}
 						// Undertale 2
 						case "Seriph":
-							if (smToggles.U2) {
-								console.log("Pick rerolled: Undertale 2 (" + charInfo[0] + ")");
+							if (smToggles.U2 && charInfo[1] === "Undertale_2") {
+								console.log("SM - Pick rerolled: Undertale 2 (" + charInfo[0] + ")");
 								if (type != "none") {
 									chrImages.splice(randNum, 1);
 								}
@@ -3627,13 +3790,9 @@ function generate(value, increment, incrementValue, type = "none") {
 					}
 				}
 			}
-		}
-		
-		var imageArea;
-		switch (value) {
-			case 0:
+
+			/*if (value === 0) {
 				for (i = 1; i <= document.getElementsByClassName("character-space").length; i++) {
-					imageArea = document.getElementById("daImage" + i);
 					value = i;
 					changeCharacter();
 					document.getElementById("identer-" + i).value = randNum;
@@ -3641,70 +3800,65 @@ function generate(value, increment, incrementValue, type = "none") {
 						rerollByName();
 					}
 				}
-				break;
-			default:
-				imageArea = document.getElementById("daImage" + value);
-				changeCharacter();
-				document.getElementById("identer-" + value).value = randNum;
-				break;
-		}
-		
-		function changeCharacter() {
+			} else {*/
+				document.getElementById("identer-" + slotNum).slotNum = randNum;
+			//}
+
 			// descriptionList[slotValue - 1] = randNum;
-			document.getElementById("characterName" + value).innerHTML = charInfo[0];
-			document.getElementById("daImage" + value).src = "../images/characters/" + chrImages[randNum];
-			assignSeries(value);
-			spoilerCheck(value);
+			document.getElementById("characterName" + slotNum).innerHTML = charInfo[0];
+			document.getElementById("daImage" + slotNum).src = "../images/characters/" + chrImages[randNum];
+			assignSeries(slotNum);
+			spoilerCheck(slotNum);
 			
-			if (document.getElementById("theme-select").value === "pride") {
-				document.getElementById("pridestyle" + value).innerHTML = "";
-				prideCheck(chrImages[randNum], value);
+			if (document.getElementById("theme-select").slotNum === "pride") {
+				document.getElementById("pridestyle" + slotNum).innerHTML = "";
+				prideCheck(chrImages[randNum], slotNum);
 			}
 			
 			// Check for easter eggs
 			
-			if (type === "none" && localOptions.easterEggs) {
+			if (type === "none" && localOptions.easterEggs && localOptions.canRoll) {
 				easterEgg(charInfo[0]);
 			}
 		}
 		
-		// Spoiler Mode for name/image/description changes
+		// Spoiler Mode for name/image changes
 		function spoilerCheck(daValue) {
 			if (spoilerMode) {
 				switch (charInfo[0]) {
 					case "Matt Engarde":
 						if (smToggles.AA) {
-							console.log("Spoiler mode change check passed with " + charInfo[0]);
+							console.log("SM - Pick modified: " + charInfo[0]);
 							document.getElementById("daImage" + daValue).src = "../images/characters/Ace_Attorney/Matt_Engarde_Normal.webp";
 						}
 						break;
 					case "Mimi Miney":
 						if (smToggles.AA) {
-							console.log("Spoiler mode change check passed with " + charInfo[0]);
+							console.log("SM - Pick modified: " + charInfo[0]);
 							document.getElementById("characterName" + daValue).innerHTML = "Ini Miney";
 						}
 						break;
 					case "Misty Fey":
 						if (smToggles.AA) {
-							console.log("Spoiler mode change check passed with " + charInfo[0]);
+							console.log("SM - Pick modified: " + charInfo[0]);
 							document.getElementById("characterName" + daValue).innerHTML = "Elise Deauxnim";
 						}
 						break;
 					case "Yanni Yogi":
 						if (smToggles.AA) {
-							console.log("Spoiler mode change check passed with " + charInfo[0]);
+							console.log("SM - Pick modified: " + charInfo[0]);
 							document.getElementById("characterName" + daValue).innerHTML = "Caretaker";
 						}
 						break;
 					case "Junko Enoshima":
 						if (smToggles.DR) {
-							console.log("Spoiler mode change check passed with " + charInfo[0]);
+							console.log("SM - Pick modified: " + charInfo[0]);
 							document.getElementById("daImage" + daValue).src = "../images/characters/Danganronpa/Junko_Enoshima_Disguise.webp";
 						}
 						break;
 					case "Pink Diamond":
 						if (smToggles.SU) {
-							console.log("Spoiler mode change check passed with " + charInfo[0]);
+							console.log("SM - Pick modified: " + charInfo[0]);
 							document.getElementById("characterName" + daValue).innerHTML = "Rose Quartz";
 							document.getElementById("daImage" + daValue).src = "../images/characters/Steven_Universe/Rose_Quartz.webp";
 						}
@@ -3753,7 +3907,7 @@ var smToggles = {
 	DLTRN: false,
 	EH: false,
 	HK: false,
-	I: false,
+	IS: false,
 	MS: false,
 	OS: false,
 	OW: false,
@@ -3761,98 +3915,57 @@ var smToggles = {
 	U2: false,
 };
 
-function selectSpoilerMode(series) {
+function selectSpoilerMode(series, smmButton) {
+	if (smmButton.parentElement.children[0].style.color === "tomato") {
+		smmButton.parentElement.children[0].style.color = "lightgreen";
+	} else {
+		smmButton.parentElement.children[0].style.color = "tomato";
+	}
+
+	if (smmButton.parentElement.children[1].children[0].style.left === "31px") {
+		smmButton.parentElement.children[1].children[0].style.left = "3px";
+		smmButton.parentElement.children[1].classList.remove("seriesButtonSelect");
+	} else {
+		smmButton.parentElement.children[1].children[0].style.left = "31px";
+		smmButton.parentElement.children[1].classList.add("seriesButtonSelect");
+	}
+
 	switch (series) {
 		case "Ace Attorney":
 			smToggles.AA = !smToggles.AA;
-			if (smToggles.AA) {
-				document.getElementById("spoilerAA").innerHTML = "<span style='color: lightgreen'>ON</span>";
-			} else {
-				document.getElementById("spoilerAA").innerHTML = "<span style='color: red'>OFF</span>";
-			}
 			break;
 		case "Danganronpa":
 			smToggles.DR = !smToggles.DR;
-			if (smToggles.DR) {
-				document.getElementById("spoilerDR").innerHTML = "<span style='color: lightgreen'>ON</span>";
-			} else {
-				document.getElementById("spoilerDR").innerHTML = "<span style='color: red'>OFF</span>";
-			}
 			break;
 		case "Deltarune":
 			smToggles.DLTRN = !smToggles.DLTRN;
-			if (smToggles.DLTRN) {
-				document.getElementById("spoilerDLTRN").innerHTML = "<span style='color: lightgreen'>ON</span>";
-			} else {
-				document.getElementById("spoilerDLTRN").innerHTML = "<span style='color: red'>OFF</span>";
-			}
 			break;
 		case "Everhood":
 			smToggles.EH = !smToggles.EH;
-			if (smToggles.EH) {
-				document.getElementById("spoilerEH").innerHTML = "<span style='color: lightgreen'>ON</span>";
-			} else {
-				document.getElementById("spoilerEH").innerHTML = "<span style='color: red'>OFF</span>";
-			}
 			break;
 		case "Hollow Knight":
 			smToggles.HK = !smToggles.HK;
-			if (smToggles.HK) {
-				document.getElementById("spoilerHK").innerHTML = "<span style='color: lightgreen'>ON</span>";
-			} else {
-				document.getElementById("spoilerHK").innerHTML = "<span style='color: red'>OFF</span>";
-			}
 			break;
 		case "Inscryption":
-			smToggles.I = !smToggles.I;
-			if (smToggles.I) {
-				document.getElementById("spoilerI").innerHTML = "<span style='color: lightgreen'>ON</span>";
-			} else {
-				document.getElementById("spoilerI").innerHTML = "<span style='color: red'>OFF</span>";
-			}
+			smToggles.IS = !smToggles.IS;
 			break;
 		case "MiSide":
 			smToggles.MS = !smToggles.MS;
-			if (smToggles.MS) {
-				document.getElementById("spoilerMS").innerHTML = "<span style='color: lightgreen'>ON</span>";
-			} else {
-				document.getElementById("spoilerMS").innerHTML = "<span style='color: red'>OFF</span>";
-			}
 			break;
 		case "OneShot":
 			smToggles.OS = !smToggles.OS;
-			if (smToggles.OS) {
-				document.getElementById("spoilerOS").innerHTML = "<span style='color: lightgreen'>ON</span>";
-			} else {
-				document.getElementById("spoilerOS").innerHTML = "<span style='color: red'>OFF</span>";
-			}
 			break;
 		case "Outer Wilds":
 			smToggles.OW = !smToggles.OW;
-			if (smToggles.OW) {
-				document.getElementById("spoilerOW").innerHTML = "<span style='color: lightgreen'>ON</span>";
-			} else {
-				document.getElementById("spoilerOW").innerHTML = "<span style='color: red'>OFF</span>";
-			}
 			break;
 		case "Steven Universe":
 			smToggles.SU = !smToggles.SU;
-			if (smToggles.SU) {
-				document.getElementById("spoilerSU").innerHTML = "<span style='color: lightgreen'>ON</span>";
-			} else {
-				document.getElementById("spoilerSU").innerHTML = "<span style='color: red'>OFF</span>";
-			}
 			break;
 		case "Undertale 2":
 			smToggles.U2 = !smToggles.U2;
-			if (smToggles.U2) {
-				document.getElementById("spoilerU2").innerHTML = "<span style='color: lightgreen'>ON</span>";
-			} else {
-				document.getElementById("spoilerU2").innerHTML = "<span style='color: red'>OFF</span>";
-			}
 			break;
 	}
-	if (smToggles.AA || smToggles.DR || smToggles.DLTRN || smToggles.EH || smToggles.HK || smToggles.I || smToggles.MS || smToggles.OS || smToggles.OW || smToggles.SU || smToggles.U2) {
+	if (smToggles.AA || smToggles.DR || smToggles.DLTRN || smToggles.EH || smToggles.HK || smToggles.IS || smToggles.MS || smToggles.OS || smToggles.OW || smToggles.SU || smToggles.U2) {
 		spoilerMode = true;
 	} else {
 		spoilerMode = false;

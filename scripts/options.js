@@ -44,6 +44,11 @@ function toggleOptions(optionName, addValue) {
 					removeOtherThemes();
 					document.querySelectorAll('.theme-element').forEach(el=>el.classList.add('theme-pride'));
 					break;
+				case "gacha":
+					options.theme = "gacha";
+					removeOtherThemes();
+					document.querySelectorAll('.theme-element').forEach(el=>el.classList.add('theme-gacha'));
+					break;
 				case "ugly":
 					options.theme = "ugly";
 					removeOtherThemes();
@@ -81,6 +86,7 @@ function toggleOptions(optionName, addValue) {
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-lightmode'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-darkmode'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-pride'));
+				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-gacha'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-ugly'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-kiss'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-marry'));
@@ -110,14 +116,27 @@ function toggleOptions(optionName, addValue) {
 				audioBox.style.display = "block";
 			}
 			break;
-		case "eastereggs":
+		case "rollAnim":
+			if (localOptions.rollAnim) {
+				localOptions.rollAnim = false;
+				document.getElementById("options-button-rollanim").innerHTML = "";
+				document.getElementById("options-button-rollanim").classList.remove("check-button-checked");
+			} else {
+				localOptions.rollAnim = true;
+				document.getElementById("options-button-rollanim").innerHTML = "<span>✔</span>";
+				document.getElementById("options-button-rollanim").classList.add("check-button-checked");
+			}
+			break;
+		case "easterEggs":
 			if (options.easterEggs) {
 				options.easterEggs = false;
-				document.getElementById("options-button-easteregg").innerHTML = "Off";
+				document.getElementById("options-button-easteregg").innerHTML = "";
+				document.getElementById("options-button-easteregg").classList.remove("check-button-checked");
 				changeLocalOptions("easterEgg");
 			} else {
 				options.easterEggs = true;
-				document.getElementById("options-button-easteregg").innerHTML = "On";
+				document.getElementById("options-button-easteregg").innerHTML = "<span>✔</span>";
+				document.getElementById("options-button-easteregg").classList.add("check-button-checked");
 				changeLocalOptions("easterEgg");
 			}
 			break;
@@ -251,9 +270,11 @@ function debugToggle() {
 	
 	if (debugMenu[0].style.display === "none") {
 		debugDisplayState = "block";
-		debugButton.innerHTML = "On";
+		debugButton.innerHTML = "<span>✔</span>";
+		debugButton.classList.add("check-button-checked");
 	} else {
-		debugButton.innerHTML = "Off";
+		debugButton.innerHTML = "";
+		debugButton.classList.remove("check-button-checked");
 	}
 	for (i = 0; i < debugMenu.length; i++) {
 		debugMenu[i].style.display = debugDisplayState;

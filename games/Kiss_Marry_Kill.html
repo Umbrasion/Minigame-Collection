@@ -28,6 +28,7 @@
 	</head>
 	<body class="theme-element">
 		<header class="theme-element">
+			<div id="character-count" class="game-notice"></div>
 			<div>
 				<span id="titlebar">KISS, MARRY, KILL</span>
 			</div>
@@ -39,7 +40,7 @@
 		<div class="main-content">
 			<div>
 				<button id="rrButton" class="theme-element" style="font-weight: bold; margin: 0px 6px" onclick="generate(0)">Reroll all</button>
-				<div id="bioInfo" style="font-style: italic">If there are any characters you see that you feel shouldn't be included here, for any reason, let me know!</div>
+				<div id="character-notice" class="game-notice" style="font-style: italic">If there are any characters you see that you feel break the <a href="Kiss_Marry_Kill_guidelines.html" style="color: white">character guidelines</a>, let me know!</div>
 			</div>
 			<div id="seriesToggleMenu" onclick="display('none')"></div>
 			<div id="seriesToggleMenuBox" class="theme-element" onclick="">
@@ -66,50 +67,50 @@
 			<div id="spoilerModeMenuBox" class="theme-element" onclick="">
 				<h1 style="text-align: center; margin-top: 0px; margin-bottom: 10px">Spoiler Mode Settings</h1>
 				<div style="width: fit-content; margin: auto">
-					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
-						<button id="seriesAceAttorney" class="seriesButton theme-element" onclick="selectSpoilerMode('Ace Attorney')">TOGGLE</button>
-						<b>Ace Attorney:</b> Currently <span id="spoilerAA"><span style='color: red'>OFF</span></span>
-					</p>
-					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
-						<button id="seriesDanganronpa" class="seriesButton theme-element" onclick="selectSpoilerMode('Danganronpa')">TOGGLE</button>
-						<b>Danganronpa:</b> Currently <span id="spoilerDR"><span style='color: red'>OFF</span></span>
-					</p>
-					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
-						<button id="seriesDeltarune" class="seriesButton theme-element" onclick="selectSpoilerMode('Deltarune')">TOGGLE</button>
-						<b>Deltarune:</b> Currently <span id="spoilerDLTRN"><span style='color: red'>OFF</span></span>
-					</p>
-					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
-						<button id="seriesEverhood" class="seriesButton theme-element" onclick="selectSpoilerMode('Everhood')">TOGGLE</button>
-						<b>Everhood:</b> Currently <span id="spoilerEH"><span style='color: red'>OFF</span></span>
-					</p>
-					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
-						<button id="seriesHollowKnight" class="seriesButton theme-element" onclick="selectSpoilerMode('Hollow Knight')">TOGGLE</button>
-						<b>Hollow Knight:</b> Currently <span id="spoilerHK"><span style='color: red'>OFF</span></span>
-					</p>
-					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
-						<button id="seriesInscryption" class="seriesButton theme-element" onclick="selectSpoilerMode('Inscryption')">TOGGLE</button>
-						<b>Inscryption:</b> Currently <span id="spoilerI"><span style='color: red'>OFF</span></span>
-					</p>
-					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
-						<button id="seriesMiSide" class="seriesButton theme-element" onclick="selectSpoilerMode('MiSide')">TOGGLE</button>
-						<b>MiSide:</b> Currently <span id="spoilerMS"><span style='color: red'>OFF</span></span>
-					</p>
-					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
-						<button id="seriesOneShot" class="seriesButton theme-element" onclick="selectSpoilerMode('OneShot')">TOGGLE</button>
-						<b>OneShot:</b> Currently <span id="spoilerOS"><span style='color: red'>OFF</span></span>
-					</p>
-					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
-						<button id="seriesOuterWilds" class="seriesButton theme-element" onclick="selectSpoilerMode('Outer Wilds')">TOGGLE</button>
-						<b>Outer Wilds:</b> Currently <span id="spoilerOW"><span style='color: red'>OFF</span></span>
-					</p>
-					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
-						<button id="seriesStevenUniverse" class="seriesButton theme-element" onclick="selectSpoilerMode('Steven Universe')">TOGGLE</button>
-						<b>Steven Universe:</b> Currently <span id="spoilerSU"><span style='color: red'>OFF</span></span>
-					</p>
-					<p class="smmSeries" style="margin-top: 5px; margin-bottom: 5px">
-						<button id="seriesUndertale2" class="seriesButton theme-element" onclick="selectSpoilerMode('Undertale 2')">TOGGLE</button>
-						<b>Undertale 2:</b> Currently <span id="spoilerU2"><span style='color: red'>OFF</span></span>
-					</p>
+					<div class="smmSeries">
+						<b id="spoilerAA" style='color: tomato'>Ace Attorney</b>
+						<button id="seriesAceAttorney" class="seriesButton theme-element" onclick="selectSpoilerMode('Ace Attorney', this)"><div></div></button>
+					</div>
+					<div class="smmSeries">
+						<b id="spoilerDR" style='color: tomato'>Danganronpa</b>
+						<button id="seriesDanganronpa" class="seriesButton theme-element" onclick="selectSpoilerMode('Danganronpa', this)"><div></div></button>
+					</div>
+					<div class="smmSeries">
+						<b id="spoilerDLTRN" style='color: tomato'>Deltarune</b>
+						<button id="seriesDeltarune" class="seriesButton theme-element" onclick="selectSpoilerMode('Deltarune', this)"><div></div></button>
+					</div>
+					<div class="smmSeries">
+						<b id="spoilerEH" style='color: tomato'>Everhood</b>
+						<button id="seriesEverhood" class="seriesButton theme-element" onclick="selectSpoilerMode('Everhood', this)"><div></div></button>
+					</div>
+					<div class="smmSeries">
+						<b id="spoilerHK" style='color: tomato'>Hollow Knight</b>
+						<button id="seriesHollowKnight" class="seriesButton theme-element" onclick="selectSpoilerMode('Hollow Knight', this)"><div></div></button>
+					</div>
+					<div class="smmSeries">
+						<b id="spoilerIS" style='color: tomato'>Inscryption</b>
+						<button id="seriesInscryption" class="seriesButton theme-element" onclick="selectSpoilerMode('Inscryption', this)"><div></div></button>
+					</div>
+					<div class="smmSeries">
+						<b id="spoilerMS" style='color: tomato'>MiSide</b>
+						<button id="seriesMiSide" class="seriesButton theme-element" onclick="selectSpoilerMode('MiSide', this)"><div></div></button>
+					</div>
+					<div class="smmSeries">
+						<b id="spoilerOS" style='color: tomato'>OneShot</b>
+						<button id="seriesOneShot" class="seriesButton theme-element" onclick="selectSpoilerMode('OneShot', this)"><div></div></button>
+					</div>
+					<div class="smmSeries">
+						<b id="spoilerOW" style='color: tomato'>Outer Wilds</b>
+						<button id="seriesOuterWilds" class="seriesButton theme-element" onclick="selectSpoilerMode('Outer Wilds', this)"><div></div></button>
+					</div>
+					<div class="smmSeries">
+						<b id="spoilerSU" style='color: tomato'>Steven Universe</b>
+						<button id="seriesStevenUniverse" class="seriesButton theme-element" onclick="selectSpoilerMode('Steven Universe', this)"><div></div></button>
+					</div>
+					<!--div class="smmSeries">
+						<b id="spoilerU2" style='color: tomato'>Undertale 2</b>
+						<button id="seriesUndertale2" class="seriesButton theme-element" onclick="selectSpoilerMode('Undertale 2', this)"><div></div></button>
+					</div-->
 				</div>
 				<div style="text-align: center">
 					<p style="font-size: 0.9em"><i>Click outside the box to return...</i></p>
@@ -178,33 +179,45 @@
 			<h5 class="options-title">Kiss, Marry, Kill</h5>
 			<table>
 				<tr>
-					<th>Series toggle settings:</th>
+					<th>Series toggle settings</th>
 					<td>
 						<button id="options-button-spoilermode" class="theme-element" onclick="display('seriesToggleMenu'); optionsWindow()">Open</button>
 					</td>
 				</tr>
 				<tr>
-					<th>Spoiler mode settings:</th>
+					<th>Spoiler mode settings</th>
 					<td>
 						<button id="options-button-spoilermode" class="theme-element" onclick="display('spoilerModeMenu'); optionsWindow()">Open</button>
 					</td>
 				</tr>
 				<tr>
-					<th>Clear characters:</th>
+					<th>Clear characters</th>
 					<td>
 						<button id="options-button-clearcharacters" class="theme-element" onclick="clearPicks()">Clear</button>
 					</td>
 				</tr>
 				<tr>
-					<th>Enable debug settings:</th>
+					<th>Enable roll animation</th>
 					<td>
-						<button id="options-button-debug" class="theme-element" onclick="debugToggle()">Off</button>
+						<button id="options-button-rollanim" class="theme-element check-button check-button-checked" onclick="toggleOptions('rollAnim')"><span>✔</span></button>
 					</td>
 				</tr>
 				<tr>
-					<th>Easter Eggs:</th>
+					<th>Debug settings</th>
 					<td>
-						<button id="options-button-easteregg" class="theme-element" onclick="toggleOptions('eastereggs')">Off</button>
+						<button id="options-button-debug" class="theme-element check-button" onclick="debugToggle()"></button>
+					</td>
+				</tr>
+				<tr>
+					<th>Easter Eggs</th>
+					<td>
+						<button id="options-button-easteregg" class="theme-element check-button" onclick="toggleOptions('easterEggs')"></button>
+					</td>
+				</tr>
+				<tr>
+					<th>Character guidelines</th>
+					<td>
+						<button id="options-button-guidelines" class="theme-element" onclick="location.href='Kiss_Marry_Kill_guidelines.html';">View</button>
 					</td>
 				</tr>
 			</table>
@@ -241,7 +254,7 @@
 			<span style="font-size: 0.7em">Now playing:</span><br>
 			<span id="musicplayer-trackname" style="font-size: 1.25em; font-weight: bold"></span><br>
 			<span style="opacity: 0.7; font-size: 0.8em; font-style: italic">soul_</span>
-			<br><input type="range" id="volumeslider" step="any" value="100">
+			<br><img src="../images/volume_low.png" style="height: 1em"><input type="range" id="volumeslider" step="any" value="100"><img src="../images/volume.png" style="height: 1em">
 		</div>
 		<div class="othergames-container">
 			<a href="../index.html" class="othergames theme-element">Back to game list</a>

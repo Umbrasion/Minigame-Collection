@@ -1,3 +1,17 @@
+.game-notice {
+	font-size: 0.9em;
+}
+
+#character-count {
+	position: absolute;
+	top: 1.55em;
+	left: 1em;
+}
+
+#character-notice {
+	padding: 6px 0px 0px;
+}
+
 .character-container {
 	display: flex;
 	justify-content: center;
@@ -84,10 +98,6 @@
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 10px;
-}
-
-#series-characters-list {
-	
 }
 
 #seriesToggleMenuBox, #series-characters-box {

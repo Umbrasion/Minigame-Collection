@@ -170,6 +170,25 @@ h3 {
 	font-size: 1em;
 }
 
+#options-window .check-button {
+	width: 1.6em;
+	height: 1.6em;
+}
+
+#options-window .check-button span {
+	display: inline-block;
+	position: relative;
+	top: -3px;
+}
+
+#options-window .check-button.check-button-checked {
+	background-color: #416EE7;
+}
+
+#options-window .check-button.check-button-checked:hover {
+	background-color: #678EF7;
+}
+
 #musicplayer {
 	position: absolute;
 	bottom: 0px;
@@ -190,10 +209,6 @@ h3 {
 #musicplayer:hover {
 	opacity: 1;
 	transition: opacity 0.3s;
-}
-
-#musicplayer-audio {
-	
 }
 
 .header-info {
@@ -220,6 +235,64 @@ h3 {
 
 .header-info:hover .header-infobox {
 	display: block;
+}
+
+.smmSeries {
+	display: grid;
+	text-align: center;
+	grid-template-columns: 200px 70px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.smmSeries b {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.seriesButton {
+	position: relative;
+	width: 60px;
+	height: 32px;
+	border-radius: 16px;
+}
+
+.seriesButton div {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background-color: white;
+	transition: left 0.2s;
+}
+
+.seriesButtonSelect {
+	background-color: #5878CF;
+}
+
+.seriesButtonSelect:hover {
+	background-color: #6A87D8;
+}
+
+.image-flash {
+	animation: image-flash 0.8s ease-out 0s 1 normal;
+}
+
+@keyframes image-flash {
+    0% {
+        filter: contrast(1) brightness(1);
+    }
+
+    20% {
+        filter: contrast(0) brightness(2);
+    }
+    
+    100% {
+        filter: contrast(1) brightness(1);
+    }
 }
 
 /* Mobile formats */

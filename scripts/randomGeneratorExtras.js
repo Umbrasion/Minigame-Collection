@@ -128,6 +128,9 @@ function writeName(arrayResult) {
 	if (charSeries === "Honkai Star Rail") {
 		charSeries = "Honkai: Star Rail"
 	}
+	if (charSeries === "HUNTERxHUNTER") {
+		charSeries = "HUNTER&times;HUNTER"
+	}
 	if (charSeries === "Love Curse Find Your Soulmate") {
 		charSeries = "Love Curse: Find Your Soulmate"
 	}
@@ -228,7 +231,7 @@ function prideCheck(nameInput, slotValue) {
 			}`
 			break;
 		// Non-binary
-		case "Medicine Pocket": case "Napstablook": case "Ori": case "River Person": case "Testament":
+		case "The Fool": case "Medicine Pocket": case "Napstablook": case "Ori": case "River Person": case "Testament":
 			prideStyle.innerHTML += `
 			#characterName` + slotValue + `.theme-pride {
 				background: linear-gradient(to right, #FFF433, #FFFFFF, #9B59D0, #2D2D2D);
@@ -246,6 +249,73 @@ function easterEgg(eggType) {
 	var audio = document.getElementById("musicplayer-audio");
 	
 	switch (eggType) {
+		case "Flowery":
+			randomEventChance = Math.floor(Math.random() * 10);
+			if (randomEventChance === 0) {
+				var floweryVoiceLines = [
+					"snd_flowery_voiceclip_forget_it.wav",
+					"snd_flowery_voiceclip_goodbye.wav",
+				];
+				randomEventChance = Math.floor(Math.random() * floweryVoiceLines.length);
+				sfx = new Audio("../sfx/flowery/" + floweryVoiceLines[randomEventChance]);
+				sfx.volume = 0.3;
+				sfx.play();
+				
+				sfx.addEventListener("ended", onEndFunc);
+				function onEndFunc() {
+					if (document.getElementById("characterName1").innerHTML === "Flowery") {
+						generate(1);
+					} else if (document.getElementById("characterName2").innerHTML === "Flowery") {
+						generate(2);
+					} else {
+						generate(3);
+					}
+					sfx.removeEventListener("ended", onEndFunc);
+				}
+			} else if (randomEventChance >= 1) {
+				var floweryVoiceLines = [
+					"snd_flowery_voiceclip_all_according_to_all_according_to_plant.wav",
+					"snd_flowery_voiceclip_blingo_blizzard.wav",
+					"snd_flowery_voiceclip_calling_for_help.wav",
+					"snd_flowery_voiceclip_dont_you_like_serving_humans.wav",
+					"snd_flowery_voiceclip_flowers_blooms_in_your_heart.wav",
+					"snd_flowery_voiceclip_get_a_chance_1.wav",
+					"snd_flowery_voiceclip_get_a_chance_2.wav",
+					"snd_flowery_voiceclip_grown_like_a_turnip.wav",
+					"snd_flowery_voiceclip_heh_it_s_my_jarona.wav",
+					"snd_flowery_voiceclip_hereicomesanfrandisco_strong.wav",
+					"snd_flowery_voiceclip_hereicomesanfrandisco_weak.wav",
+					"snd_flowery_voiceclip_heyguysithinkifoundaglue.wav",
+					"snd_flowery_voiceclip_heytherelittleguy.wav",
+					"snd_flowery_voiceclip_huhillshowyou.wav",
+					"snd_flowery_voiceclip_im_falling.wav",
+					"snd_flowery_voiceclip_im_only_trying_to_help_you.wav",
+					"snd_flowery_voiceclip_imsorryonceagainikeptaladyinwaiting.wav",
+					"snd_flowery_voiceclip_its_so_human.wav",
+					"snd_flowery_voiceclip_itsmeflowery.wav",
+					"snd_flowery_voiceclip_leaf_it_to_me.wav",
+					"snd_flowery_voiceclip_mostlys.wav",
+					"snd_flowery_voiceclip_mysterious_wind.wav",
+					"snd_flowery_voiceclip_no_way_its_your_children.wav",
+					"snd_flowery_voiceclip_sorrytokeepaladyinwaiting.wav",
+					"snd_flowery_voiceclip_sorrytokeepyouladies.wav",
+					"snd_flowery_voiceclip_sorrytokeepyouwaiting1.wav",
+					"snd_flowery_voiceclip_sorrytokeepyouwaiting2.wav",
+					"snd_flowery_voiceclip_stingus.wav",
+					"snd_flowery_voiceclip_suckle_it_up.wav",
+					"snd_flowery_voiceclip_theyre_eating_my_flesh.wav",
+					"snd_flowery_voiceclip_thisguysyourbestfriend.wav",
+					"snd_flowery_voiceclip_try_my_flavor.wav",
+					"snd_flowery_voiceclip_what_a_predictable_creature.wav",
+					"snd_flowery_voiceclip_with_your_powers_combined.wav",
+					"snd_flowery_voiceclip_yourdadsmybestfriend.wav",
+				];
+				randomEventChance = Math.floor(Math.random() * floweryVoiceLines.length);
+				sfx = new Audio("../sfx/flowery/" + floweryVoiceLines[randomEventChance]);
+				sfx.volume = 0.3;
+				sfx.play();
+			}
+			break;
 		case "Lolbit":
 			randomEventChance = Math.floor(Math.random() * 2);
 			if (randomEventChance === 0) {
@@ -265,15 +335,17 @@ function easterEgg(eggType) {
 					document.getElementById("daImage" + i).src = "../images/characters/Five_Nights_at_Freddy's/Lolbit.webp";
 				}
 				
-				sfx.addEventListener("ended", function() {
+				sfx.addEventListener("ended", onEndFunc);
+				function onEndFunc() {
 					modifyCharacterInfo("load");
 					changeLocalOptions("rollToggle");
 					if (audio.src.includes(".ogg")) {
 						audio.play();
 					}
-				});
+					sfx.removeEventListener("ended", onEndFunc);
+				}
 			} else {
-				console.log("EE Fail: Lolbit - " + randomEventChance);
+				console.log("EE Fail: " + eggType + " - " + randomEventChance);
 			}
 			break;
 		case "Monika":
@@ -304,7 +376,7 @@ function easterEgg(eggType) {
 					}
 				}, "5000");
 			} else {
-				console.log("EE Fail: Monika - " + randomEventChance);
+				console.log("EE Fail: " + eggType + " - " + randomEventChance);
 			}
 			break;
 		case "Sayori":
@@ -336,12 +408,13 @@ function easterEgg(eggType) {
 					sfx.play();
 				}, "1500");
 				
-				sfx.addEventListener("ended", function() {
+				sfx.addEventListener("ended", onEndFunc);
+				function onEndFunc() {
 					changeLocalOptions("rollToggle");
 					if (audio.src.includes(".ogg")) {
 						audio.play();
 					}
-				
+					
 					if (document.getElementById("characterName1").innerHTML === "Sayori") {
 						generate(1);
 					} else if (document.getElementById("characterName2").innerHTML === "Sayori") {
@@ -349,9 +422,10 @@ function easterEgg(eggType) {
 					} else {
 						generate(3);
 					}
-				});
+					sfx.removeEventListener("ended", onEndFunc);
+				}
 			} else {
-				console.log("EE Fail: Sayori - " + randomEventChance);
+				console.log("EE Fail: " + eggType + " - " + randomEventChance);
 			}
 			break;
 	}
