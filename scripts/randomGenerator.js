@@ -3553,6 +3553,15 @@ function generate(value, increment, incrementValue, type = "none") {
 			}
 			charInfo = writeName(chrImages[randNum]);
 			document.getElementById("identer-" + value).value = randNum;
+			
+			document.getElementById("characterName" + value).innerHTML = charInfo[0];
+			document.getElementById("daImage" + value).src = "../images/characters/" + chrImages[randNum];
+			assignSeries(value);
+			
+			if (document.getElementById("theme-select").value === "pride") {
+				document.getElementById("pridestyle" + value).innerHTML = "";
+				prideCheck(chrImages[randNum], value);
+			}
 		} else if (localOptions.rollAnim) {
 			var rollAnimInt, animCycle = 0, cycleDelay = 50;
 			localOptions.canRoll = false;
@@ -3790,21 +3799,9 @@ function generate(value, increment, incrementValue, type = "none") {
 					}
 				}
 			}
+			
+			document.getElementById("identer-" + slotNum).slotNum = randNum;
 
-			/*if (value === 0) {
-				for (i = 1; i <= document.getElementsByClassName("character-space").length; i++) {
-					value = i;
-					changeCharacter();
-					document.getElementById("identer-" + i).value = randNum;
-					if (i != document.getElementsByClassName("character-space").length) {
-						rerollByName();
-					}
-				}
-			} else {*/
-				document.getElementById("identer-" + slotNum).slotNum = randNum;
-			//}
-
-			// descriptionList[slotValue - 1] = randNum;
 			document.getElementById("characterName" + slotNum).innerHTML = charInfo[0];
 			document.getElementById("daImage" + slotNum).src = "../images/characters/" + chrImages[randNum];
 			assignSeries(slotNum);
