@@ -42,7 +42,7 @@
 	max-height: 55vh;
 }
 
-#spoilerModeMenu, #chrDescription, #seriesToggleMenu {
+#spoilermode-menu, #chrDescription, #seriestoggle-menu {
 	display: none;
 	position: absolute;
 	background-color: rgba(50, 50, 50, 0.7);
@@ -54,7 +54,7 @@
 	z-index: 500;
 }
 
-#spoilerModeMenuBox, #seriesToggleMenuBox {
+#spoilermode-menubox, #seriestoggle-menubox {
 	display: none;
 	position: absolute;
 	top: 0px;
@@ -100,7 +100,7 @@
 	margin-bottom: 10px;
 }
 
-#seriesToggleMenuBox, #series-characters-box {
+#seriestoggle-menubox, #series-characters-box {
 	max-width: 95vw;
 	max-height: calc(100vh - 120px);
 	overflow-y: auto;

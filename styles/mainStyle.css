@@ -189,6 +189,10 @@ h3 {
 	background-color: #678EF7;
 }
 
+.option-note {
+	border-bottom: dotted 1px;
+}
+
 #musicplayer {
 	position: absolute;
 	bottom: 0px;
@@ -227,6 +231,7 @@ h3 {
 	top: 0px;
 	background-color: #0C141F;
 	text-align: left;
+	font-weight: normal;
 	width: 220px;
 	padding: 10px;
 	border: 2px solid white;
@@ -287,7 +292,7 @@ h3 {
     }
 
     20% {
-        filter: contrast(0) brightness(2);
+        filter: contrast(0) brightness(2) drop-shadow(white 0px 0px 4px);
     }
     
     100% {

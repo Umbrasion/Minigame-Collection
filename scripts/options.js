@@ -13,7 +13,7 @@ function optionsWindow() {
 	}
 }
 
-function toggleOptions(optionName, addValue) {
+function toggleOptions(optionName) {
 	switch (optionName) {
 		case "theme":
 			// var themeButton = document.getElementById("options-button-theme");
@@ -39,20 +39,30 @@ function toggleOptions(optionName, addValue) {
 					removeOtherThemes();
 					document.querySelectorAll('.theme-element').forEach(el=>el.classList.add('theme-darkmode'));
 					break;
+				case "ugly":
+					options.theme = "ugly";
+					removeOtherThemes();
+					document.querySelectorAll('.theme-element').forEach(el=>el.classList.add('theme-ugly'));
+					break;
+				case "vaporwave":
+					options.theme = "vaporwave";
+					removeOtherThemes();
+					document.querySelectorAll('.theme-element').forEach(el=>el.classList.add('theme-vaporwave'));
+					break;
 				case "pride":
 					options.theme = "pride";
 					removeOtherThemes();
 					document.querySelectorAll('.theme-element').forEach(el=>el.classList.add('theme-pride'));
 					break;
+				case "halloween":
+					options.theme = "halloween";
+					removeOtherThemes();
+					document.querySelectorAll('.theme-element').forEach(el=>el.classList.add('theme-halloween'));
+					break;
 				case "gacha":
 					options.theme = "gacha";
 					removeOtherThemes();
 					document.querySelectorAll('.theme-element').forEach(el=>el.classList.add('theme-gacha'));
-					break;
-				case "ugly":
-					options.theme = "ugly";
-					removeOtherThemes();
-					document.querySelectorAll('.theme-element').forEach(el=>el.classList.add('theme-ugly'));
 					break;
 				case "kiss":
 					options.theme = "kiss";
@@ -85,9 +95,11 @@ function toggleOptions(optionName, addValue) {
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-classic'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-lightmode'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-darkmode'));
-				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-pride'));
-				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-gacha'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-ugly'));
+				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-vaporwave'));
+				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-pride'));
+				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-halloween'));
+				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-gacha'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-kiss'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-marry'));
 				document.querySelectorAll('.theme-element').forEach(el=>el.classList.remove('theme-kill'));

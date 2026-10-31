@@ -200,64 +200,6 @@ header.theme-marry {
 	border-bottom-color: #31498E;
 }
 
-/* Theme: Pride */
-
-body.theme-pride {
-	
-}
-
-button.theme-pride, select.theme-pride, .othergames.theme-pride {
-	
-}
-
-button.theme-pride:hover, .othergames.theme-pride:hover {
-	
-}
-
-header.theme-pride #titlebar {
-	background: linear-gradient(to right, rgba(255, 0, 0, 1) 0%, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%);
-	background-clip: text;
-	color: transparent;
-}
-
-/*#characterName1.theme-pride {
-	background: linear-gradient(to right, #078D70, #26CEAA, #98E8C1, #FFFFFF, #7BADE2, #5049CC, #622DC4);
-	background-clip: text;
-	color: transparent;
-}
-
-#characterName2.theme-pride {
-	background: linear-gradient(to right, #5BCEFA, #F5A9B8, #FFFFFF, #F5A9B8, #5BCEFA);
-	background-clip: text;
-	color: transparent;
-}
-
-#characterName3.theme-pride {
-	background: linear-gradient(to right, #D52D00, #FF9A56, #FFFFFF, #D362A4, #C9047A);
-	background-clip: text;
-	color: transparent;
-}*/
-
-.othergames.theme-pride {
-	
-}
-
-#spoilerModeMenuBox.theme-pride, #descriptionBox.theme-pride {
-	
-}
-
-#options-image.theme-pride {
-	
-}
-
-#options-window.theme-pride {
-	
-}
-
-#options-window.theme-pride tr {
-	
-}
-
 /* Theme: Ugly */
 
 body.theme-ugly {
@@ -304,6 +246,133 @@ header.theme-ugly #titlebar {
 }
 
 #options-window.theme-ugly tr {
+	
+}
+
+/* Theme: Vaporwave */
+
+@font-face {
+	font-family: "American Captain";
+	src: url("../fonts/American Captain.ttf");
+}
+
+@font-face {
+	font-family: "Future Earth";
+	src: url("../fonts/future-earth.ttf");
+}
+
+body.theme-vaporwave {
+	font-family: "Future Earth";
+	background: linear-gradient(to bottom, #291A6B 0%, #291A6B 50%, #9F10A7 100%);
+	color: #4DA2F3;
+}
+
+button.theme-vaporwave, select.theme-vaporwave, .othergames.theme-vaporwave {
+	font-family: monospace;
+	background-color: #25105F;
+	color: #4DA2F3;
+	border-color: #0A467E;
+}
+
+button.theme-vaporwave:hover, .othergames.theme-vaporwave:hover {
+	background-color: #391799;
+}
+
+header.theme-vaporwave {
+	background-image: linear-gradient(to bottom, #F7DA4E, #D331D2);
+}
+
+header.theme-vaporwave span, header.theme-vaporwave #character-count {
+	filter: drop-shadow(0px 0px 4px #25105F);
+}
+
+header.theme-vaporwave #titlebar {
+	font-family: "American Captain";
+	color: #4DA2F3;
+	filter: drop-shadow(0px 0px 4px #25105F);
+}
+
+#spoilerModeMenuBox.theme-vaporwave, #descriptionBox.theme-vaporwave {
+	border-color: #4DA2F3;
+}
+
+#options-image.theme-vaporwave {
+	
+}
+
+#options-window.theme-vaporwave {
+	border-color: #4DA2F3;
+	background-color: #25105F;
+}
+
+#options-window.theme-vaporwave tr {
+	
+}
+
+/* Theme: Pride */
+
+header.theme-pride #titlebar {
+	background: linear-gradient(to right, rgba(255, 0, 0, 1) 0%, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%);
+	background-clip: text;
+	color: transparent;
+}
+
+/* Theme: Halloween */
+
+@font-face {
+	font-family: "Dead Font Walking";
+	src: url("../fonts/Dead Font Walking.otf");
+}
+
+body.theme-halloween {
+	font-family: "Dead Font Walking";
+	background: linear-gradient(to bottom, black, #1D0D2E, #3C0B41, #572A09);
+	color: #FA9E34;
+}
+
+button.theme-halloween, select.theme-halloween, .othergames.theme-halloween {
+	font-family: "Dead Font Walking";
+	background-color: #2E0747;
+	color: #FA9E34;
+	border-color: #5D0896;
+}
+
+button.theme-halloween:hover, .othergames.theme-halloween:hover {
+	background-color: #391799;
+}
+
+header.theme-halloween {
+	background: linear-gradient(to bottom, #3D0249, #600772);
+}
+
+header.theme-halloween #titlebar {
+	font-family: "Dead Font Walking";
+	color: #FA9E34;
+	filter: drop-shadow(0px 3px 1px black);
+}
+
+#button-generate-1.theme-halloween, #button-generate-2.theme-halloween, #button-generate-3.theme-halloween {
+	font-size: 1em;
+}
+
+#character-name-1.theme-halloween, #character-name-2.theme-halloween, #character-name-3.theme-halloween {
+	font-weight: normal;
+}
+
+#spoilerModeMenuBox.theme-halloween, #descriptionBox.theme-halloween {
+	border-color: #5D0896;
+}
+
+#options-image.theme-halloween {
+	filter: invert(100%);
+}
+
+#options-window.theme-halloween {
+	border-color: #5D0896;
+	background-color: #150320;
+}
+
+#options-window.theme-halloween tr {
 	
 }
 

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Character Generator | Umbra's Game Collection</title>
+		<link rel="stylesheet" href="../styles/mainStyle.css">
+		<link rel="stylesheet" href="../styles/themeStyles.css">
+		<link rel="stylesheet" href="../styles/kmk.css">
+		<script src="../scripts/characterList.js"></script>
+		<script>
+			filterList();
+		</script>
+		<script src="../scripts/generatorCommon.js" defer></script>
+		<script src="../scripts/options.js" defer></script>
+		<style>
+			.seriesButton {
+				margin-right: 4px;
+				font-weight: bold;
+			}
+		</style>
+		<style id="pridestyle1"></style>
+		<style id="pridestyle2"></style>
+		<style id="pridestyle3"></style>
+	</head>
+	<body class="theme-element">
+		<header class="theme-element">
+			<div id="character-count" class="game-notice"></div>
+			<div>
+				<span id="titlebar">Generator</span>
+			</div>
+			<div class="header-info">
+				<span>Info</span>
+				<div class="header-infobox">A basic character generator with access to the entire character collection.</div>
+			</div>
+		</header>
+		<div class="main-content">
+			<div>
+				<div id="character-notice" class="game-notice" style="font-style: italic">If there are any characters you see that you feel break the <a href="Character_Guidelines.html" style="color: white">character guidelines</a>, let me know!</div>
+			</div>
+			<div id="seriestoggle-menu" onclick="toggleGenMenu(-1)"></div>
+			<div id="seriestoggle-menubox" class="theme-element">
+				<h1 style="text-align: center; margin-top: 0px; margin-bottom: 10px">Series Toggle Settings</h1>
+				<div style="text-align: center; margin-bottom: 6px"><i>Double-click a series to see a list of the characters included!</i></div>
+				<div style="text-align: center; margin-bottom: 6px"><i>CAUTION: Character list does not account for current spoiler mode toggles</i></div>
+				<div id="seriesToggleOptions" style="width: fit-content; margin: auto">
+					
+				</div>
+				<div style="text-align: center">
+					<p style="font-size: 0.9em"><i>Click outside the box to return...</i></p>
+				</div>
+			</div>
+			<div id="series-characters" onclick="seriesCharDisplay()" style="display: none">
+				<div style="display: flex; height: 100%">
+					<div id="series-characters-box" class="theme-element">
+						<h1 id="series-characters-title"></h1>
+						<div id="series-characters-list"></div>
+						<div style="text-align: center; font-size: 0.9em"><i>Click anywhere to return...</i></div>
+					</div>
+				</div>
+			</div>
+			<div id="spoilermode-menu" onclick="toggleGenMenu(-1)"></div>
+			<div id="spoilermode-menubox" class="theme-element"></div>
+		</div>
+		<div class="character-container">
+			<div class="character-space">
+				<br><button id="button-generate" class="theme-element" onclick="basicWriteInfo()" style="font-size: 1em">Reroll character</button>
+				<div class="debugmenu" style="display: none">
+					<button onclick="basicWriteInfo(1, [-100])">-100</button>
+					<button onclick="basicWriteInfo(1, [-10])">-10</button>
+					<button onclick="basicWriteInfo(1, [-1])">-1</button>
+					<input type="text" id="identer-1" class="debug-idfield" name="identer" minlength="1" maxlength="4" style="width: 32px; text-align: center" value="-1">
+					<button onclick="basicWriteInfo(1, [1])">+1</button>
+					<button onclick="basicWriteInfo(1, [10])">+10</button>
+					<button onclick="basicWriteInfo(1, [100])">+100</button>
+				</div>
+				<h1 class="character-name"><span id="character-name-1" class="theme-element"></span></h1>
+				<p id="character-series-1" class="character-series"></p>
+				<img id="character-image-1" class="character-image">
+			</div>
+		</div>
+		<div id="options">
+			<button id="options-button" onclick="optionsWindow()">
+				<img id="options-image" class="theme-element" src="../images/OptionsGear.webp">
+			</button>
+		</div>
+		<div id="options-window" class="theme-element" style="display: none">
+			<h5 class="options-title">Kiss, Marry, Kill</h5>
+			<table>
+				<tr>
+					<th>Series toggle settings</th>
+					<td>
+						<button id="options-button-spoilermode" class="theme-element" onclick="toggleGenMenu(0); optionsWindow()">Open</button>
+					</td>
+				</tr>
+				<tr>
+					<th>Spoiler mode settings</th>
+					<td>
+						<button id="options-button-spoilermode" class="theme-element" onclick="toggleGenMenu(1); optionsWindow()">Open</button>
+					</td>
+				</tr>
+				<tr>
+					<th>Clear characters<span class="option-note" title="Alternatively can be done by pressing backspace">*</span></th>
+					<td>
+						<button id="options-button-clearcharacters" class="theme-element" onclick="clearCharacters()">Clear</button>
+						
+					</td>
+				</tr>
+				<tr>
+					<th>Debug settings<span class="option-note" title="Changing characters using debug settings will ignore any spoiler mode or series toggle settings!">*</span></th>
+					<td>
+						<button id="options-button-debug" class="theme-element check-button" onclick="debugToggle()"></button>
+					</td>
+				</tr>
+			</table>
+			<h5 class="options-title">General</h5>
+			<table>
+				<tr>
+					<th>
+						<label for="theme-select">Theme:</label>
+					</th>
+					<td>
+						<select name="theme" id="theme-select" class="theme-element" onchange="toggleOptions('theme')">
+							<option value="default" selected="selected">Default</option>
+							<option value="classic">Classic</option>
+							<option value="lightMode">Light Mode</option>
+							<option value="darkMode">Dark Mode</option>
+							<option value="ugly">Ugly</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>Music:</th>
+					<td>
+						<button id="options-button-music" class="theme-element" onclick="toggleOptions('music')">Off</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="musicplayer" class="theme-element" style="display: none">
+			<audio id="musicplayer-audio" src="" preload="metadata" onended="musicRunner()" style="display: none"></audio>
+			<span style="font-size: 0.7em">Now playing:</span><br>
+			<span id="musicplayer-trackname" style="font-size: 1.25em; font-weight: bold"></span><br>
+			<span style="opacity: 0.7; font-size: 0.8em; font-style: italic">soul_</span>
+			<br><img src="../images/volume_low.png" style="height: 1em"><input type="range" id="volumeslider" step="any" value="100"><img src="../images/volume.png" style="height: 1em">
+		</div>
+		<div class="othergames-container">
+			<a href="../index.html" class="othergames theme-element">Back to game list</a>
+		</div>
+		<img id="easterEggImage">
+	</body>
+</html>
